@@ -225,3 +225,9 @@ DIGITA QUESTI COMANDI:
 |  𒆜Bug report,updates, news, 𒆜 |
   
   </div>
+
+  #### Special Thanks to
+[![Nurutomo](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
+
+#### Contributor
+[![Adiixyz](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
