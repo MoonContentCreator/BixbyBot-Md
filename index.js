@@ -1,1 +1,67 @@
-function _0x3b90(_0x3fa9e3,_0x3aca70){const _0x1b5321=_0x1b53();return _0x3b90=function(_0x3b9009,_0x162279){_0x3b9009=_0x3b9009-0xba;let _0x1cf79e=_0x1b5321[_0x3b9009];return _0x1cf79e;},_0x3b90(_0x3fa9e3,_0x3aca70);}const _0x266e47=_0x3b90;(function(_0x20f760,_0x4396ce){const _0x46c26c=_0x3b90,_0x17bfe3=_0x20f760();while(!![]){try{const _0x5edb37=-parseInt(_0x46c26c(0xd7))/0x1*(-parseInt(_0x46c26c(0xc4))/0x2)+parseInt(_0x46c26c(0xd1))/0x3*(parseInt(_0x46c26c(0xda))/0x4)+parseInt(_0x46c26c(0xc5))/0x5+parseInt(_0x46c26c(0xbd))/0x6*(parseInt(_0x46c26c(0xd6))/0x7)+-parseInt(_0x46c26c(0xe0))/0x8*(-parseInt(_0x46c26c(0xbe))/0x9)+-parseInt(_0x46c26c(0xce))/0xa+-parseInt(_0x46c26c(0xba))/0xb;if(_0x5edb37===_0x4396ce)break;else _0x17bfe3['push'](_0x17bfe3['shift']());}catch(_0x42b45f){_0x17bfe3['push'](_0x17bfe3['shift']());}}}(_0x1b53,0x4a289),console[_0x266e47(0xd4)]('Preparo\x20bixby...'));import{join,dirname}from'path';import{createRequire}from'module';function _0x1b53(){const _0x40c676=['block','[RECEIVED]','apply','slice','ediz\x20dan\x20e\x20fab','5992840SUjhPp','test','message','1203iQBuYw','send','emit','log','./package.json','627837geSEDk','39cJBbYO','listenerCount','green','4252SMgjEh','main.js','line','center','kill','url','152EXoQXn','9575819UAtgjX','error','exitProcess','6ijWWav','259686pmBSOI','cyan','argv','process','exit','console','27582mfryUJ','857685MvPWen','uptime','stdin','parse'];_0x1b53=function(){return _0x40c676;};return _0x1b53();}import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';import{watchFile,unwatchFile}from'fs';import _0x57d884 from'cfonts';import{createInterface}from'readline';import _0x545169 from'yargs';const __dirname=dirname(fileURLToPath(import.meta[_0x266e47(0xdf)])),require=createRequire(__dirname),{name,author}=require(join(__dirname,_0x266e47(0xd5))),{say}=_0x57d884,rl=createInterface(process[_0x266e47(0xc7)],process['stdout']);say('\x0aBixby\x0aVision',{'font':_0x266e47(0xc9),'align':_0x266e47(0xdd),'color':[_0x266e47(0xbf),_0x266e47(0xd9)]});var isRunning=![];function start(_0x2d25c2){const _0x3714c1=_0x266e47;if(isRunning)return;isRunning=!![];let _0x3efe8b=[join(__dirname,_0x2d25c2),...process[_0x3714c1(0xc0)][_0x3714c1(0xcc)](0x2)];say(_0x3714c1(0xcd),{'font':_0x3714c1(0xc3),'align':_0x3714c1(0xdd),'color':[_0x3714c1(0xbf),'blue']}),setupMaster({'exec':_0x3efe8b[0x0],'args':_0x3efe8b[_0x3714c1(0xcc)](0x1)});let _0x4aa20=fork();_0x4aa20['on'](_0x3714c1(0xd0),_0xf5821e=>{const _0x213245=_0x3714c1;console[_0x213245(0xd4)](_0x213245(0xca),_0xf5821e);switch(_0xf5821e){case'reset':_0x4aa20[_0x213245(0xc1)][_0x213245(0xde)](),isRunning=![],start[_0x213245(0xcb)](this,arguments);break;case _0x213245(0xc6):_0x4aa20[_0x213245(0xd2)](process[_0x213245(0xc6)]());break;}}),_0x4aa20['on'](_0x3714c1(0xc2),(_0x298fd9,_0x4f2e4c)=>{const _0x11124f=_0x3714c1;isRunning=![],console[_0x11124f(0xbb)]('Errore\x20inaspettato',_0x4f2e4c),_0x4aa20['process']['kill'](),isRunning=![],start[_0x11124f(0xcb)](this,arguments);if(_0x4f2e4c===0x0)return;watchFile(_0x3efe8b[0x0],()=>{unwatchFile(_0x3efe8b[0x0]),start(_0x2d25c2);});});let _0x355c66=new Object(_0x545169(process[_0x3714c1(0xc0)][_0x3714c1(0xcc)](0x2))[_0x3714c1(0xbc)](![])[_0x3714c1(0xc8)]());if(!_0x355c66[_0x3714c1(0xcf)]){if(!rl[_0x3714c1(0xd8)]())rl['on'](_0x3714c1(0xdc),_0x201516=>{const _0xe00c34=_0x3714c1;_0x4aa20[_0xe00c34(0xd3)](_0xe00c34(0xd0),_0x201516['trim']());});}}start(_0x266e47(0xdb));
+console.log('Preparo bixby...')
+import { join, dirname } from 'path'
+import { createRequire } from "module";
+import { fileURLToPath } from 'url'
+import { setupMaster, fork } from 'cluster'
+import { watchFile, unwatchFile } from 'fs'
+import cfonts from 'cfonts';
+import { createInterface } from 'readline'
+import yargs from 'yargs'
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const require = createRequire(__dirname) 
+const { name, author } = require(join(__dirname, './package.json')) 
+const { say } = cfonts
+const rl = createInterface(process.stdin, process.stdout)
+
+say('\nBixby\nVision', {
+font: 'block',
+align: 'center',
+color: ['cyan', 'green']})
+
+var isRunning = false
+/**
+* Start a js file
+* @param {String} file `path/to/file`
+*/
+function start(file) {
+if (isRunning) return
+isRunning = true
+let args = [join(__dirname, file), ...process.argv.slice(2)]
+
+say('ediz dan e fab', {
+font: 'console',
+align: 'center',
+color: ['cyan', 'blue']})
+  
+setupMaster({
+exec: args[0],
+args: args.slice(1), })
+let p = fork()
+p.on('message', data => {
+console.log('[RECEIVED]', data)
+switch (data) {
+case 'reset':
+p.process.kill()
+isRunning = false
+start.apply(this, arguments)
+break
+case 'uptime':
+p.send(process.uptime())
+break }})
+p.on('exit', (_, code) => {
+isRunning = false
+console.error('Errore inaspettato', code)
+  
+p.process.kill()
+isRunning = false
+start.apply(this, arguments)
+  
+if (code === 0) return
+watchFile(args[0], () => {
+unwatchFile(args[0])
+start(file)})})
+let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+if (!opts['test'])
+if (!rl.listenerCount()) rl.on('line', line => {
+p.emit('message', line.trim())})}
+start('main.js')
