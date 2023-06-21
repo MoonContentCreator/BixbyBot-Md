@@ -1,0 +1,101 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.2.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/bixbyvision/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+
+npm manifest: 
+  {
+      "name": "BixbyVision-MD",
+      "version": "1.4",
+      "description": "r",
+      "main": "index.js",
+      "type": "module",
+      "directories": {
+          "lib": "lib",
+          "src": "src",
+          "plugins": "plugins"
+      },
+      "scripts": {
+          "start": "node index.js",
+          "test": "node test.js",
+          "test2": "nodemon index.js"
+      },
+      "homepage": "https://github.com/unlimited787/Enemies-md-ofc",
+      "author": {
+          "name": "unlimited787"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+https://github.com/unlimited787/Enemies-md-ofc.git"
+      },
+      "bugs": {
+          "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
+      },
+      "license": "GPL-3.0-or-later",
+      "dependencies": {
+          "@adiwajshing/baileys": "^4.1.0",
+          "@bochilteam/scraper": "^3.0.0",
+          "@vitalets/google-translate-api": "^8.0.0",
+          "@shineiichijo/marika": "^2.0.6",
+          "acrcloud": "^1.4.0",
+          "api-dylux": "^1.2.2",
+          "awesome-phonenumber": "^2.68.0",
+          "axios": "^0.24.0",
+          "cfonts": "^2.10.0",
+          "chalk": "^5.0.0",
+          "ffmpeg": "^0.0.4",
+          "cheerio": "^1.0.0-rc.10",
+          "colors": "1.4.0",
+          "express": "^4.17.3",
+          "fb-downloader-scrapper": "^1.0.1", 
+          "file-type": "^17.1.1",
+          "fluent-ffmpeg": "^2.1.2",
+          "fs": "^0.0.1-security",
+          "formdata-node": "^4.3.2",
+          "hispamemes": "^1.0.7",
+          "human-readable": "^0.2.1",
+          "instagram-url-direct": "^1.0.12",
+          "jsdom": "^19.0.0",
+          "link-preview-js": "^2.1.13",
+          "lodash": "^4.17.21",
+          "lowdb": "^3.0.0",
+          "moment-timezone": "^0.5.34",
+          "mongoose": "^6.3.3",
+          "node-fetch": "^3.2.0",
+          "node-gtts": "^2.0.2",
+          "node-webpmux": "^3.1.1",
+          "pdfkit": "^0.13.0",
+          "perf_hooks": "^0.0.1",
+          "pino": "^7.8.0",
+          "pino-pretty": "^7.5.1",
+          "qrcode": "^1.5.0",
+          "qrcode-terminal": "^0.12.0",
+          "readline": "^1.3.0",
+          "similarity": "^1.2.1",
+          "socket.io": "^4.4.1",
+          "syntax-error": "^1.4.0",
+          "terminal-image": "^2.0.0",
+          "url-regex-safe": "^3.0.0",
+          "wa-sticker-formatter": "^4.3.2",
+          "yargs": "^17.3.1"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
