@@ -7,7 +7,7 @@
 
 <h1 align="center">
 <p>
-<img src= "https://github.com/MoonContentCreator.png?size=400" alt="BOT" width="720">
+<img src= "https://github.com/MoonContentCreator.png?size=720" alt="BOT" width="720">
 </p>
 
 ### `✧ ⚙️ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 ⚙️`
