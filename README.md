@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&width=435&lines=Bixby+Bot+Ediz+and+Deployed+by+Dan;thanks+to+my+collaborator+%40Fabri115)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&width=435&lines=Bixby+Bot+Ediz+by+Dan;thanks+to+%40Fabri115)](https://git.io/typing-svg)
 
 
  <p align="center">
