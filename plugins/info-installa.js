@@ -1,6 +1,7 @@
 import { generateWAMessageFromContent } from '@adiwajshing/baileys'
 let handler  = async (m, { conn }) => {
-let texto = `══════ •⊰✧⊱• ══════\n𝐂𝐨𝐦𝐚𝐧𝐝𝐢 𝐩𝐞𝐫 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐫𝐞
+let texto = `══════ •⊰✧⊱• ══════
+𝐂𝐨𝐦𝐚𝐧𝐝𝐢 𝐩𝐞𝐫 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐫𝐞
 ✧ cd
 ✧ termux-setup-storage
 ✧ apt update 
@@ -18,7 +19,8 @@ let texto = `══════ •⊰✧⊱• ══════\n𝐂𝐨𝐦
 ✧ npm start
 
 𝐒𝐜𝐚𝐫𝐢𝐜𝐚𝐫𝐞 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 𝐝𝐞𝐥 𝐛𝐨𝐭 📱
-cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/Fabri115/BixbyBot-Md.git && cd BixbyBot-Md && npm start\n══════ •⊰✧⊱• ══════` 
+cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/Fabri115/BixbyBot-Md.git && cd BixbyBot-Md && npm start
+══════ •⊰✧⊱• ══════` 
 let prova = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo"
 }, "message": { 
 "groupInviteMessage": { caption: '𝙱𝙴𝚃𝙰 𝚃𝙴𝚂𝚃𝙸𝙽𝙶 𝟷.𝟼 ',
