@@ -11,7 +11,7 @@ let texto = `══════ •⊰✧⊱• ══════
 ✧ pkg install ffmpeg -y
 ✧ pkg install imagemagick -y
 ✧ pkg install yarn
-✧ git clone https://github.com/Fabri115/BotWhaIta.git
+✧ git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
 ✧ cd BotWhaIta 
 ✧ yarn install 
 ✧ npm install
@@ -19,7 +19,7 @@ let texto = `══════ •⊰✧⊱• ══════
 ✧ npm start
 
 𝐒𝐜𝐚𝐫𝐢𝐜𝐚𝐫𝐞 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 𝐝𝐞𝐥 𝐛𝐨𝐭 📱
-cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/Fabri115/BixbyBot-Md.git && cd BixbyBot-Md && npm start
+cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md && npm start
 ══════ •⊰✧⊱• ══════` 
 let prova = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo"
 }, "message": { 
