@@ -12,7 +12,7 @@ let texto = `══════ •⊰✧⊱• ══════
 ✧ pkg install imagemagick -y
 ✧ pkg install yarn
 ✧ git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
-✧ cd BotWhaIta 
+✧ cd BixbyBot-Md 
 ✧ yarn install 
 ✧ npm install
 ✧ npm update
