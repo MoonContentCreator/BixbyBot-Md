@@ -46,6 +46,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.messaggi)) user.messaggi = 0
                 if (!isNumber(user.msg)) user.msg = {}
                 if (!isNumber(user.exp)) user.exp = 0
+                if (!isNumber(user.warn)) user.warn = 0
                 if (!('premium' in user)) user.premium = false
                 if (!isNumber(user.joincount)) user.joincount = 2   
                 if (!isNumber(user.limit)) user.limit = 20    	       
@@ -123,8 +124,10 @@ antiSpam: false,
                     antiTraba: true,
                     antiArab: true,
 	                modoadmin: false,
+	                muto: false,
                     expired: 0,
                     messaggi: 0,
+                    warn: 0,
                     name: m.name,
                 }
             let settings = global.db.data.settings[this.user.jid]
@@ -546,7 +549,7 @@ export async function callUpdate(callUpdate) {
     if (nk.status == "offer") {
     let callmsg = await this.reply(nk.from, `ciao @${nk.from.split('@')[0]}, c'è anticall.`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐃𝚲𝐍𝕀𝚵𝐋͎💋;;;\nFN:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nORG:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nTITLE:\nitem1.TEL;waid=33760536110:+33 7 60 53 61 10\nitem1.X-ABLabel:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nEND:VCARD`
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐃𝚲𝐍𝕀𝚵𝐋͎💋;;;\nFN:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nORG:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nTITLE:\nitem1.TEL;waid=3903717177117:+39 0371 717 7117\nitem1.X-ABLabel:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝐃𝚲𝐍𝕀𝚵𝐋͎💋\nEND:VCARD`
     await this.sendMessage(nk.from, { contacts: { displayName: 'Unlimited', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
