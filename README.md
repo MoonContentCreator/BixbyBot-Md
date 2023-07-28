@@ -2,7 +2,7 @@
 
 
  <p align="center">
-<img width="" src="https://img.shields.io/github/repo-size/MoonContentCreator/BixbyBot-Md?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/e4fd5c65e7ed12b418606.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 <h1 align="center">
