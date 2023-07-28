@@ -2,7 +2,7 @@
 
 
  <p align="center">
-<img width="" src="https://telegra.ph/file/e4fd5c65e7ed12b418606.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/1ef4c280b2c4fddf029d2.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `✧ ⚙️ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 ⚙️`
