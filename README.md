@@ -232,5 +232,5 @@ DIGITA QUESTI COMANDI:
 ---------
 
 ## `MODDER E COLLABORATORI DEL BOT` 
-<div><button id="boton" type="button">The Mystic Bot - by BrunoSobrino</button></div> 
+<div><button id="boton" type="button">SUPERFABRIBOT - by Fabri115</button></div> 
  <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150" alt="adiwajshing"/></a>
