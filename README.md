@@ -228,3 +228,5 @@ DIGITA QUESTI COMANDI:
 ---------
 
 ## `CREDITI E BASE DEL BOT` 
+<div><button id="boton" type="button">Baileys - By adiwajshing</button></div> 
+ <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a>
