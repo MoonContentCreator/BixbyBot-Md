@@ -16,6 +16,7 @@
 <a href="https://wa.me/3903717177117?text=Ciao👋" target="_blank"><img src="https://img.shields.io/badge/Contattami-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 <a href="https://chat.whatsapp.com/InZqSk4lsyzKJUtSWfsdjF" target="_blank"><img src="https://img.shields.io/badge/MoonClouds-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 <a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
+<a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 
 
  <p align="center">
@@ -27,8 +28,6 @@
 
 
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
-
-<a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 
 ---------
 
