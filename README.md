@@ -15,7 +15,7 @@
 <p align="center">
 <a href="https://wa.me/393518398856" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 <a href="https://github.com/MoonContentCreator"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"></a>
-<a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Grupo-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
+<a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 
  <p align="center">
 <img width="" src="https://telegra.ph/file/1ef4c280b2c4fddf029d2.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
