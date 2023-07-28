@@ -25,6 +25,7 @@
 
 ### ` ANTEPRIMA DEL MENU 👆`
 
+---------
 
 ### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
 
