@@ -23,7 +23,7 @@
 <img width="" src="https://telegra.ph/file/11f0263cb4c9fe239ab93.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
-### `✧ ANTEPRIMA DEL MENU 👆`
+### ` ANTEPRIMA DEL MENU 👆`
 
 
 ### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
