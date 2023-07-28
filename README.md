@@ -31,22 +31,22 @@
  
  
   
-### `✧ 💥 ATTIVA SU KOYEB 💥`
+### `✧ ATTIVA SU KOYEB`
 
 [![Attiva su Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MoonContentCreator/BixbyBot-Md&branch=master&name=mysticbot)
   
-### `✧ 🌌 ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU REPLIT 🌌`
+### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU REPLIT`
 
 [![Run on Repl.it](https://replit.com/badge/github/MoonContentCreator/BixbyBot-Md)](https://replit.com/new/github/Fabri115/BixbyBot-Md)
  
-### `✧ 🌌 ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU HEROKU 🌌`
+### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU HEROKU `
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MoonContentCreator/BixbyBot-Md)
 
 ### `✧ VERSIONE DI TERMUX NECESSARIA: ` 
 https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
 
-### `✧ 👾 ATTIVA TERMUX 👾` 
+### `✧ ATTIVA TERMUX ` 
 
 Comandi termux di base, necessari per l'avvio del bot:
 
@@ -81,13 +81,13 @@ e conferma.
 ----_-
 
 
-### `✧ ⇝ COMANDO PER INSTALLARE LA CARTELLA DI 𝐁𝐢𝐱𝐛𝐲🔮`
+### `✧ COMANDO PER INSTALLARE LA CARTELLA DI 𝐁𝐢𝐱𝐛𝐲🔮`
 ```bash
 cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BotWhaIta.git && cd BixbyBot-Md && sh start.sh 
 ```
 COPIALO TUTTO E INCOLLALO SU TERMUX, NON COPIARE MEZZA O UNA COSA, E' TUTTO INSIEME
 
-### `✧ 👾 ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX 👾` 
+### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX ` 
 - DIGITA QUESTI COMANDI:
 ```bash
 termux-setup-storage
@@ -141,7 +141,7 @@ npm update
 sh start.sh
 ```
 
-### `✧ ✔️ AVVIA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX ✔️`
+### `✧ AVVIA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX ✔️`
 
 DIGITA QUESTI COMANDI:
 ```bash
@@ -154,13 +154,13 @@ DIGITA QUESTI COMANDI:
 > sh start.sh
 ```
   
-### `𝐁𝐢𝐱𝐛𝐲🔮 ✔️ For 24/7 Activation 𝐁𝐢𝐱𝐛𝐲🔮 TERMUX ✔️`
+### `𝐁𝐢𝐱𝐛𝐲🔮 24/7 Activation TERMUX ✔️`
   
  ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
   ```
 
-### `✧ 👽 OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 👽`
+### `✧ OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 `
 
 DIGITA QUESTI COMANDI:
 ```bash
@@ -205,7 +205,7 @@ node .
 ```
 
 ---------
-### `✧ 👽 OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 👽`
+### `✧ OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 `
 
 DIGITA QUESTI COMANDI:
 ```bash
