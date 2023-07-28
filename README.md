@@ -48,7 +48,7 @@
   
 ### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐒𝐔 𝐑𝐄𝐏𝐋𝐈𝐓`
 
-[![Run on Repl.it](https://replit.com/badge/github/MoonContentCreator/BixbyBot-Md)](https://replit.com/new/github/Fabri115/BixbyBot-Md)
+[![Run on Repl.it](https://replit.com/badge/github/MoonContentCreator/BixbyBot-Md)](https://replit.com/new/github/MoonContentCreator/BixbyBot-Md)
  
 ### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐒𝐔 𝐇𝐄𝐑𝐎𝐊𝐔 `
   
