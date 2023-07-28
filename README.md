@@ -25,6 +25,8 @@
 <img width="" src="https://telegra.ph/file/11f0263cb4c9fe239ab93.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
+<a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
+
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
 
 ---------
