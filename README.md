@@ -20,6 +20,9 @@
 <img width="" src="https://telegra.ph/file/8824b4d54a55eb1650d8c.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
+<p align="center">
+<img width="" src="https://telegra.ph/file/330d27d78ca6e563fe00b.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
 ### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
 `USA IL BOTTONE PER ESEGUIRE IL FORK`
   
