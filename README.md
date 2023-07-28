@@ -21,7 +21,7 @@
 <img width="" src="https://telegra.ph/file/1ef4c280b2c4fddf029d2.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
-### `✧ ⚙️ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 ⚙️`
+### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
 `USA IL BOTTONE PER ESEGUIRE IL FORK`
   
   <a href="https://github.com/MoonContentCreator/BixbyBot-Md/fork"><img title="bot" src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true" width="200"></a>
