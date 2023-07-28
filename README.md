@@ -5,11 +5,6 @@
 <img width="" src="https://telegra.ph/file/e4fd5c65e7ed12b418606.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
-<h1 align="center">
-<p>
-<img src= "https://github.com/MoonContentCreator.png" alt="BOT" width="720">
-</p>
-
 ### `✧ ⚙️ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 ⚙️`
 `USA IL BOTTONE PER ESEGUIRE IL FORK`
   
