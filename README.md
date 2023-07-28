@@ -15,6 +15,7 @@
 <p align="center">
 <a href="https://wa.me/3903717177117?text=Ciao👋" target="_blank"><img src="https://img.shields.io/badge/Contattami-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 <a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
+<a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/𝐌ꮻꮻ𝖓☾︎ℓꮻ𝕦𝜕𝖘 Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 
  <p align="center">
 <img width="" src="https://telegra.ph/file/8824b4d54a55eb1650d8c.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
