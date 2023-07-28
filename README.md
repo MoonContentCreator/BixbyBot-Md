@@ -227,16 +227,4 @@ DIGITA QUESTI COMANDI:
 - SE I MESSAGGI DEL BOT RISULTANO IN "ATTESA" ESEGUI IL COMANDO .ds E ATTENDI QUALCHE ISTANTE
 ---------
 
-### `✧ ⚠️ MOD DEVELOPER 𝐁𝐢𝐱𝐛𝐲🔮 ⚠️ `
-  <div align="center">
-  
-| [![Fabri115](https://github.com/MoonContentCreator.png?size=200)](https://github.com/MoonContentCreator) |
-|----|
-| [𝐁𝐢𝐱𝐛𝐲🔮](https://github.com/MoonContentCreator) | [𝐁𝐢𝐱𝐛𝐲collaborator🔮](https://github.com/Fabri115) |
-|  𒆜Bug report,updates, news, 𒆜 |
-  
-  </div>
-
-  #### Special Thanks to Contributor
-[![Nurutomo](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
-
+## `CREDITI E BASE DEL BOT` 
