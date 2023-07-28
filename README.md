@@ -17,7 +17,7 @@
 <a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 
  <p align="center">
-<img width="" src="https://telegra.ph/file/1ef4c280b2c4fddf029d2.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/8824b4d54a55eb1650d8c.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
