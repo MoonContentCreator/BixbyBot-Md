@@ -233,4 +233,4 @@ DIGITA QUESTI COMANDI:
 
 ## `MODDER E COLLABORATORI DEL BOT` 
 <div><button id="boton" type="button">The Mystic Bot - by BrunoSobrino</button></div> 
- <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a>
+ <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150" alt="adiwajshing"/></a>
