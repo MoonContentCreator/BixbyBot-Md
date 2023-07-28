@@ -25,13 +25,13 @@
 <img width="" src="https://telegra.ph/file/11f0263cb4c9fe239ab93.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
-### ` ANTEPRIMA DEL MENU 👆`
+### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
 
 ---------
 
-### `✧ CONFIGURAZIONE 𝐁𝐢𝐱𝐛𝐲🔮 `
+### `✧ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐙𝐈𝐎𝐍𝐄 𝐁𝐢𝐱𝐛𝐲🔮 `
 
-`USA IL BOTTONE PER ESEGUIRE IL FORK`
+`𝐔𝐒𝐀 𝐈𝐋 𝐁𝐎𝐓𝐓𝐎𝐍𝐄 𝐏𝐄𝐑 𝐄𝐒𝐄𝐆𝐔𝐈𝐑𝐄 𝐈𝐋 𝐅𝐎𝐑𝐊`
   
   <a href="https://github.com/MoonContentCreator/BixbyBot-Md/fork"><img title="bot" src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true" width="200"></a>
 <br>
@@ -40,22 +40,22 @@
  
  
   
-### `✧ ATTIVA SU KOYEB`
+### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐒𝐔 𝐊𝐎𝐘𝐄𝐁`
 
 [![Attiva su Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MoonContentCreator/BixbyBot-Md&branch=master&name=mysticbot)
   
-### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU REPLIT`
+### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐒𝐔 𝐑𝐄𝐏𝐋𝐈𝐓`
 
 [![Run on Repl.it](https://replit.com/badge/github/MoonContentCreator/BixbyBot-Md)](https://replit.com/new/github/Fabri115/BixbyBot-Md)
  
-### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 SU HEROKU `
+### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐒𝐔 𝐇𝐄𝐑𝐎𝐊𝐔 `
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MoonContentCreator/BixbyBot-Md)
 
-### `✧ VERSIONE DI TERMUX NECESSARIA: ` 
+### `✧ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: ` 
 https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
 
-### `✧ ATTIVA TERMUX ` 
+### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐓𝐄𝐑𝐌𝐔𝐗 ` 
 
 Comandi termux di base, necessari per l'avvio del bot:
 
@@ -90,14 +90,14 @@ e conferma.
 ----_-
 
 
-### `✧ COMANDO PER INSTALLARE LA CARTELLA DI 𝐁𝐢𝐱𝐛𝐲🔮`
+### `✧ 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐑𝐄 𝐋𝐀 𝐂𝐀𝐑𝐓𝐄𝐋𝐋𝐀 𝐃𝐈 𝐁𝐢𝐱𝐛𝐲🔮`
 ```bash
 cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BotWhaIta.git && cd BixbyBot-Md && sh start.sh 
 ```
 COPIALO TUTTO E INCOLLALO SU TERMUX, NON COPIARE MEZZA O UNA COSA, E' TUTTO INSIEME
 
-### `✧ ATTIVA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX ` 
-- DIGITA QUESTI COMANDI:
+### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗 ` 
+- 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈:
 ```bash
 termux-setup-storage
 ```
@@ -150,7 +150,7 @@ npm update
 sh start.sh
 ```
 
-### `✧ AVVIA 𝐁𝐢𝐱𝐛𝐲🔮 IN TERMUX ✔️`
+### `✧ 𝐀𝐕𝐕𝐈𝐀 𝐁𝐢𝐱𝐛𝐲🔮 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗`
 
 DIGITA QUESTI COMANDI:
 ```bash
@@ -163,13 +163,13 @@ DIGITA QUESTI COMANDI:
 > sh start.sh
 ```
   
-### `𝐁𝐢𝐱𝐛𝐲🔮 24/7 Activation TERMUX ✔️`
+### `𝐁𝐢𝐱𝐛𝐲🔮 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗`
   
  ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
   ```
 
-### `✧ OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 `
+### `✧ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐁𝐢𝐱𝐛𝐲🔮 `
 
 DIGITA QUESTI COMANDI:
 ```bash
@@ -185,7 +185,7 @@ DIGITA QUESTI COMANDI:
 > sh start.sh
 ```
 
-### `FOR WINDOWS/VPS/RDP USER`
+### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑`
 
 * Download And Install Git [`Click Here`](https://git-scm.com/downloads)
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
@@ -214,7 +214,7 @@ node .
 ```
 
 ---------
-### `✧ OTTIENI UN ALTRO CODICE QR 𝐁𝐢𝐱𝐛𝐲🔮 `
+### `✧ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐁𝐢𝐱𝐛𝐲🔮 `
 
 DIGITA QUESTI COMANDI:
 ```bash
@@ -230,15 +230,15 @@ DIGITA QUESTI COMANDI:
 > sh start.sh
 ```
 ---------
-### `✧ 📝 NOTE 𝐁𝐢𝐱𝐛𝐲🔮 📝`
+### `✧ 📝 𝐍𝐎𝐓𝐄 𝐁𝐢𝐱𝐛𝐲🔮 📝`
 - IL BOT 𝐁𝐢𝐱𝐛𝐲🔮 E' COMPATIBILE CON WHATSAPP BUSINESS E WHATSAPP NORMALE
 - PER BLOCCARE GLI UTENTI IN PRIVATO ESEGUI IL COMANDO .attiva antiprivato
 - SE I MESSAGGI DEL BOT RISULTANO IN "ATTESA" ESEGUI IL COMANDO .ds E ATTENDI QUALCHE ISTANTE
 ---------
-## `✧ MODDER E COLLABORATORI` 
+## `✧ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 ` 
 <div><button id="boton" type="button">BotWhaIta - By Fabri115</button></div> 
  <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150" alt="adiwajshing"/></a>
 
-## `✧ CREDITI E BASE DEL BOT` 
+## `✧ 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓` 
 <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a>
 <div><button id="boton" type="button">TheMystic-Bot-MD - By BrunoSobrino</button></div> 
