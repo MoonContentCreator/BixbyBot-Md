@@ -228,7 +228,7 @@ DIGITA QUESTI COMANDI:
 
 ## `CREDITI E BASE DEL BOT` 
 <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a>
-<div><button id="boton" type="button">Baileys - By adiwajshing</button></div> 
+<div><button id="boton" type="button">TheMystic-Bot-MD - By BrunoSobrino</button></div> 
 
 ## `MODDER E COLLABORATORI DEL BOT` 
 <div><button id="boton" type="button">SUPERFABRIBOT - by Fabri115</button></div> 
