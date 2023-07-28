@@ -226,7 +226,7 @@ DIGITA QUESTI COMANDI:
 - SE I MESSAGGI DEL BOT RISULTANO IN "ATTESA" ESEGUI IL COMANDO .ds E ATTENDI QUALCHE ISTANTE
 ---------
 ## `MODDER E COLLABORATORI DEL BOT` 
-<div><button id="boton" type="button">SUPERFABRIBOT - By Fabri115</button></div> 
+<div><button id="boton" type="button">BotWhaIta - By Fabri115</button></div> 
  <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150" alt="adiwajshing"/></a>
 
 ## `CREDITI E BASE DEL BOT` 
