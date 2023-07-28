@@ -227,6 +227,7 @@ DIGITA QUESTI COMANDI:
 ---------
 
 ## `CREDITI E BASE DEL BOT` 
+<a href="https://github.com/unptoadrih15"><img src="https://github.com/unptoadrih15.png" width="100" height="100" alt="unptoadrih15"/></a>
 <div><button id="boton" type="button">The Mystic Bot - by BrunoSobrino</button></div> 
  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a>
 ---------
