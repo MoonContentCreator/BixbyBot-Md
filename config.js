@@ -3,18 +3,16 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
-  ['xxxxxxxxxx',],
-  //['xxxxxxxxxx'],	
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
+  ['393468100303', 'seba', true],
+  ['12148988687',],
+
+  
 ] //Numero degli owner
 
 //════════════ •⊰✧⊱• ════════════
 
-global.mods = ['xxxxxxxxxx'] 
-global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
+global.mods = ['393468100303'] 
+global.prems = ['393468100303', '12148988687']
 
 //════════════ •⊰✧⊱• ════════════
 
@@ -54,7 +52,7 @@ global.imagen1 = ['./media/menu1.jpg']
 //════════════ •⊰✧⊱• ════════════
 
 // Sticker WM
-global.packname = 'ꪶ 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 ꫂ'
+global.packname = 'ᕙ~sebot~ᕗ
 global.author = ''
 
 //════════════ •⊰✧⊱• ════════════
