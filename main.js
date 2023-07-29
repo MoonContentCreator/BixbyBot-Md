@@ -1,8 +1,8 @@
-//test fabri115
+//test fabri115 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 import './config.js';
 import './api.js';
-import { createRequire } from "module";
+import { createRequire } from "module"; 
 import path, { join } from 'path'
 import { fileURLToPath, pathToFileURL } from 'url'
 import { platform } from 'process'
@@ -70,7 +70,7 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-/ Creditos a Otosaka (https://wa.me/51993966345) /
+/* Creditos a Otosaka (https://wa.me/51993966345) */
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, "/db/chatgpt.json")));
 global.loadChatgptDB = async function loadChatgptDB() {
@@ -93,7 +93,7 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data);
 };
 loadChatgptDB();
 
-/------------------------------------------------/
+/*------------------------------------------------*/
 
 global.authFile = `MysticSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
@@ -110,7 +110,7 @@ getMessage: async (key) => {
 if (store) {
 const msg = await store.loadMessage(key.remoteJid, key.id)
 return msg.message || undefined }
-return { conversation: "hello, i'm Fabri115" }},
+return { conversation: "hello, i'm Fabri115" }},   
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
@@ -130,7 +130,7 @@ if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 't
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
 
-
+   
      /* Y ese fue el momazo mas bueno del mundo
         Aunque no dudara tan solo un segundo
         Mas no me arrepiento de haberme reido
@@ -140,23 +140,15 @@ if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
         que me arrepiento de ser un grasoso
         Por que la grasa es un sentimiento
         - El waza 👻👻👻👻 (Aiden)            */
-
-   /* Yo tambien se hacer momazos Aiden...
-      ahi te va el ajuste de los borrados
-      inteligentes de las sesiones y de los sub-bot
+   
+   /* Yo tambien se hacer momazos Aiden... 
+      ahi te va el ajuste de los borrados 
+      inteligentes de las sesiones y de los sub-bot  
       By (Rey Endymion 👺👍🏼) */
-/*ninguno es mejor que tilin god
+/*ninguno es mejor que tilin god 
 atte: sk1d*/
-
-function clearTmp() {
-  const tmp = [tmpdir(), join(__dirname, './tmp')]
-  const filename = []
-  tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
-  return filename.map(file => {
-      const stats = statSync(file)
-      if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
-      return false })}
-
+       
+/
 function purgeSession() {
     let prekey = []
     let directorio = readdirSync("./MysticSession")
@@ -168,7 +160,7 @@ function purgeSession() {
     unlinkSync(`./MysticSession/${files}`)
 })
 
-}
+}  
 function purgeSessionSB() {
 let listaDirectorios = readdirSync('./jadibts/');
 //console.log(listaDirectorios)
@@ -181,15 +173,15 @@ listaDirectorios.forEach(filesInDir => {
     })
     SBprekey = [...SBprekey, ...DSBPreKeys]
     DSBPreKeys.forEach(fileInDir => {
-        unlinkSync(`./jadibts/${filesInDir}/${fileInDir}`)
+        unlinkSync(`./jadibts/${filesInDir}/${fileInDir}`) 
     })
     })
-
+    
 }
 
 function purgeOldFiles() {
 const directories = ['./MysticSession/', './jadibts/']
-const oneHourAgo = Date.now() - (60  60  1000)
+const oneHourAgo = Date.now() - (60 * 60 * 1000) 
 directories.forEach(dir => {
     readdirSync(dir, (err, files) => {
         if (err) throw err
@@ -197,23 +189,23 @@ directories.forEach(dir => {
             const filePath = path.join(dir, file)
             stat(filePath, (err, stats) => {
                 if (err) throw err;
-                if (stats.isFile() && stats.mtimeMs < oneHourAgo && file !== 'creds.json') {
-                    unlinkSync(filePath, err => {
+                if (stats.isFile() && stats.mtimeMs < oneHourAgo && file !== 'creds.json') { 
+                    unlinkSync(filePath, err => {  
                         if (err) throw err
                         console.log(`Archivo ${file} eliminato`)
                     })
-                } else {
-                    console.log(`Archivo ${file} non eliminato`)
-                }
-            })
-        })
-    })
+                } else {  
+                    console.log(`Archivo ${file} non eliminato`) 
+                } 
+            }) 
+        }) 
+    }) 
 })
 }
 
 async function connectionUpdate(update) {
 const { connection, lastDisconnect, isNewLogin } = update
-global.stopped = connection
+global.stopped = connection    
 if (isNewLogin) conn.isInit = true
 const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
 if (code && code !== DisconnectReason.loggedOut && conn?.ws.readyState !== CONNECTING) {
@@ -259,7 +251,7 @@ conn.ev.off('call', conn.onCall)
 conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
-
+  
 conn.welcome = '@user 𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨/𝐚 𝐢𝐧 @subject'
 conn.bye = '@user 𝐬𝐞 𝐧𝐞 𝐯𝐚'
 conn.spromote = '@user 𝐡𝐚 𝐢 𝐩𝐨𝐭𝐞𝐫𝐢'
@@ -278,7 +270,7 @@ const currentDateTime = new Date();
 const messageDateTime = new Date(conn.ev);
 if (currentDateTime >= messageDateTime) {
     let chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map(v => v[0])
-  //console.log(chats, conn.ev);
+  //console.log(chats, conn.ev); 
 } else {
     let chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map(v => v[0])}
  //console.log(chats, 'Omitiendo mensajes en espera.'); }
@@ -388,28 +380,12 @@ let s = global.support = { ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, fin
 Object.freeze(global.support)
 }
 setInterval(async () => {
- if (stopped == 'close') return
-  var a = await clearTmp()        
-  console.log(chalk.cyanBright(`\n▣───────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁TMP ]──────────────···\n│\n▣─❧ ARCHIVIO ELIMINATO ✅\n│\n▣───────────────────────────────────────···\n`))
-  }, 180000)
-  setInterval(async () => {
-      await purgeSession()
-  console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ ARCHIVIO ELIMINATO ✅\n│\n▣────────────────────────────────────···\n`))
-  }, 1000 * 60 * 60)
-  setInterval(async () => {
-       await purgeSessionSB()
-  console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ ARCHIVIO ELIMINATO ✅\n│\n▣────────────────────────────────────···\n`))
-  }, 1000 * 60 * 60)
-  setInterval(async () => {
-      await purgeOldFiles()
-  console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ ARCHIVIO ELIMINATO ✅\n│\n▣────────────────────────────────────···\n`))
-  }, 1000 * 60 * 60)
-setInterval(async () => {
-if (stopped == 'close') return
+
+if (stopped == 'close') return        
 const status = global.db.data.settings[conn.user.jid] || {}
-let _uptime = process.uptime() * 1000
+let _uptime = process.uptime() * 1000    
 let uptime = clockString(_uptime)
-let bio = `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 Ꮻ𝐍𝐋𝕀𝐍𝚵 𝐃𝚲 ${uptime}`
+let bio = `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 Ꮻ𝐍𝐋𝕀𝐍𝚵 𝐃𝚲 ${uptime} https://github.com/Fabri115/botwhaita `
 await conn.updateProfileStatus(bio).catch(_ => _)
 }, 60000)
 function clockString(ms) {
