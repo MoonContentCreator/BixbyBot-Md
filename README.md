@@ -52,6 +52,19 @@
 ### `𝐁𝐎𝐓 𝐌𝐔𝐋𝐓𝐈-𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ⚙️`
 
 ---------
+<p align="center">
+<img width="" src="https://telegra.ph/file/52ebed069dacb09903529.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
+<p align="center">
+<img width="" src="https://telegra.ph/file/334c5774be784445efca3.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
+<p align="center">
+<img width="" src="https://telegra.ph/file/9a83d9747210f0d4273ec.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
+
+### `𝐀𝐍𝐓𝐈𝐓𝐈𝐊𝐓𝐎𝐊, 𝐀𝐍𝐓𝐈𝐈𝐍𝐒𝐓𝐀, 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 𝐄 𝐌𝐎𝐋𝐓𝐎 𝐀𝐋𝐓𝐑𝐎...`
+
+---------
 
 
 ### `✧ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐙𝐈𝐎𝐍𝐄 𝐁𝐢𝐱𝐛𝐲🔮 `
