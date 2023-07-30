@@ -34,7 +34,7 @@
 <img width="" src="https://telegra.ph/file/681962c1dc241d697a42e.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 <p align="center">
-<img width="" src="https://telegra.ph/file/c48ed34d47ed47be19d9a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/816e0dbb4398ba975817d.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 <p align="center">
 <img width="" src="https://telegra.ph/file/c48ed34d47ed47be19d9a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
