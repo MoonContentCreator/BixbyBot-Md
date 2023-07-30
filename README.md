@@ -81,7 +81,7 @@
 
 ---------
 <p align="center">
-<img width="" src="https://telegra.ph/file/9a83d9747210f0d4273ec.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/87bd99fcc4eefccd1d332.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `𝐆𝐑𝐔𝐏𝐏𝐎`
