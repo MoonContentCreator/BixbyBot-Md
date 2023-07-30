@@ -30,6 +30,13 @@
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
 ---------
 <p align="center">
+<img width="" src="https://telegra.ph/file/f3703271bafab066e8b57.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
+
+### `𝐕𝐄𝐑𝐘 𝐅𝐀𝐒𝐓 𝐏𝐈𝐍𝐆 ⚡`
+𝐔𝐧𝐨 𝐝𝐞𝐢 𝐛𝐨𝐭 𝐩𝐢𝐮' 𝐯𝐞𝐥𝐨𝐜𝐢 𝐞 𝐚𝐟𝐟𝐢𝐝𝐚𝐛𝐢𝐥𝐢 𝐢𝐧 𝐜𝐢𝐫𝐜𝐨𝐥𝐚𝐳𝐢𝐨𝐧𝐞 𝐬𝐮 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 🇮🇹
+---------
+<p align="center">
 <img width="" src="https://telegra.ph/file/681962c1dc241d697a42e.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 <p align="center">
