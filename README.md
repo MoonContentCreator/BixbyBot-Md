@@ -28,7 +28,6 @@
 
 
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
-
 ---------
 <p align="center">
 <img width="" src="https://telegra.ph/file/681962c1dc241d697a42e.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
@@ -43,14 +42,12 @@
 ### `𝐌𝐔𝐓𝐀/𝐒𝐌𝐔𝐓𝐀, 𝐖𝐀𝐑𝐍/𝐔𝐍𝐖𝐀𝐑𝐍 𝐄 𝐌𝐒𝐆`
 
 𝐃𝐢𝐫𝐞𝐭𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐝𝐚 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐫𝐫𝐢𝐯𝐚𝐧𝐨 𝐬𝐮 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐦𝐮𝐭𝐚 𝐞 𝐬𝐦𝐮𝐭𝐚 𝐜𝐨𝐧 𝐩𝐨𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐚' 𝐝𝐢 𝐭𝐞𝐧𝐞𝐫 𝐜𝐨𝐧𝐭𝐨 𝐝𝐞𝐥𝐥' 𝐚𝐭𝐭𝐢𝐯𝐢𝐭𝐚' 𝐝𝐞𝐥𝐥'𝐮𝐭𝐞𝐧𝐭𝐞 𝐜𝐨𝐧 𝐥𝐞 𝐯𝐚𝐫𝐢𝐞 𝐚𝐦𝐦𝐨𝐧𝐢𝐳𝐢𝐨𝐧𝐢, 𝐝𝐨𝐩𝐨 𝟑 𝐥'𝐮𝐭𝐞𝐧𝐭𝐞 𝐯𝐞𝐫𝐫𝐚' 𝐫𝐢𝐦𝐨𝐬𝐬𝐨 𝐝𝐚𝐥 𝐠𝐫𝐮𝐩𝐩𝐨`
-
 ---------
 <p align="center">
 <img width="" src="https://telegra.ph/file/edb597ecc86c81b787532.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `𝐁𝐎𝐓 𝐌𝐔𝐋𝐓𝐈-𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ⚙️`
-
 ---------
 <p align="center">
 <img width="" src="https://telegra.ph/file/52ebed069dacb09903529.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
@@ -63,7 +60,6 @@
 </p>
 
 ### `𝐀𝐍𝐓𝐈𝐓𝐈𝐊𝐓𝐎𝐊, 𝐀𝐍𝐓𝐈𝐈𝐍𝐒𝐓𝐀, 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 𝐄 𝐌𝐎𝐋𝐓𝐎 𝐀𝐋𝐓𝐑𝐎...`
-
 ---------
 <p align="center">
 <img width="" src="https://telegra.ph/file/3bb562091f1794e7ca29c.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
@@ -78,7 +74,6 @@
 
 ### `𝐈𝐍𝐅𝐎𝐒𝐓𝐀𝐓𝐎`
 𝐃𝐞𝐬𝐜𝐫𝐢𝐳𝐢𝐨𝐧𝐞 𝐝𝐞𝐭𝐭𝐚𝐠𝐥𝐢𝐚𝐭𝐚 𝐝𝐞𝐥𝐥𝐞 𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚'
-
 ---------
 <p align="center">
 <img width="" src="https://telegra.ph/file/87bd99fcc4eefccd1d332.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
@@ -86,7 +81,6 @@
 
 ### `𝐆𝐑𝐔𝐏𝐏𝐎`
 𝐒𝐜𝐨𝐩𝐫𝐢 𝐜𝐨𝐦𝐚𝐧𝐝𝐢, 𝐠𝐢𝐨𝐜𝐡𝐢 𝐞 𝐭𝐚𝐧𝐭𝐨 𝐚𝐥𝐭𝐫𝐨 𝐧𝐞𝐢 𝐯𝐚𝐫𝐢 𝐦𝐞𝐧𝐮' 𝐝𝐞𝐥 𝐛𝐨𝐭
-
 ---------
 ### `✧ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐙𝐈𝐎𝐍𝐄 𝐁𝐢𝐱𝐛𝐲🔮 `
 
