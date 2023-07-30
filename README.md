@@ -36,6 +36,9 @@
 <p align="center">
 <img width="" src="https://telegra.ph/file/c48ed34d47ed47be19d9a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
+<p align="center">
+<img width="" src="https://telegra.ph/file/c48ed34d47ed47be19d9a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+</p>
 
 ### `𝐌𝐔𝐓𝐀/𝐒𝐌𝐔𝐓𝐀, 𝐖𝐀𝐑𝐍/𝐔𝐍𝐖𝐀𝐑𝐍 𝐄 𝐌𝐒𝐆`
 
