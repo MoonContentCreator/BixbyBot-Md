@@ -30,9 +30,6 @@
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
 
 ---------
-<p align="center">
-<img width="" src="https://telegra.ph/file/11f0263cb4c9fe239ab93.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
-</p>
 
 ### `✧ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐙𝐈𝐎𝐍𝐄 𝐁𝐢𝐱𝐛𝐲🔮 `
 
