@@ -30,7 +30,7 @@
 ### ` 𝐀𝐍𝐓𝐄𝐏𝐑𝐈𝐌𝐀 𝐃𝐄𝐋 𝐌𝐄𝐍𝐔 👆`
 ---------
 <p align="center">
-<img width="" src="https://telegra.ph/file/f3703271bafab066e8b57.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/cac8a168270a26cf15df3.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `𝐕𝐄𝐑𝐘 𝐅𝐀𝐒𝐓 𝐏𝐈𝐍𝐆 ⚡`
