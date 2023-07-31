@@ -188,7 +188,7 @@ pkg install yarn
 ```    
 
 ```bash
-git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
+cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
 ```
   
 ```bash
