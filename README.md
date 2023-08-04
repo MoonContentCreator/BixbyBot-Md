@@ -23,7 +23,7 @@
 <img width="" src="https://telegra.ph/file/ff78ecea9433a2e2044f6.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 <p align="center">
-<img width="" src="https://telegra.ph/file/e5fe622f276ceba6001ab.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/339b23425fb26bb2728b7.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 
