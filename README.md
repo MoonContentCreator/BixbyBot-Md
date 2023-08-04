@@ -69,14 +69,14 @@
 ### `𝐀𝐍𝐓𝐈𝐓𝐈𝐊𝐓𝐎𝐊, 𝐀𝐍𝐓𝐈𝐈𝐍𝐒𝐓𝐀, 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 𝐄 𝐌𝐎𝐋𝐓𝐎 𝐀𝐋𝐓𝐑𝐎...`
 ---------
 <p align="center">
-<img width="" src="https://telegra.ph/file/3bb562091f1794e7ca29c.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/f999785f9b4e0e57b6ce4.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `𝐒𝐓𝐀𝐓𝐎`
 𝐓𝐢𝐞𝐧𝐢 𝐜𝐨𝐧𝐭𝐨 𝐝𝐞𝐥𝐥𝐞 𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚' 𝐚𝐭𝐭𝐢𝐯𝐞 𝐞 𝐝𝐢 𝐪𝐮𝐞𝐥𝐥𝐞 𝐝𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚𝐭𝐞
 ---------
 <p align="center">
-<img width="" src="https://telegra.ph/file/c64800a6837f483f44d01.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/8ee273c03c89468d52ba2.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 
 ### `𝐈𝐍𝐅𝐎𝐒𝐓𝐀𝐓𝐎`
