@@ -37,7 +37,7 @@
 𝐔𝐧𝐨 𝐝𝐞𝐢 𝐛𝐨𝐭 𝐩𝐢𝐮' 𝐯𝐞𝐥𝐨𝐜𝐢 𝐞 𝐚𝐟𝐟𝐢𝐝𝐚𝐛𝐢𝐥𝐢 𝐢𝐧 𝐜𝐢𝐫𝐜𝐨𝐥𝐚𝐳𝐢𝐨𝐧𝐞 𝐬𝐮 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 🇮🇹
 ---------
 <p align="center">
-<img width="" src="https://telegra.ph/file/681962c1dc241d697a42e.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<img width="" src="https://telegra.ph/file/2235db8a736b318be014f.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
 </p>
 <p align="center">
 <img width="" src="https://telegra.ph/file/816e0dbb4398ba975817d.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
