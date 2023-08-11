@@ -85,7 +85,7 @@ global.maxwarn = '4' // máxima advertencias
 
 //════════════ •⊰✧⊱• ════════════
 
-global.wm = 'ꪶ 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 ꫂ'
+global.wm = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
 global.wait = '𝐅𝐚𝐭𝐭𝐨 ✓'
 global.rwait = '⌛'
 global.dmoji = '🤭'
