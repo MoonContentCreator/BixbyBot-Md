@@ -114,7 +114,7 @@ return { conversation: "hello, i'm Fabri115" }},
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['𝐁𝐢𝐱𝐛𝐲-𝐁𝐨𝐭-𝐌𝐝 𝐛𝐞𝐭𝐚 𝟏.𝟔','Safari','9.7.0'],
+browser: ['𝐁𝐢𝐱𝐛𝐲-𝐁𝐨𝐭-𝐌𝐝 𝐛𝐞𝐭𝐚 𝟏.𝟕','Safari','9.7.0'],
 version,
 defaultQueryTimeoutMs: undefined
 }
