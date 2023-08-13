@@ -1,1 +1,32 @@
-function _0x1695(){const _0x427ace=['9lvNocC','../plugins/','10621SBnhOa','9DJEbNR','2807568NbwyWa','64bpFYaA','reply','mods','join','help','keys','replace','tags','1638710EtDfxl','141244BTCjay','.js\x22\x20è\x20stato\x20eliminato._*','includes','7tOvQJz','5811872XUfuhv','⚠️\x20*_Il\x20plugin\x20\x22plugins/','owner','chat','map','1755740euPAQq','2236424xSiXOv'];_0x1695=function(){return _0x427ace;};return _0x1695();}const _0x58e7f0=_0x17c8;(function(_0x48348e,_0x22b163){const _0x31d1bb=_0x17c8,_0x5f4610=_0x48348e();while(!![]){try{const _0x4df41f=parseInt(_0x31d1bb(0x18b))/0x1*(-parseInt(_0x31d1bb(0x18e))/0x2)+parseInt(_0x31d1bb(0x189))/0x3*(-parseInt(_0x31d1bb(0x17e))/0x4)+-parseInt(_0x31d1bb(0x187))/0x5+parseInt(_0x31d1bb(0x18d))/0x6+-parseInt(_0x31d1bb(0x181))/0x7*(-parseInt(_0x31d1bb(0x188))/0x8)+-parseInt(_0x31d1bb(0x18c))/0x9*(-parseInt(_0x31d1bb(0x17d))/0xa)+parseInt(_0x31d1bb(0x182))/0xb;if(_0x4df41f===_0x22b163)break;else _0x5f4610['push'](_0x5f4610['shift']());}catch(_0x58a38c){_0x5f4610['push'](_0x5f4610['shift']());}}}(_0x1695,0x9cebf));import{tmpdir}from'os';function _0x17c8(_0x26ca05,_0xd53569){const _0x1695b2=_0x1695();return _0x17c8=function(_0x17c85f,_0x4b9475){_0x17c85f=_0x17c85f-0x179;let _0x15c318=_0x1695b2[_0x17c85f];return _0x15c318;},_0x17c8(_0x26ca05,_0xd53569);}import _0x2a9941,{join}from'path';import{readdirSync,statSync,unlinkSync,existsSync,readFileSync,watch}from'fs';let handler=async(_0x54be75,{conn:_0x59661e,usedPrefix:_0x34e402,__dirname:_0x4747d1,args:_0x5d85fc,text:_0x12cc39})=>{const _0xff7701=_0x17c8;let _0x3b6b08=Object[_0xff7701(0x17a)](plugins),_0x3aa03d=_0x3b6b08['map'](_0x2abaab=>_0x2abaab[_0xff7701(0x17b)]('.js',''));if(!_0x12cc39)throw'📌\x20*_Esempio\x20uso:_*\x0a*#deleteplugin\x20Menu-official*';if(!_0x3aa03d[_0xff7701(0x180)](_0x5d85fc[0x0]))return _0x54be75[_0xff7701(0x18f)]('*🗃️\x20non\x20esiste\x20questo\x20plugin!*\x0a•••••••••••••••••••••••••••••••••••••••••••••••••••••••\x0a\x0a'+_0x3aa03d[_0xff7701(0x186)](_0x237fc3=>'\x20'+_0x237fc3)[_0xff7701(0x191)]`\n`);const _0x5a661a=join(_0x4747d1,_0xff7701(0x18a)+_0x5d85fc[0x0]+'.js');unlinkSync(_0x5a661a),_0x59661e['reply'](_0x54be75[_0xff7701(0x185)],_0xff7701(0x183)+_0x5d85fc[0x0]+_0xff7701(0x17f),_0x54be75);};handler[_0x58e7f0(0x179)]=['deleteplugin\x20<nombre>'],handler[_0x58e7f0(0x17c)]=[_0x58e7f0(0x184)],handler['command']=/^(deleteplugin|dp|deleteplu)$/i,handler[_0x58e7f0(0x190)]=!![];export default handler;
+import {tmpdir} from 'os'; 
+ import path, {join} from 'path'; 
+ import { 
+   readdirSync, 
+   statSync, 
+   unlinkSync, 
+   existsSync, 
+   readFileSync, 
+   watch, 
+ } from 'fs'; 
+ const handler = async (m, {conn, usedPrefix: _p, __dirname, args, text}) => { 
+   const ar = Object.keys(plugins); 
+   const ar1 = ar.map((v) => v.replace('.js', '')); 
+   if (!text) throw `📌 *_Esempio uso:_*\n*#deleteplugin Menu-official*`; 
+   if (!ar1.includes(args[0])) return m.reply(`*🗃️ non esiste questo plugin!*\n•••••••••••••••••••••••••••••••••••••••••••••••••••••••\n\n${ar1.map((v) => ' ' + v).join`\n`}`); 
+   const file = join(__dirname, '../plugins/' + args[0] + '.js'); 
+   unlinkSync(file);
+   let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
+}, "message": { 
+"extendedTextMessage": { text: `𝐈𝐥 𝐩𝐥𝐮𝐠𝐢𝐧 𝐞' 𝐬𝐭𝐚𝐭𝐨 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨`,
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=19709001746:+1 (970) 900-1746\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
+}}, "participant": "0@s.whatsapp.net"
+}
+   conn.reply(m.chat, `_plugins/${args[0]}.js_`, prova); 
+ }; 
+ handler.help = ['deleteplugin <nombre>']; 
+ handler.tags = ['owner']; 
+ handler.command = /^(deleteplugin|dp|deleteplu)$/i; 
+  
+ handler.mods = true; 
+  
+ export default handler;
