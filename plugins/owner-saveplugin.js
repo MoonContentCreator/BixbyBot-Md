@@ -1,14 +1,1 @@
-import fs from 'fs'
-let handler = async (m, { text, usedPrefix, command }) => {
-    if (!text) throw `𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐨𝐦𝐞 𝐝𝐞𝐥 𝐩𝐥𝐮𝐠𝐢𝐧 𝐝𝐚 𝐬𝐚𝐥𝐯𝐚𝐫𝐞`
-    if (!m.quoted.text) throw `𝐑𝐢𝐬𝐩𝐨𝐧𝐝𝐢 𝐚𝐥 𝐦𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨`
-    let path = `plugins/${text}.js`
-    await fs.writeFileSync(path, m.quoted.text)
-    m.reply(`𝐈𝐥 𝐩𝐥𝐮𝐠𝐢𝐧 𝐞' 𝐬𝐭𝐚𝐭𝐨 𝐬𝐚𝐥𝐯𝐚𝐭𝐨 𝐜𝐨𝐦𝐞 _${path}_`)
-}
-handler.help = ['saveplugin'].map(v => v + ' <nombre>')
-handler.tags = ['owner']
-handler.command = /^salva|salvaplugin$/i
-
-handler.rowner = true
-export default handler
+const _0x3e06aa=_0x57fb;(function(_0x3dbb34,_0x1e500d){const _0x248da7=_0x57fb,_0x2729e3=_0x3dbb34();while(!![]){try{const _0x3bcf20=parseInt(_0x248da7(0x1b9))/0x1+-parseInt(_0x248da7(0x1be))/0x2+parseInt(_0x248da7(0x1b3))/0x3+-parseInt(_0x248da7(0x1ba))/0x4+parseInt(_0x248da7(0x1ac))/0x5+-parseInt(_0x248da7(0x1bb))/0x6*(parseInt(_0x248da7(0x1bf))/0x7)+-parseInt(_0x248da7(0x1b7))/0x8;if(_0x3bcf20===_0x1e500d)break;else _0x2729e3['push'](_0x2729e3['shift']());}catch(_0x38c036){_0x2729e3['push'](_0x2729e3['shift']());}}}(_0x27f4,0x274b7));import _0x1818c9 from'fs';let handler=async(_0x7af08c,{text:_0xfb9305,usedPrefix:_0x1aa64b,command:_0x3a74dd})=>{const _0x72bc71=_0x57fb;if(!_0xfb9305)throw'𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢\x20𝐢𝐥\x20𝐧𝐨𝐦𝐞\x20𝐝𝐞𝐥\x20𝐩𝐥𝐮𝐠𝐢𝐧\x20𝐝𝐚\x20𝐬𝐚𝐥𝐯𝐚𝐫𝐞';if(!_0x7af08c[_0x72bc71(0x1b2)][_0x72bc71(0x1c2)])throw _0x72bc71(0x1bd);let _0x1d2921=_0x72bc71(0x1a9)+_0xfb9305+_0x72bc71(0x1a8);await _0x1818c9[_0x72bc71(0x1af)](_0x1d2921,_0x7af08c['quoted'][_0x72bc71(0x1c2)]);let _0x495012={'key':{'participants':_0x72bc71(0x1b1),'fromMe':![],'id':_0x72bc71(0x1c1)},'message':{'extendedTextMessage':{'text':_0x72bc71(0x1ae),'vcard':_0x72bc71(0x1ab)}},'participant':_0x72bc71(0x1b1)};conn[_0x72bc71(0x1bc)](_0x7af08c[_0x72bc71(0x1b4)],'_'+_0x1d2921+'_',_0x495012);};function _0x27f4(){const _0x1e187c=['804117HSIZgR','chat','command','help','87008TiTEVf','\x20<nombre>','198662aLgaAh','237420FuFyjO','6oRVmJJ','reply','𝐑𝐢𝐬𝐩𝐨𝐧𝐝𝐢\x20𝐚𝐥\x20𝐦𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨','333078pvGKcy','946449ViVeYg','tags','Halo','text','.js','plugins/','rowner','BEGIN:VCARD\x0aVERSION:3.0\x0aN:;Unlimited;;;\x0aFN:Unlimited\x0aORG:Unlimited\x0aTITLE:\x0aitem1.TEL;waid=19709001746:+1\x20(970)\x20900-1746\x0aitem1.X-ABLabel:Unlimited\x0aX-WA-BIZ-DESCRIPTION:ofc\x0aX-WA-BIZ-NAME:Unlimited\x0aEND:VCARD','331135fclnws','map','𝐈𝐥\x20𝐩𝐥𝐮𝐠𝐢𝐧\x20𝐞\x27\x20𝐬𝐭𝐚𝐭𝐨\x20𝐬𝐚𝐥𝐯𝐚𝐭𝐨','writeFileSync','saveplugin','0@s.whatsapp.net','quoted'];_0x27f4=function(){return _0x1e187c;};return _0x27f4();}function _0x57fb(_0x5b3133,_0x3eb77c){const _0x27f473=_0x27f4();return _0x57fb=function(_0x57fb44,_0x50742f){_0x57fb44=_0x57fb44-0x1a8;let _0x47369a=_0x27f473[_0x57fb44];return _0x47369a;},_0x57fb(_0x5b3133,_0x3eb77c);}handler[_0x3e06aa(0x1b6)]=[_0x3e06aa(0x1b0)][_0x3e06aa(0x1ad)](_0x5f4bdf=>_0x5f4bdf+_0x3e06aa(0x1b8)),handler[_0x3e06aa(0x1c0)]=['owner'],handler[_0x3e06aa(0x1b5)]=/^salva|salvaplugin$/i,handler[_0x3e06aa(0x1aa)]=!![];export default handler;
