@@ -1,13 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&width=435&lines=Bixby+Bot+Ediz+by+Dan;thanks+to+%40Fabri115)](https://git.io/typing-svg)
 
 
-  <p align="center">
-<a href="https://github.com/MoonContentCreator/followers"><img title="Followers" src="https://img.shields.io/github/followers/MoonContentCreator?color=red&style=flat-square"></a>
-<a href="https://github.com/MoonContentCreator/MoonContentCreator/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/MoonContentCreator?color=blue&style=flat-square"></a>
-<a href="https://github.com/MoonContentCreator/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MoonContentCreator/BixbyBot-Md?color=red&style=flat-square"></a>
-<a href="https://komarev.com/ghpvc/?username=Fabri115&color=blue&style=flat-square&label=Profile+Visual"><img src="https://komarev.com/ghpvc/?username=MoonContentCreator&color=blue&style=flat-square&label=Profile+Visual" />
-<a href="https://github.com/MoonContentCreator/MoonContentCreator/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MoonContentCreator/BixbyBot-Md?label=Watcher'srepo&color=blue&style=flat-square"></a>
-<a href="https://github.com/MoonContentCreator/BixbyBot-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 <a href="https://github.com/MoonContentCreator/AyGemuy/"><img title="Size" src="https://img.shields.io/github/repo-size/MoonContentCreator/BixbyBot-Md?style=flat-square&color=green"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMoonContentCreator%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/MoonContentCreator/BixbyBot-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a
@@ -18,6 +11,14 @@
 <a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a>
 <a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 
+
+  <p align="center">
+<a href="https://github.com/MoonContentCreator/followers"><img title="Followers" src="https://img.shields.io/github/followers/MoonContentCreator?color=red&style=flat-square"></a>
+<a href="https://github.com/MoonContentCreator/MoonContentCreator/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/MoonContentCreator?color=blue&style=flat-square"></a>
+<a href="https://github.com/MoonContentCreator/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MoonContentCreator/BixbyBot-Md?color=red&style=flat-square"></a>
+<a href="https://komarev.com/ghpvc/?username=Fabri115&color=blue&style=flat-square&label=Profile+Visual"><img src="https://komarev.com/ghpvc/?username=MoonContentCreator&color=blue&style=flat-square&label=Profile+Visual" />
+<a href="https://github.com/MoonContentCreator/MoonContentCreator/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MoonContentCreator/BixbyBot-Md?label=Watcher'srepo&color=blue&style=flat-square"></a>
+<a href="https://github.com/MoonContentCreator/BixbyBot-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 
  <p align="center">
 <img width="" src="https://telegra.ph/file/ff78ecea9433a2e2044f6.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
