@@ -56,20 +56,12 @@ global.imagen4 = fs.readFileSync('./bixbyvision16.png')
 //════════════ •⊰✧⊱• ════════════
 
 // Sticker WM
-global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
-global.author = ''
+global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭'
+global.author = '𝐌𝐝'
 
 //════════════ •⊰✧⊱• ════════════
 
-global.fgig = 'https://github.com/fabriziodee/superbot2023'
- 
-global.yt = ''
-
-global.fgpyp = 'https://www.tiktok.com/@3r1z10'
-
-global.faceb = ''
-
-global.vs = '1.6'
+global.vs = '𝟏.𝟕'
 
 global.lb = 'ꪶ 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 ꫂ'
 global.lolibot = lb
