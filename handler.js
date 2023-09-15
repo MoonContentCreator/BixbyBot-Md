@@ -75,7 +75,7 @@ export async function handler(chatUpdate) {
                 if (!('sDemote' in chat)) chat.sDemote = ''
                 if (!('delete' in chat)) chat.delete = true
                 if (!('modohorny' in chat)) chat.modohorny = false    
-                if (!('autosticker' in chat)) chat.autosticker = false                    
+                if (!('gpt' in chat)) chat.gpt = false                   
                 if (!('audios' in chat)) chat.audios = false                            
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antilinkbase' in chat)) chat.antilinkbase = false
@@ -109,7 +109,7 @@ export async function handler(chatUpdate) {
                     sDemote: '',
                     delete: true,
                     modohorny: false,
-                    autosticker: false,
+                    gpt: true,
                     audios: false,
                     antiLink: true,
 antiSpam: false,
