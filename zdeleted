@@ -14,4 +14,4 @@ m.reply('Non è piu premium')
 handler.command = /^(addprem|remprem)$/i
 handler.group = true
 handler.botAdmin = true
-export default handler
+export default handle
