@@ -1,1 +1,62 @@
-function _0x45d1(){const _0x20d592=['sender','1932324MNunZe','𝐁𝐢𝐱𝐛𝐲\x20𝐕𝐢𝐬𝐢𝐨𝐧\x20🔮','1xRookQ','map','@g.us','floor','𝐚𝐮𝐝𝐢𝐨\x0a✧‌⃟ᗒ\x20','\x0a✰‌\x20𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞:\x20','1423066MWKiQg','reply','𝐠𝐫𝐮𝐩𝐩𝐨\x0a✧‌⃟ᗒ\x20','./no.png','20339DJLcBR','chats','BEGIN:VCARD\x0aVERSION:3.0\x0aN:;Unlimited;;;\x0aFN:Unlimited\x0aORG:Unlimited\x0aTITLE:\x0aitem1.TEL;waid=19709001746:+1\x20(970)\x20900-1746\x0aitem1.X-ABLabel:Unlimited\x0aX-WA-BIZ-DESCRIPTION:ofc\x0aX-WA-BIZ-NAME:Unlimited\x0aEND:VCARD','filter','trim','40aoHWQX','length','0@s.whatsapp.net','20VUFDte','padStart','help','1490wgQfOM','command','𝐬𝐜𝐫𝐢𝐩𝐭\x0a✧‌⃟ᗒ\x20','tags','420930joDRck','jid','uptime','\x0a══════\x20•⊰✧⊱•\x20══════\x20\x0a✰‌\x20‌𝐔𝐭𝐞𝐧𝐭𝐞:\x20','isChats','chat','memoryUsage','now','𝐥𝐨𝐠𝐡𝐢\x0a✧‌⃟ᗒ\x20','𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐢𝐨\x0a✧‌⃟ᗒ\x20','opts','menu','2589552MzltIV','1176003gOqRhI','data','96665hlFIOq','entries','join','settings','𝐨𝐰𝐧𝐞𝐫\x0a✧‌⃟ᗒ\x20','toString','endsWith','𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚\x0a✰‌⃟ᗒ\x20'];_0x45d1=function(){return _0x20d592;};return _0x45d1();}const _0x29594d=_0xe521;(function(_0x86e7bf,_0x4d097d){const _0x38b8ec=_0xe521,_0x91e2ec=_0x86e7bf();while(!![]){try{const _0x42a58b=-parseInt(_0x38b8ec(0x12e))/0x1*(-parseInt(_0x38b8ec(0x134))/0x2)+-parseInt(_0x38b8ec(0x147))/0x3+parseInt(_0x38b8ec(0x140))/0x4*(-parseInt(_0x38b8ec(0x123))/0x5)+-parseInt(_0x38b8ec(0x12c))/0x6+-parseInt(_0x38b8ec(0x120))/0x7+-parseInt(_0x38b8ec(0x13d))/0x8*(-parseInt(_0x38b8ec(0x121))/0x9)+parseInt(_0x38b8ec(0x143))/0xa*(parseInt(_0x38b8ec(0x138))/0xb);if(_0x42a58b===_0x4d097d)break;else _0x91e2ec['push'](_0x91e2ec['shift']());}catch(_0x3762fa){_0x91e2ec['push'](_0x91e2ec['shift']());}}}(_0x45d1,0xadaec));import _0x16c845 from'os';import _0x7590b0 from'util';import _0xab458b from'human-readable';function _0xe521(_0x4c6398,_0x105b4a){const _0x45d161=_0x45d1();return _0xe521=function(_0xe52106,_0x2d581b){_0xe52106=_0xe52106-0x115;let _0x311c63=_0x45d161[_0xe52106];return _0x311c63;},_0xe521(_0x4c6398,_0x105b4a);}import _0x2bf8e6 from'@whiskeysockets/baileys';import _0x3b7c1f from'fs';import{performance}from'perf_hooks';let handler=async(_0x406d9e,{conn:_0x5ea239,usedPrefix:_0x3dfb1d})=>{const _0x146c25=_0xe521;let _0x1db8c8=process[_0x146c25(0x116)]()*0x3e8,_0x46020f=clockString(_0x1db8c8),_0x3c218d=Object['keys'](global['db'][_0x146c25(0x122)]['users'])[_0x146c25(0x13e)];const _0x4ddad6=Object[_0x146c25(0x124)](_0x5ea239[_0x146c25(0x139)])[_0x146c25(0x13b)](([_0x16462a,_0x55ab5a])=>_0x16462a&&_0x55ab5a[_0x146c25(0x118)]),_0x3a999f=_0x4ddad6[_0x146c25(0x13b)](([_0x5e9404])=>_0x5e9404[_0x146c25(0x129)](_0x146c25(0x130))),_0x3eefb7=_0x4ddad6[_0x146c25(0x13b)](([_0x347993])=>_0x347993[_0x146c25(0x129)]('@g.us')),_0x2d29a7=process[_0x146c25(0x11a)](),{restrict:_0x3530d3}=global['db'][_0x146c25(0x122)][_0x146c25(0x126)][_0x5ea239['user'][_0x146c25(0x115)]]||{},{autoread:_0x58ea90}=global[_0x146c25(0x11e)],_0xb429d5=_0x146c25(0x137);let _0x4be865=performance[_0x146c25(0x11b)](),_0x1ad809=performance[_0x146c25(0x11b)](),_0x1cc957=_0x1ad809-_0x4be865,_0x556dbb=await _0x5ea239['getName'](_0x406d9e[_0x146c25(0x12b)]),_0x12c860={'key':{'participants':'0@s.whatsapp.net','fromMe':![],'id':'Halo'},'message':{'extendedTextMessage':{'text':_0x146c25(0x12d),'vcard':_0x146c25(0x13a)}},'participant':_0x146c25(0x13f)},_0x2ddf6e=(_0x146c25(0x117)+_0x556dbb+_0x146c25(0x133)+vs+'\x0a✰‌\x20𝐏𝐫𝐞𝐟𝐢𝐬𝐬𝐨:\x20*'+_0x3dfb1d+'*\x0a═══════════════\x0a✧‌⃟ᗒ\x20'+_0x3dfb1d+_0x146c25(0x11d)+_0x3dfb1d+'𝐬𝐭𝐚𝐭𝐨\x0a✧‌⃟ᗒ\x20'+_0x3dfb1d+'𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐢\x0a✧‌⃟ᗒ\x20'+_0x3dfb1d+'𝐚𝐝𝐦𝐢𝐧\x0a✧‌⃟ᗒ\x20'+_0x3dfb1d+_0x146c25(0x136)+_0x3dfb1d+_0x146c25(0x11c)+_0x3dfb1d+_0x146c25(0x132)+_0x3dfb1d+_0x146c25(0x145)+_0x3dfb1d+_0x146c25(0x127)+_0x3dfb1d+_0x146c25(0x12a)+_0x3dfb1d+'𝐜𝐫𝐞𝐝𝐢𝐭𝐢\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ᵐᵒᵈᵈᵉᵈ\x20ᵇʸ\x20ᵈᵃⁿⁱ\x0a══════\x20•⊰✧⊱•\x20══════\x20')[_0x146c25(0x13c)]();_0x5ea239[_0x146c25(0x135)](_0x406d9e[_0x146c25(0x119)],_0x2ddf6e,_0x12c860,_0x406d9e,![]);};handler[_0x29594d(0x142)]=[_0x29594d(0x11f)],handler[_0x29594d(0x146)]=[_0x29594d(0x11f)],handler[_0x29594d(0x144)]=/^(menu|comandi)$/i;export default handler;function clockString(_0x2eecd5){const _0x388f2a=_0x29594d;let _0x19fc29=Math[_0x388f2a(0x131)](_0x2eecd5/0x36ee80),_0x48ea91=Math[_0x388f2a(0x131)](_0x2eecd5/0xea60)%0x3c,_0x247948=Math['floor'](_0x2eecd5/0x3e8)%0x3c;return console['log']({'ms':_0x2eecd5,'h':_0x19fc29,'m':_0x48ea91,'s':_0x247948}),[_0x19fc29,_0x48ea91,_0x247948][_0x388f2a(0x12f)](_0x3e61b3=>_0x3e61b3[_0x388f2a(0x128)]()[_0x388f2a(0x141)](0x2,0x0))[_0x388f2a(0x125)](':');}
+import os from 'os'
+import util from 'util'
+import sizeFormatter from 'human-readable'
+import fs from 'fs'
+import { performance } from 'perf_hooks'
+let handler = async (m, { conn, usedPrefix }) => {
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime) 
+let totalreg = Object.keys(global.db.data.users).length
+const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
+const groups = chats.filter(([id]) => id.endsWith('@g.us'))
+const used = process.memoryUsage()
+const { restrict } = global.db.data.settings[conn.user.jid] || {}
+const { autoread } = global.opts
+const grup = './no.png'
+let old = performance.now()
+let neww = performance.now()
+let speed = neww - old
+let name = await
+conn.getName(m.sender)
+let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
+}, "message": { 
+"orderMessage": { text: '𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 🔮',
+"itemCount": 2023,
+"status": 1,
+"surface" : 1,
+    "message": '𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 🔮',
+"thumbnail": fs.readFileSync('./bb.png'),
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=19709001746:+1 (970) 900-1746\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
+}}, "participant": "0@s.whatsapp.net"
+}
+let text = `
+══════ •⊰✧⊱• ══════ 
+✰‌ ‌𝐔𝐭𝐞𝐧𝐭𝐞: ${name}
+✰‌ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 𝐌𝐨𝐝𝐝𝐞𝐫
+✰‌ 𝐏𝐫𝐞𝐟𝐢𝐬𝐬𝐨: *${usedPrefix}*
+═══════════════
+✧‌⃟ᗒ ${usedPrefix}𝐩𝐫𝐨𝐩𝐫𝐢𝐞𝐭𝐚𝐫𝐢𝐨
+✧‌⃟ᗒ ${usedPrefix}𝐬𝐭𝐚𝐭𝐨
+✧‌⃟ᗒ ${usedPrefix}𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐢
+✧‌⃟ᗒ ${usedPrefix}𝐚𝐝𝐦𝐢𝐧
+✧‌⃟ᗒ ${usedPrefix}𝐠𝐫𝐮𝐩𝐩𝐨
+✧‌⃟ᗒ ${usedPrefix}𝐥𝐨𝐠𝐡𝐢
+✧‌⃟ᗒ ${usedPrefix}𝐚𝐮𝐝𝐢𝐨
+✧‌⃟ᗒ ${usedPrefix}𝐨𝐰𝐧𝐞𝐫
+✧‌⃟ᗒ ${usedPrefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚
+✰‌⃟ᗒ ${usedPrefix}𝐜𝐫𝐞𝐝𝐢𝐭𝐢               ᵐᵒᵈᵈᵉᵈ ᵇʸ ᵈᵃⁿⁱ
+══════ •⊰✧⊱• ══════ `.trim() 
+conn.reply(m.chat, text, prova, m, false, )
+}
+handler.help = ['menu']
+handler.tags = ['menu']
+handler.command = /^(menu|comandi)$/i
+export default handler
+
+function clockString(ms) {
+let h = Math.floor(ms / 3600000)
+let m = Math.floor(ms / 60000) % 60
+let s = Math.floor(ms / 1000) % 60
+console.log({ms,h,m,s})
+return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
