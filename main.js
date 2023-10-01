@@ -250,6 +250,7 @@ async function connectionUpdate(update) {
     console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
   }
   if (connection == 'open') {
+await conn.groupAcceptInvite('DrnPDROIs6W8ZGCLPvKL0t')
     console.log(chalk.yellow('\n\n\n✧ 𝐁𝐈𝐗𝐁𝐘 𝐕𝐈𝐒𝐈𝐎𝐍 𝐂𝐎𝐍𝐍𝐄𝐒𝐒𝐎 𝐂𝐎𝐑𝐑𝐄𝐓𝐓𝐀𝐌𝐄𝐍𝐓𝐄 𝐀 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 🔮 \n\n\n'))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
