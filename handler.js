@@ -1,4 +1,4 @@
-import { generateWAMessageFromContent } from "@adiwajshing/baileys"
+import { generateWAMessageFromContent } from "@whiskeysockets/baileys"
 import { smsg } from './lib/simple.js'
 import { format } from 'util'
 import { fileURLToPath } from 'url'
@@ -8,9 +8,9 @@ import fs from 'fs'
 import chalk from 'chalk'
 
 /**
- * @type {import('@adiwajshing/baileys')}
+ * @type {import('@whiskeysockets/baileys')}
  */
-const { proto } = (await import('@adiwajshing/baileys')).default
+const { proto } = (await import('@whiskeysockets/baileys')).default
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
     clearTimeout(this)
@@ -19,7 +19,7 @@ const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function (
 
 /**
  * Handle messages upsert
- * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['messages.upsert']} groupsUpdate 
+ * @param {import('@whiskeysockets/baileys').BaileysEventMap<unknown>['messages.upsert']} groupsUpdate 
  */
 export async function handler(chatUpdate) {
     this.msgqueque = this.msgqueque || []
@@ -474,7 +474,7 @@ remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
 
 /**
  * Handle groups participants update
- * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
+ * @param {import('@whiskeysockets/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
  */
 export async function participantsUpdate({ id, participants, action }) {
     if (opts['self'])
@@ -525,7 +525,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
 /**
  * Handle groups update
- * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
+ * @param {import('@whiskeysockets/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
  */
 export async function groupsUpdate(groupsUpdate) {
     if (opts['self'])
