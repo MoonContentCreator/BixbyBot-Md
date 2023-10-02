@@ -64,13 +64,6 @@ global.author = '𝐌𝐝'
 global.vs = '𝟏.𝟗'
 
 global.lb = 'ꪶ 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 ꫂ'
-global.lolibot = lb
-
-global.dygp = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //grupo del bot
-
-global.nna = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //UPDATE
-
-global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
 
 global.multiplier = 69 
 global.maxwarn = '4' // máxima advertencias
