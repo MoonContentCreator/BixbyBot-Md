@@ -56,14 +56,14 @@ global.imagen4 = fs.readFileSync('./bixbyvision16.png')
 //════════════ •⊰✧⊱• ════════════
 
 // Sticker WM
-global.packname = '𝐁𝐢𝐱𝐛𝐲𝐕𝐢𝐬𝐢𝐨𝐧𝐁𝐨𝐭'
+global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭'
 global.author = '𝐌𝐝'
 
 //════════════ •⊰✧⊱• ════════════
 
 global.vs = '𝟏.𝟗'
 
-global.lb = 'ꪶ 𝐁𝐢𝐱𝐛𝐲 𝐕𝐢𝐬𝐢𝐨𝐧 ꫂ'
+global.nomebot = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
 
 global.multiplier = 69 
 global.maxwarn = '4' // máxima advertencias
