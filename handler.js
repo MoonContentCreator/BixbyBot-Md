@@ -46,6 +46,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.messaggi)) user.messaggi = 0
                 if (!isNumber(user.msg)) user.msg = {}
                 if (!isNumber(user.exp)) user.exp = 0
+                if (!isNumber(user.money)) user.money = 0 
                 if (!isNumber(user.warn)) user.warn = 0
                 if (!('premium' in user)) user.premium = false
                 if (!isNumber(user.joincount)) user.joincount = 2   
@@ -67,7 +68,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {}
             if (chat) {
                 if (!('isBanned' in chat)) chat.isBanned = false
-                if (!('welcome' in chat)) chat.welcome = false
+                if (!('welcome' in chat)) chat.welcome = true
                 if (!('detect' in chat)) chat.detect = true
                 if (!('sWelcome' in chat)) chat.sWelcome = ''
                 if (!('sBye' in chat)) chat.sBye = ''
@@ -75,8 +76,9 @@ export async function handler(chatUpdate) {
                 if (!('sDemote' in chat)) chat.sDemote = ''
                 if (!('delete' in chat)) chat.delete = true
                 if (!('modohorny' in chat)) chat.modohorny = false    
-                if (!('gpt' in chat)) chat.gpt = false                   
-                if (!('audios' in chat)) chat.audios = false                            
+                if (!('gpt' in chat)) chat.gpt = false                    
+                if (!('audios' in chat)) chat.audios = false
+                if (!('antiLinkfast' in chat)) chat.antiLinkfast = true
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antilinkbase' in chat)) chat.antilinkbase = false
                 if (!('antitelegrambase' in chat)) chat.antitelegrambase = false
@@ -101,7 +103,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     name: this.getName(m.chat),
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: true,
                     sWelcome: '',
                     sBye: '',
@@ -111,6 +113,7 @@ export async function handler(chatUpdate) {
                     modohorny: false,
                     gpt: true,
                     audios: false,
+                    antiLinkfast: true,
                     antiLink: true,
 antiSpam: false,
                     antiLink2: false,
@@ -127,6 +130,7 @@ antiSpam: false,
 	                muto: false,
                     expired: 0,
                     messaggi: 0,
+                    money: 0, 
                     warn: 0,
                     name: m.name,
                 }
@@ -335,9 +339,13 @@ antiSpam: false,
                 }
                 m.isCommand = true
                 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
-                if (xp > 200)
-                    m.reply('Ngecit -_-') // Hehehe
-                else
+                if (xp > 2000) 
+                     m.reply('Exp limit') // Hehehe 
+                 else                
+                 if (plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) { 
+                     fail('senzasoldi', m, this)
+                    continue   
+                 } 
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
                     this.reply(m.chat, `diamanti terminati`, m)
@@ -374,6 +382,7 @@ antiSpam: false,
                     await plugin.call(this, m, extra)
                     if (!isPrems)
                         m.limit = m.limit || plugin.limit || false
+                        m.money = m.money || plugin.money || false 
                 } catch (e) {
                     // Error occured
                     m.error = e
@@ -398,11 +407,14 @@ antiSpam: false,
                         } catch (e) {
                             console.error(e)
                         }
-                    }
+                        if (m.money) 
+                         m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)') 
+                         break                    }
                     if (m.limit)
                         m.reply(+m.limit + ' diamante usato')
-                }
-                break
+                                 } 
+  
+                 break 
             }
         }
     } catch (e) {
@@ -428,6 +440,7 @@ remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
             if (m.sender && (user = global.db.data.users[m.sender]) && (chat = global.db.data.chats[m.chat])) {
                 user.exp += m.exp
                 user.limit -= m.limit * 1
+                user.money -= m.money * 1 
                 user.messaggi +=1
                 chat.messaggi +=1
             }
@@ -480,7 +493,7 @@ export async function participantsUpdate({ id, participants, action }) {
     if (opts['self'])
         return
     // if (id in conn.chats) return // First login will spam
-    if (this.isInit)
+    if (this.isInit) 
         return
     if (global.db.data == null)
         await loadDatabase()
@@ -500,11 +513,20 @@ export async function participantsUpdate({ id, participants, action }) {
                     let apii = await this.getFile(pp)
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'benvenuto, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'bot') :
                               (chat.sBye || this.bye || conn.bye || 'bye bye, @user!')).replace('@user', '@' + user.split('@')[0])
-                       
-                
- this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) 
-                   }
-                }
+this.sendMessage(id, { text: text, 
+  contextInfo:{ 
+  mentionedJid:[user], 
+  "externalAdReply": {"title": `𝗖𝗜𝗔𝗢 👋🏻`, 
+ "body": `${wm}`, 
+  "previewType": "PHOTO", 
+ "thumbnailUrl": ``, 
+ "thumbnail": apii.data,
+ "sourceUrl": `https://chat.whatsapp.com/KVdvvJ9gcJaFn9TV9XGwBz`, 
+  "mediaType": 1, 
+ "showAdAttribution": true}}}) 
+                             //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] })           
+                    } 
+                 } 
             }
             break
         case 'promote':
@@ -582,24 +604,32 @@ antielimina:
 global.dfail = (type, m, conn) => {
   let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
 }, "message": { 
-"extendedTextMessage": { text: '𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐧𝐞𝐠𝐚𝐭𝐨 ✗',
+"locationMessage": { name: '𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐧𝐞𝐠𝐚𝐭𝐨 ✗', 
+ "jpegThumbnail": fs.readFileSync('./settings.png'), 
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=15395490858:+1 (539) 549-0858\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
 }}, "participant": "0@s.whatsapp.net"
                     }
     let msg = {
         rowner: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐢𝐥𝐞 𝐬𝐨𝐥𝐨 𝐩𝐞𝐫 𝐨𝐰𝐧𝐞𝐫 🕵🏻‍♂️',
-        owner: '*✳🌑𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐥𝐨 𝐩𝐮𝐨̀ 𝐮𝐭𝐢𝐥𝐢𝐳𝐳𝐚𝐫𝐞 𝐬𝐨𝐥𝐨 𝐥 ᴏᴡɴᴇʀ ᴅᴇʟ ʙᴏᴛ*',
+        owner: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐢𝐥𝐞 𝐬𝐨𝐥𝐨 𝐩𝐞𝐫 𝐨𝐰𝐧𝐞𝐫 🕵🏻‍♂️',
         mods: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐥𝐨 𝐩𝐨𝐬𝐬𝐨𝐧𝐨 𝐮𝐭𝐢𝐥𝐢𝐳𝐳𝐚𝐫𝐞 𝐬𝐨𝐥𝐨 𝐚𝐝𝐦𝐢𝐧 𝐞 𝐨𝐰𝐧𝐞𝐫 ⚙️',
         premium: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐩𝐞𝐫 𝐦𝐞𝐦𝐛𝐫𝐢 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 ✅',
         group: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐮𝐨𝐢 𝐮𝐭𝐢𝐥𝐢𝐳𝐳𝐚𝐫𝐥𝐨 𝐢𝐧 𝐮𝐧 𝐠𝐫𝐮𝐩𝐩𝐨 👥',
         private: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐮𝐨𝐢 𝐮𝐭𝐢𝐥𝐢𝐳𝐳𝐚𝐫𝐥𝐨 𝐢𝐧 𝐜𝐡𝐚𝐭 𝐩𝐫𝐢𝐯𝐚𝐭𝐚 👤',
         admin: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐢𝐥𝐞 𝐩𝐞𝐫 𝐬𝐨𝐥𝐢 𝐚𝐝𝐦𝐢𝐧 👑',
         botAdmin: '𝐃𝐞𝐯𝐢 𝐝𝐚𝐫𝐞 𝐚𝐝𝐦𝐢𝐧 𝐚𝐥 𝐛𝐨𝐭 👑',
-        restrict: '🔐 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 𝐞 𝐝𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚𝐭𝐨 🔐'
+        restrict: '🔐 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 𝐞 𝐝𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚𝐭𝐨 🔐',
+        senzasoldi: '𝐍𝐨𝐧 𝐡𝐚𝐢 𝐚𝐛𝐛𝐚𝐬𝐭𝐚𝐧𝐳𝐚 𝐬𝐨𝐥𝐝𝐢 𝐩𝐞𝐫 𝐜𝐨𝐦𝐩𝐫𝐚𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨'
     }[type]
-    if (msg) return conn.reply(m.chat, msg, null, { quoted: prova })
+    if (msg) return conn.sendMessage(m.chat, { text: ' ', contextInfo:{
+  "externalAdReply": {"title": `${msg}`, 
+ "body": ``, 
+  "previewType": "PHOTO",
+  "thumbnail": fs.readFileSync('./accessdenied2.png'),
+  "mediaType": 1,
+  "renderLargerThumbnail": true,
+  "showAdAttribution": true,}}})
 }
-
 let file = global.__filename(import.meta.url, true)
 watchFile(file, async () => {
     unwatchFile(file)
