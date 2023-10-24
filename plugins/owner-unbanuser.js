@@ -1,15 +1,1 @@
-let handler = async (m, { conn, text}) => {
-if (!text) return
-let who
-if (m.isGroup) who = m.mentionedJid[0]
-else who = m.chat
-if (!who) return
-let users = global.db.data.users
-users[who].banned = false
-conn.reply(m.chat, `𝐬𝐛𝐥𝐨𝐜𝐜𝐚𝐭𝐨 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨 ✓`, m)
-}
-handler.help = ['unbanuser']
-handler.tags = ['owner']
-handler.command = /^unbanuser|unban$/i
-handler.rowner = true
-export default handler
+const _0x27be77=_0x5eb0;function _0x4b5b(){const _0x2efa48=['7527rNpuqu','Halo','16pKPbXD','𝐔𝐭𝐞𝐧𝐭𝐞\x20𝐬𝐛𝐥𝐨𝐜𝐜𝐚𝐭𝐨','36rVstOY','17868XzfeNs','help','unbanuser','772IOnDhJ','11DgOfaP','https://telegra.ph/file/592a9dbbe01cfaecbefb8.png','1797670DNZpJg','banned','users','tags','rowner','buffer','498xIOUwR','reply','828780WpNsRB','0@s.whatsapp.net','1029mZXbKg','2976327PbfNki','852IvMHAO','command','𝐐𝐮𝐞𝐬𝐭𝐨\x20𝐮𝐭𝐞𝐧𝐭𝐞\x20𝐩𝐨𝐭𝐫𝐚\x27\x20𝐞𝐬𝐞𝐠𝐮𝐢𝐫𝐞\x20𝐝𝐢\x20𝐧𝐮𝐨𝐯𝐨\x20𝐢\x20𝐜𝐨𝐦𝐚𝐧𝐝𝐢','data','mentionedJid','owner','11623274dPXfmm'];_0x4b5b=function(){return _0x2efa48;};return _0x4b5b();}(function(_0x16b29e,_0x35648d){const _0x3d60af=_0x5eb0,_0x19fdf8=_0x16b29e();while(!![]){try{const _0x4b05be=parseInt(_0x3d60af(0xaa))/0x1*(-parseInt(_0x3d60af(0xb0))/0x2)+parseInt(_0x3d60af(0xb7))/0x3*(-parseInt(_0x3d60af(0xbf))/0x4)+-parseInt(_0x3d60af(0xac))/0x5+parseInt(_0x3d60af(0xbc))/0x6*(-parseInt(_0x3d60af(0xae))/0x7)+-parseInt(_0x3d60af(0xb9))/0x8*(parseInt(_0x3d60af(0xaf))/0x9)+-parseInt(_0x3d60af(0xc2))/0xa*(parseInt(_0x3d60af(0xc0))/0xb)+-parseInt(_0x3d60af(0xbb))/0xc*(-parseInt(_0x3d60af(0xb6))/0xd);if(_0x4b05be===_0x35648d)break;else _0x19fdf8['push'](_0x19fdf8['shift']());}catch(_0x16846d){_0x19fdf8['push'](_0x19fdf8['shift']());}}}(_0x4b5b,0x8421e));let handler=async(_0x5be73b,{conn:_0x47f4a0,text:_0x1870a0})=>{const _0x3bb3d0=_0x5eb0;if(!_0x1870a0)return;let _0x2acce9;if(_0x5be73b['isGroup'])_0x2acce9=_0x5be73b[_0x3bb3d0(0xb4)][0x0];else _0x2acce9=_0x5be73b['chat'];if(!_0x2acce9)return;let _0x3339f8=global['db'][_0x3bb3d0(0xb3)][_0x3bb3d0(0xc4)];_0x3339f8[_0x2acce9][_0x3bb3d0(0xc3)]=![];let _0x5762d2={'key':{'participants':'0@s.whatsapp.net','fromMe':![],'id':_0x3bb3d0(0xb8)},'message':{'locationMessage':{'name':_0x3bb3d0(0xba),'jpegThumbnail':await(await fetch(_0x3bb3d0(0xc1)))[_0x3bb3d0(0xc7)](),'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:;Unlimited;;;\x0aFN:Unlimited\x0aORG:Unlimited\x0aTITLE:\x0aitem1.TEL;waid=19709001746:+1\x20(970)\x20900-1746\x0aitem1.X-ABLabel:Unlimited\x0aX-WA-BIZ-DESCRIPTION:ofc\x0aX-WA-BIZ-NAME:Unlimited\x0aEND:VCARD'}},'participant':_0x3bb3d0(0xad)};_0x47f4a0[_0x3bb3d0(0xab)](_0x5be73b['chat'],_0x3bb3d0(0xb2),_0x5762d2);};function _0x5eb0(_0x19deda,_0x566ec7){const _0x4b5b47=_0x4b5b();return _0x5eb0=function(_0x5eb0c6,_0xed379b){_0x5eb0c6=_0x5eb0c6-0xaa;let _0xb652a2=_0x4b5b47[_0x5eb0c6];return _0xb652a2;},_0x5eb0(_0x19deda,_0x566ec7);}handler[_0x27be77(0xbd)]=[_0x27be77(0xbe)],handler[_0x27be77(0xc5)]=[_0x27be77(0xb5)],handler[_0x27be77(0xb1)]=/^unbanuser|unban$/i,handler[_0x27be77(0xc6)]=!![];export default handler;
