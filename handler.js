@@ -627,8 +627,7 @@ global.dfail = (type, m, conn) => {
   "previewType": "PHOTO",
   "thumbnail": fs.readFileSync('./accessdenied2.png'),
   "mediaType": 1,
-  "renderLargerThumbnail": true,
-  "showAdAttribution": true,}}})
+  "renderLargerThumbnail": true}}}, {quoted: m})
 }
 let file = global.__filename(import.meta.url, true)
 watchFile(file, async () => {
