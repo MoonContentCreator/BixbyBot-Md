@@ -4,13 +4,7 @@ import fs from 'fs'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
-  ['xxxxxxxxxx',],
-  //['xxxxxxxxxx'],	
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-] //Numero degli owner
+  ['393515638253', 'Desker'] //Numero degli owner
 
 //════════════ •⊰✧⊱• ════════════
 
