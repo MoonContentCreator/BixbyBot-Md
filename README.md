@@ -51,12 +51,6 @@
  𝐃𝐢𝐫𝐞𝐭𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐝𝐚 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐫𝐫𝐢𝐯𝐚𝐧𝐨 𝐬𝐮 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐦𝐮𝐭𝐚 𝐞 𝐬𝐦𝐮𝐭𝐚 𝐜𝐨𝐧 𝐩𝐨𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐚' 𝐝𝐢 𝐭𝐞𝐧𝐞𝐫 𝐜𝐨𝐧𝐭𝐨 𝐝𝐞𝐥𝐥' 𝐚𝐭𝐭𝐢𝐯𝐢𝐭𝐚' 𝐝𝐞𝐥𝐥'𝐮𝐭𝐞𝐧𝐭𝐞 𝐜𝐨𝐧 𝐥𝐞 𝐯𝐚𝐫𝐢𝐞 𝐚𝐦𝐦𝐨𝐧𝐢𝐳𝐢𝐨𝐧𝐢, 𝐝𝐨𝐩𝐨 𝟑 𝐚𝐦𝐦𝐨𝐧𝐢𝐳𝐢𝐨𝐧𝐢 (𝐰𝐚𝐫𝐧) 𝐥'𝐮𝐭𝐞𝐧𝐭𝐞 𝐯𝐞𝐫𝐫𝐚' 𝐫𝐢𝐦𝐨𝐬𝐬𝐨 𝐝𝐚𝐥 𝐠𝐫𝐮𝐩𝐩𝐨 
  --------- 
  <p align="center"> 
- <img width="" src="https://telegra.ph/file/ef5e1f14a4deea385b37f.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
- </p> 
-  
- ### `𝐁𝐎𝐓 𝐌𝐔𝐋𝐓𝐈-𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ⚙️` 
- --------- 
- <p align="center"> 
  <img width="" src="https://telegra.ph/file/37bdbaff25c35002defe8.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
  <p align="center"> 
@@ -69,10 +63,10 @@
  ### `𝐀𝐍𝐓𝐈𝐓𝐈𝐊𝐓𝐎𝐊, 𝐀𝐍𝐓𝐈𝐈𝐍𝐒𝐓𝐀, 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 𝐄 𝐌𝐎𝐋𝐓𝐎 𝐀𝐋𝐓𝐑𝐎...` 
  --------- 
  <p align="center"> 
- <img width="" src="https://telegra.ph/file/f999785f9b4e0e57b6ce4.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+ <img width="" src="https://telegra.ph/file/23b82e3ad9bdf83bb9944.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
   
- ### `𝐒𝐓𝐀𝐓𝐎` 
+ ### `𝐁𝐎𝐓 𝐌𝐔𝐋𝐓𝐈-𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 ⚙️` 
  𝐓𝐢𝐞𝐧𝐢 𝐜𝐨𝐧𝐭𝐨 𝐝𝐞𝐥𝐥𝐞 𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚' 𝐚𝐭𝐭𝐢𝐯𝐞 𝐞 𝐝𝐢 𝐪𝐮𝐞𝐥𝐥𝐞 𝐝𝐢𝐬𝐚𝐭𝐭𝐢𝐯𝐚𝐭𝐞 
  --------- 
  <p align="center"> 
