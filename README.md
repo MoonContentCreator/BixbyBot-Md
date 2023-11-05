@@ -300,6 +300,7 @@
  <div><button id="boton" type="button">BotWhaIta - By Fabri115</button></div>  
   <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150"
   
+
  ## `✧ 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓`  
  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a> 
  <div><button id="boton" type="button">TheMystic-Bot-MD - By BrunoSobrino</button></div> 
