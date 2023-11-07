@@ -521,7 +521,7 @@ this.sendMessage(id, { text: text,
   "previewType": "PHOTO", 
  "thumbnailUrl": ``, 
  "thumbnail": apii.data,
- "sourceUrl": `https://chat.whatsapp.com/KVdvvJ9gcJaFn9TV9XGwBz`, 
+ "sourceUrl": `https://whatsapp.com/channel/0029Va8SHGnId7nJi8Zdnz3x`, 
   "mediaType": 1, 
  "showAdAttribution": true}}}) 
                              //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] })           
