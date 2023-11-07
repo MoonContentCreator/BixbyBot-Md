@@ -66,8 +66,7 @@ global.vs = '𝟐.𝟎'
 global.nomebot = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
 
 global.multiplier = 69 
-global.maxwarn = '4' // máxima advertencias
-
+global.maxwarn = '4' 
 //════════════ •⊰✧⊱• ════════════
 
 global.wm = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
