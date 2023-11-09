@@ -48,17 +48,10 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp)) user.exp = 0
                 if (!isNumber(user.money)) user.money = 0 
                 if (!isNumber(user.warn)) user.warn = 0
-                if (!('premium' in user)) user.premium = false
                 if (!isNumber(user.joincount)) user.joincount = 2   
                 if (!isNumber(user.limit)) user.limit = 20    	       
                 if (!('name' in user)) user.name = m.name
                 if (!('muto' in user)) user.muto = false
-	        if (!('autolevelup' in user))  user.autolevelup = true
-                if (!user.lbars) user.lbars = '[▒▒▒▒▒▒▒▒▒]'
-                if (!user.job) user.job = 'Desempleo'
-                if (!user.premium) user.premium = false
-                if (!user.premium) user.premiumTime = 0
-                if (!user.rtrofi) user.rtrofi = 'Bronce'
             } else
                 global.db.data.users[m.sender] = {
                     messaggi: 0,
@@ -74,24 +67,15 @@ export async function handler(chatUpdate) {
                 if (!('sBye' in chat)) chat.sBye = ''
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
-                if (!('delete' in chat)) chat.delete = true
-                if (!('modohorny' in chat)) chat.modohorny = false    
+                if (!('delete' in chat)) chat.delete = true    
                 if (!('gpt' in chat)) chat.gpt = false                    
-                if (!('audios' in chat)) chat.audios = false
-                if (!('antiLinkfast' in chat)) chat.antiLinkfast = true
                 if (!('antiLink' in chat)) chat.antiLink = true
-                if (!('antilinkbase' in chat)) chat.antilinkbase = false
-                if (!('antitelegrambase' in chat)) chat.antitelegrambase = false
-                if (!('antitiktokbase' in chat)) chat.antitiktokbase = false
-                if (!('antitiktokhard' in chat)) chat.antitiktokhard = false
                 if (!('antiinsta' in chat)) chat.antiinsta = false
                 if (!('antitiktok' in chat)) chat.antitiktok = false
-                if (!('antiwasettings' in chat)) chat.antiwasettings = false
                 if (!('antitelegram' in chat)) chat.antitelegram = false
                 if (!('antiSpam' in chat)) chat.antiSpam = false
                 if (!('antiLink2' in chat)) chat.antiLink2 = false
                 if (!('antiviewonce' in chat)) chat.antiviewonce = false
-                if (!('antiToxic' in chat)) chat.antiToxic = false
                 if (!('antiTraba' in chat)) chat.antiTraba = true
                 if (!('antiArab' in chat)) chat.antiArab = true
 		        if (!('modoadmin' in chat)) chat.modoadmin = false
