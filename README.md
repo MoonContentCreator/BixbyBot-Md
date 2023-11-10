@@ -303,14 +303,13 @@
  - SE I MESSAGGI DEL BOT RISULTANO IN "ATTESA" ESEGUI IL COMANDO .ds E ATTENDI QUALCHE ISTANTE 
  --------- 
  ## `✧ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
- <a href="https://github.com/MoonContentCreator/BixbyBot-Md/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=MoonContentCreator/BixbyBot-Md" /> 
-</a>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+ <!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/fabri115"><img src="https://github.com/fabri115.png?size=100" width="100px;" alt=""/><br /><sub><b>Fabri</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
+    <td align="center"><a href="https://github.com/GataNina-Li"><img src="https://github.com/gatanina-li.png?size=100" width="100px;" alt=""/><br /><sub><b>Gata Dios</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
+    <td align="center"><a href="https://github.com/AzamiJs"><img src="https://github.com/azamijs.png? size=100" width="100px;" alt=""/><br /><sub> <b>Azami</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
 
  ## `✧ 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓`  
  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a> 
