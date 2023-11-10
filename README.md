@@ -303,14 +303,14 @@
  - SE I MESSAGGI DEL BOT RISULTANO IN "ATTESA" ESEGUI IL COMANDO .ds E ATTENDI QUALCHE ISTANTE 
  --------- 
  ## `✧ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
- <div><button id="boton" type="button">BotWhaIta - By Fabri115</button></div>  
-  <a href="https://github.com/Fabri115/BotWhaIta.git"><img src="https://github.com/fabri115.png" width="150" height="150" alt="adiwajshing"/></a> 
+ <a href="https://github.com/MoonContentCreator/BixbyBot-Md/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=MoonContentCreator/BixbyBot-Md" /> 
+</a>
 
-<div><button id="boton" type="button">CuriosityBot-MD- By AzamiJs</button></div>  
-  <a href="https://github.com/AzamiJs/CuriosityBot-MD"><img src="https://github.com/AzamiJs.png" width="150" height="150" alt="adiwajshing"/></a>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-div><button id="boton" type="button">Gata Dios</button></div>  
-  <a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="150" height="150" alt="adiwajshing"/></a> 
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
  ## `✧ 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓`  
  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a> 
