@@ -305,7 +305,9 @@
 ## `✧ 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓`  
  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a> 
  <div><button id="boton" type="button">TheMystic-Bot-MD - By BrunoSobrino</button></div> 
+
 --------- 
+
  ## `✧ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
  <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
