@@ -19,8 +19,6 @@
  <a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a> 
 
 
-  <p align="center"> 
- <img width="" src="https://telegra.ph/file/ff78ecea9433a2e2044f6.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
  <p align="center"> 
  <img width="" src="https://telegra.ph/file/33e6dd7dd6f4f26401e2a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
