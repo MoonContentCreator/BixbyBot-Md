@@ -21,7 +21,7 @@
 
  </p> 
  <p align="center"> 
- <img width="" src="https://telegra.ph/file/33e6dd7dd6f4f26401e2a.jpg?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+ <img width="" src="https://telegra.ph/file/53876cbad328d8cf55bac.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
 
 
