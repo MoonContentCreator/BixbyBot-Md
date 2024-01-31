@@ -29,7 +29,7 @@ let prova = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@br
 }}, "participant": "0@s.whatsapp.net"
 }
 let info = `
-══════ •⊰✧⊱• ══════
+══════ •⊰✦⊱• ══════
 𝐂𝐨𝐦𝐚𝐧𝐝𝐢 𝐩𝐞𝐫 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐫𝐞
 ✧ cd
 ✧ termux-setup-storage
@@ -49,7 +49,7 @@ let info = `
 
 𝐒𝐜𝐚𝐫𝐢𝐜𝐚𝐫𝐞 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 𝐝𝐞𝐥 𝐛𝐨𝐭 📱
 ✧ cd /sdcard && rm -rf BixbyBot-Md && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md && npm start
-══════ •⊰✧⊱• ══════
+══════ •⊰✦⊱• ══════
 `.trim() 
 conn.reply(m.chat, info,prova, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
