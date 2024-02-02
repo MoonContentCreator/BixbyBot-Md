@@ -61,7 +61,7 @@ global.author = '𝐌𝐝'
 
 //════════════ •⊰✧⊱• ════════════
 
-global.vs = '𝟐.𝟎'
+global.vs = '𝟐.𝟏'
 
 global.nomebot = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
 
