@@ -44,12 +44,13 @@ export async function handler(chatUpdate) {
                 global.db.data.users[m.sender] = {}
             if (user) {
                 if (!isNumber(user.messaggi)) user.messaggi = 0
+                if (!isNumber(user.blasphemy)) user.blasphemy = "𝐍𝐞𝐬𝐬𝐮𝐧𝐚"
                 if (!isNumber(user.msg)) user.msg = {}
                 if (!isNumber(user.exp)) user.exp = 0
                 if (!isNumber(user.money)) user.money = 0 
                 if (!isNumber(user.warn)) user.warn = 0
                 if (!isNumber(user.joincount)) user.joincount = 2   
-                if (!isNumber(user.limit)) user.limit = 20    	       
+                if (!isNumber(user.limit)) user.limit = 20                   
                 if (!('name' in user)) user.name = m.name
                 if (!('muto' in user)) user.muto = false
             } else
@@ -78,9 +79,10 @@ export async function handler(chatUpdate) {
                 if (!('antiviewonce' in chat)) chat.antiviewonce = false
                 if (!('antiTraba' in chat)) chat.antiTraba = true
                 if (!('antiArab' in chat)) chat.antiArab = true
-		        if (!('modoadmin' in chat)) chat.modoadmin = false
+                        if (!('modoadmin' in chat)) chat.modoadmin = false
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
+                if (!isNumber(user.blasphemy)) user.bestemmie = 0
                 if (!('name' in chat)) chat.name = m.name
                 if (!('name' in chat)) chat.name = this.getName(m.chat)
             } else
@@ -110,10 +112,11 @@ antiSpam: false,
                     antiToxic: false,
                     antiTraba: true,
                     antiArab: true,
-	                modoadmin: false,
-	                muto: false,
+                        modoadmin: false,
+                        muto: false,
                     expired: 0,
                     messaggi: 0,
+                    bestemmie: 0,
                     money: 0, 
                     warn: 0,
                     name: m.name,
@@ -126,14 +129,14 @@ antiSpam: false,
                 if (!('restrict' in settings)) settings.restrict = true
                 if (!('antiCall' in settings)) settings.antiCall = true
                 if (!('antiPrivate' in settings)) settings.antiprivato = true
-	        if (!('modejadibot' in settings)) settings.modejadibot = true   
+                if (!('modejadibot' in settings)) settings.modejadibot = true   
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: false,
                 restrict: true,
                 antiCall: true,
                 antiPrivate: true,
-	        modejadibot: true,
+                modejadibot: true,
             }
         } catch (e) {
             console.error(e)
@@ -278,11 +281,11 @@ antiSpam: false,
                     if (name != 'owner-unbanuser.js' && user?.banned)
                         return
                 }
-	        let hl = _prefix 
+                let hl = _prefix 
                 let adminMode = global.db.data.chats[m.chat].modoadmin
                 let mystica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugin.command}`
                 if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && mystica) return   
-		    
+
                 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
                     fail('owner', m, this)
                     continue
@@ -397,7 +400,7 @@ antiSpam: false,
                     if (m.limit)
                         m.reply(+m.limit + ' diamante usato')
                                  } 
-  
+
                  break 
             }
         }
@@ -465,7 +468,7 @@ remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
         }
         if (opts['autoread'])
             await this.readMessages([m.key])
-        
+
     }
 }
 
@@ -506,8 +509,7 @@ this.sendMessage(id, { text: text,
  "thumbnailUrl": ``, 
  "thumbnail": apii.data,
  "sourceUrl": `https://whatsapp.com/channel/0029Va8SHGnId7nJi8Zdnz3x`, 
-  "mediaType": 1, 
- "showAdAttribution": true}}}) 
+  "mediaType": 1}}}) 
                              //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] })           
                     } 
                  } 
