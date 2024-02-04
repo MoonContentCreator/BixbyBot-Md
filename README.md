@@ -18,6 +18,10 @@
  <a href="https://chat.whatsapp.com/DrnPDROIs6W8ZGCLPvKL0t" target="_blank"><img src="https://img.shields.io/badge/Gruppo Bot-%808080.svg?&style=flat-square&logo=whatsapp&logoColor=white" alt="Whatsapp"></a> 
  <a href="https://wa.me/393716229204?text=.menu" target="_blank"><img src="https://img.shields.io/badge/BixbyBot-official-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a> 
 
+</p> 
+ <p align="center"> 
+ <img width="" src="https://telegra.ph/file/c31a290ce6bb4e5ce63cd.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+ </p> 
 
  </p> 
  <p align="center"> 
