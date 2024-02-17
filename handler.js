@@ -44,13 +44,18 @@ export async function handler(chatUpdate) {
                 global.db.data.users[m.sender] = {}
             if (user) {
                 if (!isNumber(user.messaggi)) user.messaggi = 0
-                if (!isNumber(user.blasphemy)) user.blasphemy = "𝐍𝐞𝐬𝐬𝐮𝐧𝐚"
+                if (!isNumber(user.blasphemy)) user.blasphemy = 0
                 if (!isNumber(user.msg)) user.msg = {}
                 if (!isNumber(user.exp)) user.exp = 0
                 if (!isNumber(user.money)) user.money = 0 
                 if (!isNumber(user.warn)) user.warn = 0
                 if (!isNumber(user.joincount)) user.joincount = 2   
-                if (!isNumber(user.limit)) user.limit = 20                   
+                if (!isNumber(user.limit)) user.limit = 20
+                if (!('premium' in user)) user.premium = false
+                if (!isNumber(user.premiumDate)) user.premiumDate = -1
+                if (!isNumber(user.tprem)) user.tprem = 0
+                if (!user.premium) user.premium = false
+                if (!user.premium) user.premiumTime = 0
                 if (!('name' in user)) user.name = m.name
                 if (!('muto' in user)) user.muto = false
             } else
@@ -82,7 +87,7 @@ export async function handler(chatUpdate) {
                         if (!('modoadmin' in chat)) chat.modoadmin = false
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
-                if (!isNumber(user.blasphemy)) user.bestemmie = 0
+                if (!isNumber(user.blasphemy)) user.blasphemy = 0
                 if (!('name' in chat)) chat.name = m.name
                 if (!('name' in chat)) chat.name = this.getName(m.chat)
             } else
@@ -116,7 +121,10 @@ antiSpam: false,
                         muto: false,
                     expired: 0,
                     messaggi: 0,
-                    bestemmie: 0,
+                    blasphemy: 0,
+                    premium: false,
+                    premiumTime: 0,
+                    tprem: 0,
                     money: 0, 
                     warn: 0,
                     name: m.name,
@@ -157,7 +165,7 @@ antiSpam: false,
         const isROwner = [conn.decodeJid(global.conn.user.id), ...global.owner.map(([number]) => number)].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const isOwner = isROwner || m.fromMe
         const isMods = isOwner || global.mods.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-        const isPrems = isROwner || global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const isPrems = isROwner || isOwner || isMods || global.db.data.users[m.sender].premiumTime > 0; // || global.db.data.users[m.sender].premium = 'true'
 
         if (opts['queque'] && m.text && !(isMods || isPrems)) {
             let queque = this.msgqueque, time = 1000 * 5
