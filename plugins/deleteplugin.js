@@ -16,7 +16,6 @@ const handler = async (m, { conn, usedPrefix: _p, __dirname, args, text }) => {
 handler.help = ['deleteplugin', 'deleteplugin'];
 handler.tags = ['owner'];
 handler.command = /^(deleteplugin|dp|deleteplu)$/i;
-
 handler.rowner = true;
 
 export default handler;
