@@ -432,13 +432,19 @@ delete: {
 remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
 }})
 }
-            if (m.sender && (user = global.db.data.users[m.sender]) && (chat = global.db.data.chats[m.chat])) {
-                user.exp += m.exp
-                user.limit -= m.limit * 1
-                user.money -= m.money * 1 
-                user.messaggi +=1
-                chat.messaggi +=1
-            }
+            if (m.sender && m.sender !== conn.user.jid && (user = global.db.data.users[m.sender]) && (chat = global.db.data.chats[m.chat])) {
+
+    user.exp += m.exp;
+
+    user.limit -= m.limit * 1;
+
+    user.money -= m.money * 1;
+
+    user.messaggi += 1;
+
+    chat.messaggi += 1;
+
+}
 
             let stat
             if (m.plugin) {
