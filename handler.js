@@ -74,7 +74,8 @@ export async function handler(chatUpdate) {
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
                 if (!('delete' in chat)) chat.delete = true    
-                if (!('gpt' in chat)) chat.gpt = false                    
+                if (!('gpt' in chat)) chat.gpt = false
+                if (!('bestemmiometro' in chat)) chat.bestemmiometro = true                  
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antiinsta' in chat)) chat.antiinsta = false
                 if (!('antitiktok' in chat)) chat.antitiktok = false
@@ -87,7 +88,7 @@ export async function handler(chatUpdate) {
                         if (!('modoadmin' in chat)) chat.modoadmin = false
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
-                if (!isNumber(user.blasphemy)) user.blasphemy = 0
+                if (!isNumber(chat.blasphemy)) chat.blasphemy = 0
                 if (!('name' in chat)) chat.name = m.name
                 if (!('name' in chat)) chat.name = this.getName(m.chat)
             } else
@@ -103,6 +104,7 @@ export async function handler(chatUpdate) {
                     delete: true,
                     modohorny: false,
                     gpt: true,
+                    bestemmiometro: true,
                     audios: false,
                     antiLinkfast: true,
                     antiLink: true,
