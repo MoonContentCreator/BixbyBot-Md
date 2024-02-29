@@ -1,7 +1,7 @@
 { 
    "name": "Bixby-Bot-MD", 
-   "version": "1.9", 
-   "description": "Subs. al canal de YT The Shadow Borkers - TEAM", 
+   "version": "2.2", 
+   "description": "Nada", 
    "main": "index.js", 
    "type": "module", 
    "directories": { 
@@ -16,19 +16,19 @@
      "eslint": "eslint .", 
      "eslintfix": "eslint --fix ." 
    }, 
-   "homepage": "https://github.com/BrunoSobrino/TheMystic-Bot-MD", 
+   "homepage": "https://github.com/MoonContentCreator/BixbyBot-Md", 
    "author": { 
-     "name": "BrunoSobrino" 
+     "name": "MoonContentCreator" 
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git" 
+     "url": "git+https://github.com/MoonContentCreator/BixbyBot-Md.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues" 
+     "url": "https://github.com/MoonContentCreator/BixbyBot-Md/issues" 
    }, 
-   "license": "GPL-3.0-or-later", 
-    "dependencies": {
+     "license": "GPL-3.0-or-later",
+  "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^4.2.4",
     "@brandond/findthelyrics": "^2.0.5",
@@ -51,6 +51,7 @@
     "express": "^4.17.3",
     "fb-downloader-scrapper": "^1.0.1",
     "file-type": "^17.1.1",
+    "fluid-spotify.js": "*",
     "fluent-ffmpeg": "^2.1.2",
     "formdata-node": "^4.3.2",
     "fs": "^0.0.1-security",
@@ -82,6 +83,7 @@
     "readline": "^1.3.0",
     "similarity": "^1.2.1",
     "socket.io": "^4.4.1",
+    "sanzy-spotifydl": "*",
     "syntax-error": "^1.4.0",
     "terminal-image": "^2.0.0",
     "url-regex-safe": "^3.0.0",
