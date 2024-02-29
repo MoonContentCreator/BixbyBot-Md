@@ -310,10 +310,7 @@
 --------- 
 
  ## `✧ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
- <!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/fabri115"><img src="https://github.com/fabri115.png?size=100" width="100px;" alt=""/><br /><sub><b>Fabri</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
-    <td align="center"><a href="https://github.com/GataNina-Li"><img src="https://github.com/gatanina-li.png?size=100" width="100px;" alt=""/><br /><sub><b>Gata Dios</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
-    <td align="center"><a href="https://github.com/AzamiJs"><img src="https://github.com/azamijs.png? size=100" width="100px;" alt=""/><br /><sub> <b>Azami</b></sub></a><br /><sub><i>Sviluppatore Ufficiale</i></sub></td>
+ [![Fabri115](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
+[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
+[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
+[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
