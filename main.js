@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MysticSession`;
+global.authFile = `Sessioni`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -129,12 +129,12 @@ opcion = '1'
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
 let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question('[ ℹ️ ] Seleccione una opción:\n1. Con código QR\n2. Con código de texto de 8 dígitos\n---> ')
+opcion = await question(`ⓘ 𝐒𝐞𝐥𝐞𝐳𝐢𝐨𝐧𝐚 𝐮𝐧𝐚 𝐨𝐩𝐳𝐢𝐨𝐧𝐞 𝐩𝐞𝐫 𝐜𝐨𝐥𝐥𝐞𝐠𝐚𝐫𝐞 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭 :\n1. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐐𝐑\n2. 𝐓𝐫𝐚𝐦𝐢𝐭𝐞 𝐜𝐨𝐝𝐢𝐜𝐞 𝐚 𝟖 𝐜𝐢𝐟𝐫𝐞 \n---> `)
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
 if (!/^[1-2]$/.test(opcion)) {
-console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
+console.log(`ⓘ 𝐒𝐞𝐥𝐞𝐳𝐢𝐨𝐧𝐚 𝐬𝐨𝐥𝐨 𝟏 𝐨 𝟐.\n`)
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
@@ -170,23 +170,23 @@ if (opcion === '2' || methodCode) {
 //}
 opcion = '2'
 if (!conn.authState.creds.registered) {  
-if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+if (MethodMobile) throw new Error(`Impossibile utilizzare un codice di accoppiamento con l'API mobile`)
 
 let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: +5219992095479\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright(`𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐢𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐢 𝐭𝐞𝐥𝐞𝐟𝐨𝐧𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩\n𝐄𝐬𝐞𝐦𝐩𝐢𝐨: +39 333 333 3333\n`)))
 }}
 rl.close()  
 } 
@@ -194,8 +194,8 @@ rl.close()
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            console.log(chalk.yellow('[ ℹ️ ] introduce el código de emparejamiento en WhatsApp.'));
-            console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.black(chalk.white(codigo)))
+            console.log(chalk.yellow('ⓘ 𝐂𝐨𝐥𝐥𝐞𝐠𝐚 𝐢𝐥 𝐭𝐮𝐨 𝐛𝐨𝐭 𝐜𝐨𝐧 𝐢𝐥 𝐬𝐞𝐠𝐮𝐞𝐧𝐭𝐞 𝐜𝐨𝐝𝐢𝐜𝐞'));
+            console.log(chalk.black(chalk.bgGreen(`🔮𝐄𝐂𝐂𝐎 𝐈𝐋 𝐓𝐔𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 : `)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
 }
@@ -247,13 +247,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MysticSession")
+let directorio = readdirSync("./Sessioni")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MysticSession/${files}`)
+unlinkSync(`./Sessioni/${files}`)
 })
 } 
 
@@ -274,11 +274,11 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`[ ℹ️ ] Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`ⓘ Qualcosa è andato storto durante l'eliminazione, file non eliminati `))
 }}
 
 function purgeOldFiles() {
-const directories = ['./MysticSession/', './jadibts/']
+const directories = ['./Sessioni/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -318,7 +318,7 @@ if (opcion == '1' || methodCodeQR) {
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./MysticSession/" + "creds.json")
+await fs.unlinkSync("./Sessioni/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
@@ -521,28 +521,28 @@ async function _quickTest() {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const a = await clearTmp();
- console.log(chalk.cyanBright(`\n▣───────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁TMP ]──────────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣───────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n▣───────────[ AUTOCLEARTMP ]──────────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣───────────────────────────────────────···\n`));
 }, 180000);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
- console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
- console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeOldFiles();
- console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ ARCHIVOS ELIMINADOS ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 Ꮻ𝐍𝐋𝕀𝐍𝚵 𝐃𝚲 ${uptime} `
+  const bio = `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐨𝐧𝐥𝐢𝐧𝐞 𝐝𝐚 ${uptime} `
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
@@ -550,6 +550,6 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [d, ' 𝐆𝕀Ꮻ𝐑𝐍𝕀 ️', h, ' Ꮻ𝐑𝚵 ', m, ' 𝐌𝕀𝐍𝐔𝐓𝕀 ', s, ' 𝐒𝚵𝐂Ꮻ𝐍𝐃𝕀 '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [d, ' 𝐆𝐢𝐨𝐫𝐧𝐢 ️', h, ' 𝐎𝐫𝐞 ', m, ' 𝐌𝐢𝐧𝐮𝐭𝐢 ', s, ' 𝐒𝐞𝐜𝐨𝐧𝐝𝐢 '].map((v) => v.toString().padStart(2, 0)).join('');
 }
 _quickTest().catch(console.error);
