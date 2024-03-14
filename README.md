@@ -191,7 +191,7 @@
  > cd BixbyBot-Md 
  ``` 
  ```bash 
- > rm MysticSession 
+ > rm Sessioni 
  ``` 
  ```bash 
  > sh start.sh 
