@@ -57,41 +57,6 @@
  ### `✧ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
  https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
 
- ### `✧ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐓𝐄𝐑𝐌𝐔𝐗 `  
-
- Comandi termux di base, necessari per l'avvio del bot: 
-
- -_1 COMANDO : 
-
- termux-change-repo 
-
- Conferma, segna la terza casella e conferma e continua > 
-
- -_2 COMANDO : 
-
- apt-get upgrade 
-
- Dovrai digitare y e confermare ogni volta che lo chiedi. 
-
- -_3 COMANDO : 
-
- apt-get update 
-
- Dovrai digitare y e confermare ogni volta che lo chiedi. 
-
- -_4 Comando : 
-
- pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install git -y 
-
- -_5 COMANDO : 
-
- termux-setup-storage 
-
- e conferma. 
-
- ----_- 
-
-
  ### `✧ 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐑𝐄 𝐋𝐀 𝐂𝐀𝐑𝐓𝐄𝐋𝐋𝐀 𝐃𝐈 𝐁𝐢𝐱𝐛𝐲🔮` 
  ```bash 
  cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md && sh start.sh  
