@@ -1,4 +1,4 @@
-import gtts from 'node-gtts'
+/*import gtts from 'node-gtts'
 import { readFileSync, unlinkSync } from 'fs'
 import { join } from 'path'
 const defaultLang = 'es'
@@ -36,4 +36,4 @@ resolve(readFileSync(filePath))
 unlinkSync(filePath)
 })
 } catch (e) { reject(e) }
-})}
+})}*/
