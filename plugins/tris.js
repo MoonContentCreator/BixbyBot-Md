@@ -1,4 +1,4 @@
-/*import TicTacToe from '../lib/tictactoe.js'
+import TicTacToe from '../lib/tictactoe.js'
 let handler = async (m, { conn, usedPrefix, command, text }) => {
 conn.game = conn.game ? conn.game : {}
 if (Object.values(conn.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '*[❗] _STAI GIA GIOCANDO CON QUALCUNO_*'
@@ -61,4 +61,4 @@ conn.reply(m.chat, `══════ •⊰✧⊱• ══════
 conn.game[room.id] = room
 }}
 handler.command = /^(entra|tris|ttt|xo)$/i
-export default handler*/
+export default handler
