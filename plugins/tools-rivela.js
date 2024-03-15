@@ -1,4 +1,4 @@
-let { downloadContentFromMessage } = (await import('@whiskeysockets/baileys'));
+/*let { downloadContentFromMessage } = (await import('@whiskeysockets/baileys'));
 
 let handler = async (m, { conn }) => {
     if (!m.quoted) throw '𝐑𝐢𝐬𝐩𝐨𝐧𝐝𝐢 𝐚 𝐮𝐧𝐚 𝐟𝐨𝐭𝐨¹'
@@ -20,4 +20,4 @@ let handler = async (m, { conn }) => {
 handler.help = ['readvo']
 handler.tags = ['tools']
 handler.command = ['readviewonce', 'nocap', 'rivela', 'readvo'] 
-export default handler
+export default handler*/
