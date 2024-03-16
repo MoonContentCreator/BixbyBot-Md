@@ -154,10 +154,10 @@
 
  ### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
 
- * Download And Install Git [`Click Here`](https://git-scm.com/downloads) 
- * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download) 
- * Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**) 
- * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) 
+ * Scarica e installa Git [`Fai clic qui`](https://git-scm.com/downloads) 
+ * Scarica e installa NodeJS [`Fai clic qui`](https://nodejs.org/en/download) 
+ * Scarica e installa ffmpeg [`Fai clic qui`](https://ffmpeg.org/download.html) (**Non dimenticare Aggiungi ffmpeg alle variabili PATH**) 
+ * Scarica e installa ImageMagick [`Fai clic qui`](https://imagemagick.org/script/download.php) 
 
  ```bash 
  git clone https://github.com/MoonContentCreator/BixbyBot-Md 
