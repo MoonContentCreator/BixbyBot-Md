@@ -1,5 +1,5 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&pause=1000&width=435&lines=Bixby+Bot+Ediz+by+Dan;thanks+to+%40Fabri115)](https://git.io/typing-svg) 
-
+<p align="center">
+<a href="https://whatsapp.com/channel/0029Va8SHGnId7nJi8Zdnz3x"><img title="Author" src="https://img.shields.io/badge/Canale Ufficiale-black?style=for-the-badge&logo=whatsApp"></a>
 
    <p align="center"> 
  <a href="https://github.com/MoonContentCreator/followers"><img title="Followers" src="https://img.shields.io/github/followers/MoonContentCreator?color=red&style=flat-square"></a> 
