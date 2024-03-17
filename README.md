@@ -9,7 +9,6 @@
  <a href="https://github.com/MoonContentCreator/MoonContentCreator/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MoonContentCreator/BixbyBot-Md?label=Watcher'srepo&color=blue&style=flat-square"></a> 
  <a href="https://github.com/MoonContentCreator/BixbyBot-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a> 
  <a href="https://github.com/MoonContentCreator/AyGemuy/"><img title="Size" src="https://img.shields.io/github/repo-size/MoonContentCreator/BixbyBot-Md?style=flat-square&color=green"></a> 
- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMoonContentCreator%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> 
  <a href="https://github.com/MoonContentCreator/BixbyBot-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a 
  <img width="" src="https://img.shields.io/github/repo-size/MoonContentCreator/BixbyBot-Md?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
 
