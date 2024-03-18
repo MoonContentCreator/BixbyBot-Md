@@ -251,7 +251,7 @@ function purgeSession() {
 let prekey = []
 let directorio = readdirSync("./Sessioni")
 let filesFolderPreKeys = directorio.filter(file => {
-return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
+return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
@@ -266,7 +266,7 @@ let SBprekey = []
 listaDirectorios.forEach(directorio => {
 if (statSync(`./jadibts/${directorio}`).isDirectory()) {
 let DSBPreKeys = readdirSync(`./jadibts/${directorio}`).filter(fileInDir => {
-return fileInDir.startsWith('pre-key-') /*|| fileInDir.startsWith('app-') || fileInDir.startsWith('session-')*/
+return fileInDir.startsWith('pre-key-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys]
 DSBPreKeys.forEach(fileInDir => {
@@ -274,9 +274,9 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 }
 })
-if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
+if (SBprekey.length === 0) return;
 } catch (err) {
-console.log(chalk.bold.red(`ⓘ Qualcosa è andato storto durante l'eliminazione, file non eliminati `))
+console.log(chalk.bold.red(`ⓘ 𝐐𝐮𝐚𝐥𝐜𝐨𝐬𝐚 𝐞' 𝐚𝐧𝐝𝐚𝐭𝐨 𝐬𝐭𝐨𝐫𝐭𝐨 𝐝𝐮𝐫𝐚𝐧𝐭𝐞 𝐥'𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐳𝐢𝐨𝐧𝐞, 𝐟𝐢𝐥𝐞 𝐧𝐨𝐧 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢`))
 }}
 
 function purgeOldFiles() {
@@ -321,38 +321,35 @@ if (opcion == '1' || methodCodeQR) {
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./Sessioni/" + "creds.json")
-console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+console.log(chalk.bold.redBright(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐬𝐨𝐬𝐭𝐢𝐭𝐮𝐢𝐭𝐚, 𝐫𝐢𝐚𝐯𝐯𝐢𝐨 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...\n𝐒𝐞 𝐚𝐩𝐩𝐚𝐫𝐞 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫𝐞, 𝐫𝐢𝐜𝐨𝐦𝐢𝐧𝐜𝐢𝐚 𝐜𝐨𝐧: 𝐧𝐩𝐦 𝐬𝐭𝐚𝐫𝐭`)) 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`[ ⚠ ] Sessione errata, elimina la cartella ${global.authFile} ed esegui nuovamente la scansione.`);
+        conn.logger.error(`[ ⓘ ] 𝐒𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐞𝐫𝐫𝐚𝐭𝐚, 𝐞𝐥𝐢𝐦𝐢𝐧𝐚 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 ${global.authFile} 𝐞𝐝 𝐞𝐬𝐞𝐠𝐮𝐢 𝐧𝐮𝐨𝐯𝐚𝐦𝐞𝐧𝐭𝐞 𝐥𝐚 𝐬𝐜𝐚𝐧𝐬𝐢𝐨𝐧𝐞.`);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`[ ⚠ ] Connessione chiusa, riconnessione in corso...`);
+        conn.logger.warn(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐜𝐡𝐢𝐮𝐬𝐚, 𝐫𝐢𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`[ ⚠ ] Connessione persa al server, riconnessione in corso...`);
+        conn.logger.warn(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐩𝐞𝐫𝐬𝐚 𝐚𝐥 𝐬𝐞𝐫𝐯𝐞𝐫, 𝐫𝐢𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`[ ⚠ ] Connessione sostituita, è stata aperta un'altra nuova sessione. Per prima cosa disconnettiti dalla sessione corrente.`);
+        conn.logger.error(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐬𝐨𝐬𝐭𝐢𝐭𝐮𝐢𝐭𝐚, 𝐞' 𝐬𝐭𝐚𝐭𝐚 𝐚𝐩𝐞𝐫𝐭𝐚 𝐮𝐧'𝐚𝐥𝐭𝐫𝐚 𝐧𝐮𝐨𝐯𝐚 𝐬𝐞𝐬𝐬𝐢𝐨𝐧𝐞. 𝐏𝐞𝐫 𝐩𝐫𝐢𝐦𝐚 𝐜𝐨𝐬𝐚 𝐝𝐢𝐬𝐜𝐨𝐧𝐧𝐞𝐭𝐭𝐢𝐭𝐢 𝐝𝐚𝐥𝐥𝐚 𝐬𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐜𝐨𝐫𝐫𝐞𝐧𝐭𝐞.`);
         //process.exit();
     } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`[ ⚠ ] Connessione chiusa, elimina la cartella ${global.authFile} ed esegui nuovamente la scansione.`);
+        conn.logger.error(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐜𝐡𝐢𝐮𝐬𝐚, 𝐞𝐥𝐢𝐦𝐢𝐧𝐚 𝐥𝐚 𝐜𝐚𝐫𝐭𝐞𝐥𝐥𝐚 ${global.authFile} 𝐞𝐝 𝐞𝐬𝐞𝐠𝐮𝐢 𝐧𝐮𝐨𝐯𝐚𝐦𝐞𝐧𝐭𝐞 𝐥𝐚 𝐬𝐜𝐚𝐧𝐬𝐢𝐨𝐧𝐞.`);
         //process.exit();
     } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`[ ⚠ ] Riavvio richiesto, riavviare il server in caso di problemi.`);
+        conn.logger.info(`[ ⓘ ] 𝐑𝐢𝐚𝐯𝐯𝐢𝐨 𝐫𝐢𝐜𝐡𝐢𝐞𝐬𝐭𝐨, 𝐫𝐢𝐚𝐯𝐯𝐢𝐚𝐫𝐞 𝐢𝐥 𝐬𝐞𝐫𝐯𝐞𝐫 𝐢𝐧 𝐜𝐚𝐬𝐨 𝐝𝐢 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐢.`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.timedOut) {
-        conn.logger.warn(`[ ⚠ ] Connessione scaduta, riconnessione in corso...`);
+        conn.logger.warn(`[ ⓘ ] 𝐂𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐬𝐜𝐚𝐝𝐮𝐭𝐚, 𝐫𝐢𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...`);
         await global.reloadHandler(true).catch(console.error);
     } else {
-        conn.logger.warn(`[ ⚠ ] Motivo della disconnessione sconosciuto. ${reason || ''}: ${connection || ''}`);
+        conn.logger.warn(`[ ⓘ ] 𝐌𝐨𝐭𝐢𝐯𝐨 𝐝𝐞𝐥𝐥𝐚 𝐝𝐢𝐬𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢𝐨𝐧𝐞 𝐬𝐜𝐨𝐧𝐨𝐬𝐜𝐢𝐮𝐭𝐨. 𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚 𝐬𝐞 𝐢𝐥 𝐭𝐮𝐨 𝐧𝐮𝐦𝐞𝐫𝐨 𝐞' 𝐢𝐧 𝐛𝐚𝐧. ${reason || ''}: ${connection || ''}`);
         await global.reloadHandler(true).catch(console.error);
     }
 }
-  /*if (connection == 'close') {
-    console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
-  }*/
 }
 
 process.on('uncaughtException', console.error);
@@ -418,36 +415,6 @@ conn.sRevoke = '𝐥𝐢𝐧𝐤 𝐫𝐞𝐢𝐦𝐩𝐨𝐬𝐭𝐚𝐭𝐨, �
   isInit = false;
   return true;
 };
-
-/*
-
-const pluginFolder = join(__dirname, './plugins');
-const pluginFilter = filename => /\.js$/.test(filename);
-global.plugins = {};
-
-async function filesInit(folder) {
-  for (let filename of readdirSync(folder).filter(pluginFilter)) {
-    try {
-      let file = join(folder, filename);
-      const module = await import(file);
-      global.plugins[file] = module.default || module;
-    } catch (e) {
-      console.error(e);
-      delete global.plugins[filename];
-    }
-  }
-
-  for (let subfolder of readdirSync(folder)) {
-    const subfolderPath = join(folder, subfolder);
-    if (statSync(subfolderPath).isDirectory()) {
-      await filesInit(subfolderPath);
-    }
-  }
-}
-
-await filesInit(pluginFolder).then(_ => Object.keys(global.plugins)).catch(console.error);
-
-*/
 
 const pluginFolder = global.__dirname(join(__dirname, './plugins/index'));
 const pluginFilter = (filename) => /\.js$/.test(filename);
@@ -523,22 +490,22 @@ async function _quickTest() {
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const a = await clearTmp();
- console.log(chalk.cyanBright(`\n▣───────────[ AUTOCLEARTMP ]──────────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣───────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n✦ ───────────[ 𝐀𝐔𝐓𝐎𝐂𝐋𝐄𝐀𝐑𝐓𝐌𝐏 ]──────────────···\n│\n✦ ─ ⓘ 𝐀𝐫𝐜𝐡𝐢𝐯𝐢 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨. ✅\n│\n✦ ───────────────────────────────────────···\n`));
 }, 180000);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSession();
- console.log(chalk.cyanBright(`\n▣────────[ AUTOPURGESESSIONS ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n✦ ────────[ 𝐀𝐔𝐓𝐎𝐏𝐔𝐑𝐆𝐄𝐒𝐄𝐒𝐒𝐈𝐎𝐍𝐒 ]───────────···\n│\n✦ ─ ⓘ 𝐀𝐫𝐜𝐡𝐢𝐯𝐢 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨. ✅\n│\n✦ ────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeSessionSB();
- console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_SESSIONS_SUB-BOTS ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n✦ ────────[ 𝐀𝐔𝐓𝐎_𝐏𝐔𝐑𝐆𝐄_𝐒𝐄𝐒𝐒𝐈𝐎𝐍𝐒_𝐒𝐔𝐁-𝐁𝐎𝐓𝐒]───────────···\n│\n✦ ─ ⓘ 𝐀𝐫𝐜𝐡𝐢𝐯𝐢 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨. ✅\n│\n✦ ────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   await purgeOldFiles();
- console.log(chalk.cyanBright(`\n▣────────[ AUTO_PURGE_OLDFILES ]───────────···\n│\n▣─❧ Archivi eliminati con successo. ✅\n│\n▣────────────────────────────────────···\n`));
+ console.log(chalk.cyanBright(`\n✦ ────────[ 𝐀𝐔𝐓𝐎_𝐏𝐔𝐑𝐆𝐄_𝐎𝐋𝐃𝐅𝐈𝐋𝐄𝐒 ]───────────···\n│\n✦ ─ ⓘ 𝐀𝐫𝐜𝐡𝐢𝐯𝐢 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐢 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨. ✅\n│\n✦ ────────────────────────────────────···\n`));
 }, 1000 * 60 * 60);
 setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
