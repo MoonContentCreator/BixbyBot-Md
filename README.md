@@ -102,7 +102,6 @@
  ### `✦ 𝐀𝐕𝐕𝐈𝐀 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗` 
 
  DIGITA QUESTI COMANDI: 
- ```
  ```bash 
  > cd /sdcard/BixbyBot-Md 
  ``` 
