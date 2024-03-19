@@ -164,7 +164,7 @@
  > cd  
  ``` 
  ```bash 
- > cd BixbyBot-Md 
+ > cd /sdcard/BixbyBot-Md 
  ``` 
  ```bash 
  > rm Sessioni 
