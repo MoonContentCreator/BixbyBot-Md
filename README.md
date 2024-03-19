@@ -69,11 +69,7 @@
 
  ```bash 
  pkg install git -y 
- ``` 
-
- ```bash 
- pkg install nodejs -y   
- ``` 
+ ```
 
  ```bash 
  pkg install ffmpeg -y 
@@ -96,32 +92,22 @@
  ```   
 
  ```bash 
- yarn install 
+ yarn
  ``` 
 
  ```bash 
- npm install 
- ``` 
-
- ```bash 
- npm update 
- ``` 
-
- ```bash 
- sh start.sh 
+ npm start
  ``` 
 
  ### `✦ 𝐀𝐕𝐕𝐈𝐀 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐈𝐍 𝐓𝐄𝐑𝐌𝐔𝐗` 
 
  DIGITA QUESTI COMANDI: 
+ ```
  ```bash 
- > cd  
+ > cd /sdcard/BixbyBot-Md 
  ``` 
  ```bash 
- > cd BixbyBot-Md 
- ``` 
- ```bash 
- > sh start.sh 
+ > npm start
  ``` 
 
  ### `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 𝐓𝐄𝐑𝐌𝐔𝐗` 
@@ -133,17 +119,15 @@
  ### `✦ 𝐎𝐓𝐓𝐈𝐄𝐍𝐈 𝐔𝐍 𝐀𝐋𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐂𝐄 𝐐𝐑 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 ` 
 
  DIGITA QUESTI COMANDI: 
- ```bash 
- > cd  
  ``` 
  ```bash 
- > cd BixbyBot-Md 
+ > cd /sdcard/BixbyBot-Md 
  ``` 
  ```bash 
- > rm -rf MysticSession 
+ > rm -rf Sessioni 
  ``` 
  ```bash 
- > sh start.sh 
+ > npm start
  ``` 
 
  ### `𝐅𝐎𝐑 𝐖𝐈𝐍𝐃𝐎𝐖𝐒/𝐕𝐏𝐒/𝐑𝐃𝐏 𝐔𝐒𝐄𝐑` 
