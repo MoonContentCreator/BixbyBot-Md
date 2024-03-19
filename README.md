@@ -53,7 +53,7 @@
 
  ### `✦ 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐄𝐑 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐑𝐄 𝐋𝐀 𝐂𝐀𝐑𝐓𝐄𝐋𝐋𝐀 𝐃𝐈 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮` 
  ```bash 
- cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md && sh start.sh  
+ cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git && cd BixbyBot-Md
  ``` 
  COPIALO TUTTO E INCOLLALO SU TERMUX, NON COPIARE MEZZA O UNA COSA, E' TUTTO INSIEME 
 
