@@ -188,4 +188,4 @@
  [![Fabri115](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
 [![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
-[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21)
+[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot)
