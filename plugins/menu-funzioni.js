@@ -24,9 +24,7 @@ const { antiToxic, antilinkhard, antiPrivate, antitraba, antiArab, antiviewonce,
 let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
 }, "message": { 
 "locationMessage": { name: `𝐌𝐞𝐧𝐮 𝐝𝐞𝐥𝐥𝐞 𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚'`,
-"jpegThumbnail": await (await fetch('https://telegra.ph/file/a756c4fa50e820ccbdc2f.jpg')).buffer(),
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=19709001746:+1 (970) 900-1746\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
-}}, "participant": "0@s.whatsapp.net"
+"jpegThumbnail": await (await fetch('https://telegra.ph/file/a756c4fa50e820ccbdc2f.jpg')).buffer(),}}, "participant": "0@s.whatsapp.net"
 }
 let text = `
 ══════ •⊰✦‌⊱• ══════
