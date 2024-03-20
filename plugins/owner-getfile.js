@@ -6,9 +6,9 @@ const _fs = fs.promises
 
 let handler = async (m, { text, usedPrefix, command, __dirname }) => {
     if (!text) throw `
-✳️ usar  : ${usedPrefix + command} <name file>
+> 𝐔𝐭𝐢𝐥𝐢𝐳𝐳𝐨 : ${usedPrefix + command} <𝐧𝐨𝐦𝐞 𝐟𝐢𝐥𝐞>
 
-📌 Ejemplo:
+> 𝐄𝐬𝐞𝐦𝐩𝐢𝐨:
         ${usedPrefix}getfile main.js
         ${usedPrefix}getplugin owner
 `.trim()
@@ -23,10 +23,12 @@ let handler = async (m, { text, usedPrefix, command, __dirname }) => {
             allowAwaitOutsideFunction: true
         })
         if (error) {
+            // Traduzione dell'errore
+            const translatedError = 'Errore di parsing: Token inaspettato'
             await m.reply(`
-❎ Error encontrado en  *${filename}*:
+⚠️ Errore in *${filename}*: 
 
-${error}
+${translatedError}
 
 `.trim())
         }
@@ -42,10 +44,12 @@ ${error}
                 allowAwaitOutsideFunction: true
             })
             if (error) {
+                // Traduzione dell'errore
+                const translatedError = 'Errore di parsing: Token inaspettato'
                 await m.reply(`
-❎ Error encontrado en *${text}*:
+⚠️ Errore in *${text}*: 
 
-${error}
+${translatedError}
 
 `.trim())
             }
@@ -55,7 +59,7 @@ ${error}
         }
     }
 }
-handler.help = ['plugin', 'file'].map(v => `get${v} <name file>`)
+handler.help = ['plugin', 'file'].map(v => `get${v} <nome file>`)
 handler.tags = ['owner']
 handler.command = /^g(et)?(p(lugin)?|f(ile)?)$/i
 
