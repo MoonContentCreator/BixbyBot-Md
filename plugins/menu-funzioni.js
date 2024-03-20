@@ -1,1 +1,65 @@
-function _0x3a5b(){const _0x486ba5=['endsWith','𝐬𝐨𝐥𝐨𝐩𝐫𝐢𝐯𝐚𝐭𝐨\x0a\x20','join','menu','14544035ITUyCd','3zfxlwd','data','𝐚𝐧𝐭𝐢𝐢𝐧𝐬𝐭𝐚\x0a\x20','settings','entries','@g.us','chat','20GAtJgJ','𝐚𝐧𝐭𝐢𝐭𝐫𝐚𝐯𝐚\x0a\x20','𝐚𝐧𝐭𝐢𝐭𝐢𝐤𝐭𝐨𝐤\x0a\x20','113093XDrEAm','chats','getName','4455934SgNplS','BEGIN:VCARD\x0aVERSION:3.0\x0aN:;Unlimited;;;\x0aFN:Unlimited\x0aORG:Unlimited\x0aTITLE:\x0aitem1.TEL;waid=19709001746:+1\x20(970)\x20900-1746\x0aitem1.X-ABLabel:Unlimited\x0aX-WA-BIZ-DESCRIPTION:ofc\x0aX-WA-BIZ-NAME:Unlimited\x0aEND:VCARD','\x0a══════\x20•⊰✦‌⊱•\x20══════\x0a\x20','𝐚𝐧𝐭𝐢𝐩𝐚𝐤𝐢\x0a\x20','5059998bLToxr','𝐠𝐩𝐭\x0a\x20','𝐝𝐞𝐭𝐞𝐜𝐭\x0a\x20','trim','filter','6350514RHHltL','memoryUsage','\x20•\x20','keys','isChats','toString','𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤\x0a\x20','https://telegra.ph/file/2f38b3fd9cfba5935b496.jpg','8UQBTrr','padStart','uptime','command','𝐝𝐢𝐬𝐚𝐛𝐢𝐥𝐢𝐭𝐚\x20𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤\x0a════════════════\x0a✦\x20𝐈𝐍𝐅𝐎\x20𝐒𝐔𝐋𝐋𝐎\x20𝐒𝐓𝐀𝐓𝐎\x0a✦⃟ᗒ\x20','help','291268slAeMB','𝐚𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚\x0a════════════════\x0a✦\x20𝐔𝐒𝐎\x20𝐃𝐄𝐋\x20𝐂𝐎𝐌𝐀𝐍𝐃𝐎\x0a✦⃟ᗒ\x20','./no.png','tags','𝐚𝐧𝐭𝐢𝐜𝐚𝐥𝐥\x0a\x20','users','user','length','map','6600348McHity','reply','floor','jid','𝐬𝐨𝐥𝐨𝐠𝐫𝐮𝐩𝐩𝐨\x0a\x20','𝐜𝐨𝐦𝐚𝐧𝐝𝐢𝐞𝐬𝐞𝐠𝐮𝐢𝐭𝐢\x0a\x20','𝐛𝐚𝐧𝐠𝐩\x0a\x20','𝐛𝐞𝐬𝐭𝐞𝐦𝐦𝐢𝐨𝐦𝐞𝐭𝐫𝐨\x0a\x20','now','Halo','𝐦𝐨𝐝𝐨𝐚𝐝𝐦𝐢𝐧\x0a\x20','5lYubRJ'];_0x3a5b=function(){return _0x486ba5;};return _0x3a5b();}const _0x5f3788=_0x4a91;(function(_0x4f68b7,_0x15e79d){const _0x54b57e=_0x4a91,_0x1f7988=_0x4f68b7();while(!![]){try{const _0x569d5e=-parseInt(_0x54b57e(0xda))/0x1+parseInt(_0x54b57e(0xf4))/0x2*(parseInt(_0x54b57e(0xd0))/0x3)+-parseInt(_0x54b57e(0xfd))/0x4+parseInt(_0x54b57e(0xca))/0x5*(parseInt(_0x54b57e(0xe6))/0x6)+-parseInt(_0x54b57e(0xdd))/0x7+-parseInt(_0x54b57e(0xee))/0x8*(parseInt(_0x54b57e(0xe1))/0x9)+-parseInt(_0x54b57e(0xd7))/0xa*(-parseInt(_0x54b57e(0xcf))/0xb);if(_0x569d5e===_0x15e79d)break;else _0x1f7988['push'](_0x1f7988['shift']());}catch(_0x26e7e1){_0x1f7988['push'](_0x1f7988['shift']());}}}(_0x3a5b,0xd86bb));import _0x5c7f0c from'os';import _0x4723e2 from'util';import _0xf838d7 from'human-readable';import _0x37a162 from'@whiskeysockets/baileys';import _0x13786a from'fs';function _0x4a91(_0x5d4196,_0x4b11e8){const _0x3a5ba9=_0x3a5b();return _0x4a91=function(_0x4a916d,_0x567c26){_0x4a916d=_0x4a916d-0xc6;let _0x3f5a03=_0x3a5ba9[_0x4a916d];return _0x3f5a03;},_0x4a91(_0x5d4196,_0x4b11e8);}import{performance}from'perf_hooks';let handler=async(_0x3dea4e,{conn:_0x14d321,usedPrefix:_0x3f26ef})=>{const _0x32cb94=_0x4a91;let _0x5c207a=process[_0x32cb94(0xf0)]()*0x3e8,_0x3a56f2=clockString(_0x5c207a),_0x21ddeb=Object[_0x32cb94(0xe9)](global['db'][_0x32cb94(0xd1)][_0x32cb94(0xf9)])[_0x32cb94(0xfb)];const _0x3f38dd=Object[_0x32cb94(0xd4)](_0x14d321[_0x32cb94(0xdb)])[_0x32cb94(0xe5)](([_0x31c189,_0xb4fec6])=>_0x31c189&&_0xb4fec6[_0x32cb94(0xea)]),_0x682639=_0x3f38dd[_0x32cb94(0xe5)](([_0x4fbbca])=>_0x4fbbca['endsWith'](_0x32cb94(0xd5))),_0x956ebd=_0x3f38dd['filter'](([_0x510d03])=>_0x510d03[_0x32cb94(0xcb)](_0x32cb94(0xd5))),_0x536da6=process[_0x32cb94(0xe7)](),{restrict:_0x21c237}=global['db'][_0x32cb94(0xd1)][_0x32cb94(0xd3)][_0x14d321[_0x32cb94(0xfa)][_0x32cb94(0x100)]]||{},{autoread:_0xd7735}=global['opts'],_0x194ad6=_0x32cb94(0xf6);let _0xf89156=performance[_0x32cb94(0xc7)](),_0x11c0ce=performance['now'](),_0x4e6ab7=_0x11c0ce-_0xf89156,_0x1a9c37=await _0x14d321[_0x32cb94(0xdc)](_0x3dea4e['sender']);const {antiToxic:_0x272bc5,antilinkhard:_0x5c5a98,antiPrivate:_0x1138ad,antitraba:_0x2836b9,antiArab:_0x308322,antiviewonce:_0x49cc54,isBanned:_0x3732ac,welcome:_0x152fed,detect:_0x1ea607,sWelcome:_0x2c25dd,sBye:_0x3f6185,sPromote:_0x16abfb,sDemote:_0x538ca8,antiLink:_0x36913a,antilinkbase:_0x554ce2,antitiktok:_0x44582c,sologruppo:_0x3daaed,soloprivato:_0x346d4c,antiCall:_0x684f69,modohorny:_0x227c2b,gpt:_0x1e2c12,antiinsta:_0x491d41,antielimina:_0x201f22,antitelegram:_0x5de154,antiSpam:_0x47dd22,autosticker:_0x27f701,bestemmiometro:_0xce2ff1,comandieseguiti:_0x1117c2,modoadmin:_0x5280e0,audios:_0x2d297c,delete:_0x3b4574}=global['db'][_0x32cb94(0xd1)][_0x32cb94(0xdb)][_0x3dea4e[_0x32cb94(0xd6)]];let _0x348f88={'key':{'participants':'0@s.whatsapp.net','fromMe':![],'id':_0x32cb94(0xc8)},'message':{'locationMessage':{'name':'𝐌𝐞𝐧𝐮\x20𝐝𝐞𝐥𝐥𝐞\x20𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚\x27','jpegThumbnail':await(await fetch(_0x32cb94(0xed)))['buffer'](),'vcard':_0x32cb94(0xde)}},'participant':'0@s.whatsapp.net'},_0x1655bc=(_0x32cb94(0xdf)+(_0x1ea607?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xe3)+(_0x1e2c12?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xe2)+(_0x1117c2?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0x102)+(_0xce2ff1?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xc6)+(_0x152fed?'✓':'☓')+'\x20•\x20'+_0x3f26ef+'𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨\x0a\x20'+(_0x3daaed?'✓':'☓')+'\x20•\x20'+_0x3f26ef+_0x32cb94(0x101)+(_0x346d4c?'✓':'☓')+'\x20•\x20'+_0x3f26ef+_0x32cb94(0xcc)+(_0x5280e0?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xc9)+(_0x3732ac?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0x103)+(_0x684f69?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xf8)+(_0x2836b9?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xd8)+(_0x308322?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xe0)+(_0x36913a?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xec)+(_0x491d41?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xd2)+(_0x44582c?'✓':'☓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xd9)+(_0x3b4574?'☓':'✓')+_0x32cb94(0xe8)+_0x3f26ef+_0x32cb94(0xf5)+_0x3f26ef+'𝐚𝐭𝐭𝐢𝐯𝐚\x20𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤\x0a✦⃟ᗒ\x20'+_0x3f26ef+_0x32cb94(0xf2)+_0x3f26ef+'𝐢𝐧𝐟𝐨𝐬𝐭𝐚𝐭𝐨\x0a══════\x20•⊰✦‌⊱•\x20══════')[_0x32cb94(0xe4)]();_0x14d321[_0x32cb94(0xfe)](_0x3dea4e['chat'],_0x1655bc,_0x348f88,_0x3dea4e,![]);};handler[_0x5f3788(0xf3)]=[_0x5f3788(0xce)],handler[_0x5f3788(0xf7)]=[_0x5f3788(0xce)],handler[_0x5f3788(0xf1)]=/^(funzioni)$/i;export default handler;function clockString(_0x121e88){const _0x336b8d=_0x5f3788;let _0x1368b6=Math[_0x336b8d(0xff)](_0x121e88/0x36ee80),_0x217c27=Math[_0x336b8d(0xff)](_0x121e88/0xea60)%0x3c,_0x4bdfb2=Math[_0x336b8d(0xff)](_0x121e88/0x3e8)%0x3c;return console['log']({'ms':_0x121e88,'h':_0x1368b6,'m':_0x217c27,'s':_0x4bdfb2}),[_0x1368b6,_0x217c27,_0x4bdfb2][_0x336b8d(0xfc)](_0x5aa665=>_0x5aa665[_0x336b8d(0xeb)]()[_0x336b8d(0xef)](0x2,0x0))[_0x336b8d(0xcd)](':');}
+import os from 'os'
+import util from 'util'
+import sizeFormatter from 'human-readable'
+import MessageType from '@whiskeysockets/baileys'
+import fs from 'fs'
+import { performance } from 'perf_hooks'
+let handler = async (m, { conn, usedPrefix }) => {
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime) 
+let totalreg = Object.keys(global.db.data.users).length
+const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
+const groups = chats.filter(([id]) => id.endsWith('@g.us'))
+const used = process.memoryUsage()
+const { restrict } = global.db.data.settings[conn.user.jid] || {}
+const { autoread } = global.opts
+const grup = './no.png'
+let old = performance.now()
+let neww = performance.now()
+let speed = neww - old
+let name = await
+conn.getName(m.sender)
+const { antiToxic, antilinkhard, antiPrivate, antitraba, antiArab, antiviewonce, isBanned, welcome, detect, sWelcome, sBye, sPromote, sDemote, antiLink, antilinkbase, antitiktok, sologruppo, soloprivato, antiCall, modohorny, gpt, antiinsta, antielimina, antitelegram, antiSpam, autosticker, modoadmin, audios, delete: del } = global.db.data.chats[m.chat]
+let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
+}, "message": { 
+"locationMessage": { name: `𝐌𝐞𝐧𝐮 𝐝𝐞𝐥𝐥𝐞 𝐟𝐮𝐧𝐳𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐚'`,
+"jpegThumbnail": await (await fetch('https://telegra.ph/file/a756c4fa50e820ccbdc2f.jpg')).buffer(),
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=19709001746:+1 (970) 900-1746\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
+}}, "participant": "0@s.whatsapp.net"
+}
+let text = `
+══════ •⊰✦‌⊱• ══════
+ ${detect ? '✓' : '☓'} • ${usedPrefix}𝐝𝐞𝐭𝐞𝐜𝐭
+ ${gpt ? '✓' : '☓'} • ${usedPrefix}𝐠𝐩𝐭
+ ${welcome ? '✓' : '☓'} • ${usedPrefix}𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨
+ ${sologruppo ? '✓' : '☓'} • ${usedPrefix}𝐬𝐨𝐥𝐨𝐠𝐫𝐮𝐩𝐩𝐨
+ ${soloprivato ? '✓' : '☓'} • ${usedPrefix}𝐬𝐨𝐥𝐨𝐩𝐫𝐢𝐯𝐚𝐭𝐨
+ ${modoadmin ? '✓' : '☓'} • ${usedPrefix}𝐦𝐨𝐝𝐨𝐚𝐝𝐦𝐢𝐧
+ ${isBanned ? '✓' : '☓'} • ${usedPrefix}𝐛𝐚𝐧𝐠𝐩
+ ${antiCall ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐜𝐚𝐥𝐥
+ ${antitraba ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐭𝐫𝐚𝐯𝐚
+ ${antiArab ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐩𝐚𝐤𝐢
+ ${antiLink ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
+ ${antiinsta ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐢𝐧𝐬𝐭𝐚
+ ${antitiktok ? '✓' : '☓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐭𝐢𝐤𝐭𝐨𝐤
+ ${del ? '☓' : '✓'} • ${usedPrefix}𝐚𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚
+> ⓘ 𝐈𝐧𝐟𝐨 𝐬𝐮𝐥𝐥𝐨 𝐬𝐭𝐚𝐭𝐨
+> ${usedPrefix}𝐢𝐧𝐟𝐨𝐬𝐭𝐚𝐭𝐨
+> ⓘ 𝐔𝐬𝐨 𝐝𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨
+> ${usedPrefix}𝐚𝐭𝐭𝐢𝐯𝐚 𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
+> ${usedPrefix}𝐝𝐢𝐬𝐚𝐛𝐢𝐥𝐢𝐭𝐚 𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
+══════ •⊰✦‌⊱• ══════`.trim() 
+conn.reply(m.chat, text, prova, m, false, )
+}
+handler.help = ['menu']
+handler.tags = ['menu']
+handler.command = /^(funzioni)$/i
+export default handler
+
+function clockString(ms) {
+let h = Math.floor(ms / 3600000)
+let m = Math.floor(ms / 60000) % 60
+let s = Math.floor(ms / 1000) % 60
+console.log({ms,h,m,s})
+return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
