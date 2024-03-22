@@ -1,4 +1,4 @@
-//import fetch from 'node-fetch'
+import fetch from 'node-fetch'
 import { addExif } from '../lib/sticker.js'
 import { Sticker } from 'wa-sticker-formatter'
 
