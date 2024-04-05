@@ -190,3 +190,4 @@
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
 [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) 
 [![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot)
+[![GL YT MX](https://github.com/glytglobal.png?size=100)](https://github.com/glytglobal)
