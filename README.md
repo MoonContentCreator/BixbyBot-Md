@@ -184,7 +184,7 @@
 
 --------- 
 
- ## `✦ 𝐌𝐎𝐃𝐃𝐄𝐑 𝐄 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
+ ## `🌟 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
  [![Fabri115](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
 [![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
