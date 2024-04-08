@@ -515,7 +515,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             contextInfo:{ 
                                 mentionedJid:[user], 
                                 "externalAdReply": {
-                                    "title": `${action === 'add' ? '𝐂𝐈𝐀𝐎 👋🏻' : '𝐀𝐃𝐃𝐈𝐎 👋🏻'}`, 
+                                    "title": `${action === 'add' ? '𝗖𝗜𝗔𝗢 👋🏻' : '𝗔𝗗𝗗𝗜𝗢 👋🏻'}`, 
                                     "body": `${wm}`, 
                                     "previewType": "PHOTO", 
                                     "thumbnailUrl": ``, 
