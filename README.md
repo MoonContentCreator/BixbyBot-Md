@@ -179,7 +179,7 @@
  - 𝐒𝐄 𝐈 𝐌𝐄𝐒𝐒𝐀𝐆𝐆𝐈 𝐃𝐄𝐋 𝐁𝐎𝐓 𝐑𝐈𝐒𝐔𝐋𝐓𝐀𝐍𝐎 𝐈𝐍 "𝐀𝐓𝐓𝐄𝐒𝐀" 𝐄𝐒𝐄𝐆𝐔𝐈 𝐈𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 .𝐝𝐬 𝐄 𝐀𝐓𝐓𝐄𝐍𝐃𝐈 𝐐𝐔𝐀𝐋𝐂𝐇𝐄 𝐈𝐒𝐓𝐀𝐍𝐓𝐄 
  --------- 
 ## `🌟 𝐂𝐑𝐄𝐃𝐈𝐓𝐈 𝐄 𝐁𝐀𝐒𝐄 𝐃𝐄𝐋 𝐁𝐎𝐓`  
- <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="150" height="150" alt="adiwajshing"/></a> 
+ <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD"><img src="https://github.com/brunosobrino.png" width="100" height="100" alt="adiwajshing"/></a> 
  <div><button id="boton" type="button">TheMystic-Bot-MD - By BrunoSobrino</button></div> 
 
 --------- 
