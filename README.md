@@ -38,19 +38,19 @@
 ### 🔵 CAFIREXOS 
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
-<a href="https://www.cafirexos.com"><img src="https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png" height="125px"></a>
+<a href="https://www.cafirexos.com"><img src="https://r2.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
 ### Informazioni dell' Host
 
-- **Pagina:** [`Cafirexos`](https://www.cafirexos.com)
+- **Pagina principale:** [`Cafirexos`](https://www.cafirexos.com)
 - **Dashboard:** [`Clicca qui`](https://dash.cafirexos.com)
-- **Pannello:** [`Clicca qui`](https://panel.cafirexos.com/)
-- **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q)
-- **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ)
+- **Pannello:** [`Clicca qui`](https://panel.cafirexos.com)
+- **Canale WhatsApp:** [`Clicca qui`](https://cafirexos.com/whatsapp)
+- **Gruppo WhatsApp:** [`Clicca qui`](https://cafirexos.com/comunidad)
 - **Email:** [`Clicca qui`](mailto:contacto@cafirexos.com)
 - **Contatto:**
 [`Diego Flores`](https://wa.me/50497150165)
 
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/95649f0394451f7c9a1bc.png"></details>
+- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://r2.cafirexos.com/otros%2Fconfig-srv_bixbybotmd.png"></details>
 ----
 
 ### ∞ INFINITY-HOST
