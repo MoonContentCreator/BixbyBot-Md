@@ -39,7 +39,7 @@
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
 <a href="https://www.cafirexos.com"><img src="https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png" height="125px"></a>
-### Informazioni del Host
+### Informazioni dell' Host
 
 - **Pagina:** [`Cafirexos`](https://www.cafirexos.com)
 - **Dashboard:** [`Clicca qui`](https://dash.cafirexos.com)
@@ -57,7 +57,6 @@
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
 <a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
-### Informazioni del Host
 ### 🚩 Prezzi:
  ```bash 
 1$ = 1GB, 100CPU
@@ -66,6 +65,7 @@
 4$ = 4GB, 175CPU
 5$ = 5GB, 200CPU
 ```
+### Informazioni dell' Host
 - **Pannello:** [`Clicca qui`](https://host.panel-infinitywa.store)
 - **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
