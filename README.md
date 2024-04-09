@@ -55,7 +55,7 @@
 
 ### ∞ INFINITY-HOST
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
-🚩 Prezzi:
+### 🚩 Prezzi:
  ```bash
 > 1GB, 100CPU = 1 $
  ``` 
