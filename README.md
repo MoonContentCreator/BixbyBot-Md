@@ -55,14 +55,6 @@
 
 ### ∞ INFINITY-HOST
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
-### 🚩 Prezzi:
-### 1$ = 1GB, 100CPU
-### 2$ = 2GB, 120CPU
-### 3$ = 3GB, 140CPU
-### 4$ = 4GB, 175CPU
-### 5$ = 5GB, 200CPU
-### 
-
 
 <a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
 ### Informazioni del Host
@@ -73,6 +65,13 @@
 - **PayPal:** [`Clicca qui`](https://paypal.me/OfcGB)
 - **Contatti:** <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
 <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
+### 🚩 Prezzi:
+### 1$ = 1GB, 100CPU
+### 2$ = 2GB, 120CPU
+### 3$ = 3GB, 140CPU
+### 4$ = 4GB, 175CPU
+### 5$ = 5GB, 200CPU
+### 
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
