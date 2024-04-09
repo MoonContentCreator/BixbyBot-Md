@@ -64,7 +64,6 @@
 - 3$ = 3GB, 140CPU
 - 4$ = 4GB, 175CPU
 - 5$ = 5GB, 200CPU
-### 
 - **Pannello:** [`Clicca qui`](https://host.panel-infinitywa.store)
 - **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
