@@ -66,9 +66,7 @@
 
 5GB, 200CPU = 5 $
  ``` 
-
-
-<a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
+ <a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
 ### Informazioni del Host
 ```
 - **Pannello:** [`Clicca qui`](https://host.panel-infinitywa.store)
