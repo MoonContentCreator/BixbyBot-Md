@@ -70,8 +70,6 @@
 - **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
 - **PayPal:** [`Clicca qui`](https://paypal.me/OfcGB)
-- **Contatti:** <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
-<a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
