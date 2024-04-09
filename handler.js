@@ -551,7 +551,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             contextInfo:{ 
                                 mentionedJid:[user], 
                                 "externalAdReply": {
-                                    "title": `${action === 'promote' ? '𝐏𝐑𝐎𝐌𝐎𝐒𝐒𝐎 👑' : '𝐑𝐄𝐓𝐑𝐎𝐂𝐄𝐒𝐒𝐎 🙇🏻‍♂️'}`, 
+                                    "title": `${action === 'promote' ? '𝐏𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞 👑' : '𝐑𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞 🙇🏻‍♂️'}`, 
                                     "body": ``, 
                                     "previewType": "PHOTO", 
                                     "thumbnailUrl": ``, 
