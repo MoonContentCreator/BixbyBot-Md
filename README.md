@@ -57,15 +57,14 @@
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 ### 🚩 Prezzi:
 
-### 1GB, 100CPU = 1 $
+1GB, 100CPU = 1 $
 
-### 2GB, 120CPU = 2 $
+2GB, 120CPU = 2 $
 
-### 3GB, 140CPU = 3 $
+3GB, 140CPU = 3 $
+4GB, 175CPU = 4 $
 
-### 4GB, 175CPU = 4 $
-
-### 5GB, 200CPU = 5 $
+5GB, 200CPU = 5 $
  ``` 
 
 
