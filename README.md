@@ -70,10 +70,9 @@
 - **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
 - **PayPal:** [`Clicca qui`](https://paypal.me/OfcGB)
-- **Contatti:**
-- [`Mario`](https://www.facebook.com/elrebelde21)
-- [`Azami`](https://wa.me/527294888993)
-- [`Wilson`](https://wa.me/5492964650915)
+- [`Contatta Mario`](https://www.facebook.com/elrebelde21)
+- [`Contatta Azami`](https://wa.me/527294888993)
+- [`Contatta Wilson`](https://wa.me/5492964650915)
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
