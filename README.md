@@ -65,8 +65,6 @@
 - **PayPal:** [`Clicca qui`](https://paypal.me/OfcGB)
 - **Contatti:** <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
 <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
-
-- [x] **Anteprima** <details><summary>**Infinity - Host**</summary><img src="https://telegra.ph/file/f813f8018c5d2bb469781.png"></details>
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
