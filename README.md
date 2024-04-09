@@ -57,6 +57,7 @@
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 ### 🚩 Prezzi:
 
+  ```bash 
 1GB, 100CPU = 1 $
  ```
 2GB, 120CPU = 2 $
