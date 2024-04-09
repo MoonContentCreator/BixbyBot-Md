@@ -66,11 +66,11 @@
 - **Contatti:** <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
 <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
 ### 🚩 Prezzi:
-### 1$ = 1GB, 100CPU
-### 2$ = 2GB, 120CPU
-### 3$ = 3GB, 140CPU
-### 4$ = 4GB, 175CPU
-### 5$ = 5GB, 200CPU
+- 1$ = 1GB, 100CPU
+- 2$ = 2GB, 120CPU
+- 3$ = 3GB, 140CPU
+- 4$ = 4GB, 175CPU
+- 5$ = 5GB, 200CPU
 ### 
 ----
 
