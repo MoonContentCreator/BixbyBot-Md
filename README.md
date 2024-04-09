@@ -35,18 +35,39 @@
 
 
 
- ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐒𝐔 𝐊𝐎𝐘𝐄𝐁` 
+### 🔵 CAFIREXOS 
+> 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
- [![Attiva su Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MoonContentCreator/BixbyBot-Md&branch=master&name=mysticbot) 
+<a href="https://www.cafirexos.com"><img src="https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png" height="125px"></a>
+### Informazioni del Host
 
- ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐒𝐔 𝐑𝐄𝐏𝐋𝐈𝐓` 
+- **Pagina:** [`Cafirexos`](https://www.cafirexos.com)
+- **Dashboard:** [`Clicca qui`](https://dash.cafirexos.com)
+- **Pannello:** [`Clicca qui`](https://panel.cafirexos.com/)
+- **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q)
+- **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ)
+- **Email:** [`Clicca qui`](mailto:contacto@cafirexos.com)
+- **Contatto:**
+[`Diego Flores`](https://wa.me/50497150165)
 
- [![Run on Repl.it](https://replit.com/badge/github/MoonContentCreator/BixbyBot-Md)](https://replit.com/new/github/MoonContentCreator/BixbyBot-Md) 
+- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/95649f0394451f7c9a1bc.png"></details>
+----
 
+### ∞ INFINITY-HOST
+> 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
- ### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮 𝐒𝐔 𝐇𝐄𝐑𝐎𝐊𝐔 ` 
+<a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
+### Informazioni del Host
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MoonContentCreator/BixbyBot-Md) 
+- **Pannello:** [`Clicca qui`](https://host.panel-infinitywa.store)
+- **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
+- **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
+- **Email:** [`Clicca qui`](mailto:contacto@cafirexos.com)
+- **Contatti:** <a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://wa.me/527294888993"><img title="Author" src="https://img.shields.io/badge/Contatta-black?style=for-the-badge&logo=whatsApp"></a>
+
+- [x] **Anteprima** <details><summary>**Infinity - Host**</summary><img src="https://telegra.ph/file/f813f8018c5d2bb469781.png"></details>
+----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
  https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file 
