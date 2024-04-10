@@ -88,14 +88,41 @@
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈: 
  ```bash 
  termux-setup-storage 
+ ``` 
+
+ ```bash 
  pkg upgrade -y && pkg update -y 
+ ``` 
+
+ ```bash 
  pkg install git -y 
+ ```
+
+ ```bash 
  pkg install ffmpeg -y 
+ ```   
+
+ ```bash 
  pkg install imagemagick -y 
+ ```  
+
+ ```bash 
  pkg install yarn 
+ ```     
+
+ ```bash 
  cd /sdcard && rm -rf BixbyBot && git clone https://github.com/MoonContentCreator/BixbyBot-Md.git
+ ``` 
+
+ ```bash 
  cd /sdcard/BixbyBot-Md 
+ ```   
+
+ ```bash 
  yarn
+ ``` 
+
+ ```bash 
  npm start
  ``` 
 
