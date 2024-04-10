@@ -88,9 +88,6 @@
  - 𝐃𝐈𝐆𝐈𝐓𝐀 𝐐𝐔𝐄𝐒𝐓𝐈 𝐂𝐎𝐌𝐀𝐍𝐃𝐈: 
  ```bash 
  termux-setup-storage 
- ``` 
-
- ```bash 
  pkg upgrade -y && pkg update -y 
  pkg install git -y 
  pkg install ffmpeg -y 
