@@ -613,12 +613,17 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.delete)
             return
-        await this.reply(msg.chat, `
-antielimina:
-`.trim(), msg, {
-            mentions: [participant]
-        })
-        this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
+        if (msg.text || msg.caption) {
+            await this.reply(msg.chat, `> 🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨: ${msg.text || msg.caption}`
+            .trim(), msg, {
+                mentions: [participant]
+            })
+        } else {
+            await this.reply(msg.chat, '> 🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨:', msg, {
+                mentions: [participant]
+            })
+            await this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
+        }
     } catch (e) {
         console.error(e)
     }
