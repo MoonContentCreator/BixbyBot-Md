@@ -106,6 +106,5 @@ import fetch from 'node-fetch';
     }}  
    }}  
   }};  
-  handler.command = /dimmi|rispondimi|rispondi|tell me|internet|bot|robot|cazzo|ciao|ahahahah|credo|magari/i 
- handler.command = new RegExp 
+  handler.command = /dimmi|bot|ai|ia/i 
  export default handler
