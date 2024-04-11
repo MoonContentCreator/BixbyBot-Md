@@ -50,7 +50,7 @@
 - **Contatto:**
 [`Diego Flores`](https://wa.me/50497150165)
 
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://r2.cafirexos.com/otros%2Fconfig-srv_bixbybotmd.png"></details>
+- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/c894cd0cc5f6d90e34b1c.png"></details>
 ----
 
 ### ∞ INFINITY-HOST
