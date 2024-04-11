@@ -5,7 +5,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   if (global.conn.user.jid !== conn.user.jid) {
     return conn.sendMessage(m.chat, {text: `ⓘ 𝐔𝐭𝐢𝐥𝐢𝐳𝐳𝐚 𝐪𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐝𝐢𝐫𝐞𝐭𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐧𝐞𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐩𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥𝐞 𝐝𝐞𝐥 𝐁𝐨𝐭.`}, {quoted: m});
   }
-  await conn.sendMessage(m.chat, {text: 'ⓘ 𝐑𝐢𝐩𝐫𝐢𝐬𝐭𝐢𝐧𝐨 𝐝𝐞𝐢 𝐬𝐮𝐛-𝐛𝐨𝐭𝐬 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...'}, {quoted: m});
+  await conn.sendMessage(m.chat, {text: 'ⓘ 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐳𝐢𝐨𝐧𝐞 𝐝𝐞𝐢 𝐬𝐮𝐛-𝐛𝐨𝐭𝐬 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...'}, {quoted: m});
   const sessionPath = './jadibts/';
   try {
     if (!existsSync(sessionPath)) {
