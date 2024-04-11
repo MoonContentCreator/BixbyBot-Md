@@ -139,14 +139,14 @@ antiSpam: false,
                 if (!('restrict' in settings)) settings.restrict = true
                 if (!('antiCall' in settings)) settings.antiCall = true
                 if (!('antiPrivate' in settings)) settings.antiprivato = true
-                if (!('modejadibot' in settings)) settings.modejadibot = true   
+                if (!('jadibot' in settings)) settings.jadibot = true   
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: false,
                 restrict: true,
                 antiCall: true,
                 antiPrivate: true,
-                modejadibot: true,
+                jadibot: true,
             }
         } catch (e) {
             console.error(e)
@@ -619,7 +619,7 @@ export async function deleteUpdate(message) {
                 mentions: [participant]
             })
         } else {
-            await this.reply(msg.chat, '> 🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨:', msg, {
+            await this.reply(msg.chat, `> 🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨:`, msg, {
                 mentions: [participant]
             })
             await this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
@@ -628,7 +628,6 @@ export async function deleteUpdate(message) {
         console.error(e)
     }
 }
-
 global.dfail = (type, m, conn) => {
   let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
 }, "message": { 
