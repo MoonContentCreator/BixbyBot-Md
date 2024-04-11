@@ -4,7 +4,7 @@ async function handler(m, { conn: _envio, usedPrefix }) {
     const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])]
     
     if (users.length === 0) {
-        await m.reply('> ⓘ 𝐍𝐨𝐧 𝐜𝐢 𝐬𝐨𝐧𝐨 𝐚𝐥𝐭𝐫𝐢 𝐛𝐨𝐭 𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢 𝐚𝐥 𝐦𝐨𝐦𝐞𝐧𝐭𝐨.')
+        await m.reply('> ⓘ 𝐍𝐨𝐧 𝐜𝐢 𝐬𝐨𝐧𝐨 𝐚𝐥𝐭𝐫𝐢 𝐬𝐮𝐛-𝐛𝐨𝐭𝐬 𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢 𝐚𝐥 𝐦𝐨𝐦𝐞𝐧𝐭𝐨.')
         return
     }
     
@@ -42,11 +42,11 @@ async function handler(m, { conn: _envio, usedPrefix }) {
     let speed = (neww - old).toFixed(4);
     
     let message = users.map((v, index) => `${index + 1} @${v.user.jid.replace(/[^0-9]/g, '')}\n🔮 𝐍𝐨𝐦𝐞: ${v.user.name || '-'}\n🟢 𝐀𝐭𝐭𝐢𝐯𝐢𝐭𝐚': ${uptime}\n🚀 𝐕𝐞𝐥𝐨𝐜𝐢𝐭𝐚' : ${speed} 𝐬`).join('\n\n')
-    const replyMessage = message.length === 0 ? '> ⓘ 𝐍𝐨𝐧 𝐜𝐢 𝐬𝐨𝐧𝐨 𝐚𝐥𝐭𝐫𝐢 𝐛𝐨𝐭 𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢 𝐚𝐥 𝐦𝐨𝐦𝐞𝐧𝐭𝐨.' : message
+    const replyMessage = message.length === 0 ? '> ⓘ 𝐍𝐨𝐧 𝐜𝐢 𝐬𝐨𝐧𝐨 𝐚𝐥𝐭𝐫𝐢 𝐬𝐮𝐛-𝐛𝐨𝐭𝐬 𝐜𝐨𝐧𝐧𝐞𝐬𝐬𝐢 𝐚𝐥 𝐦𝐨𝐦𝐞𝐧𝐭𝐨.' : message
     const totalUsers = users.length
     const responseMessage = `${replyMessage.trim()}`.trim()
 
-    await m.reply(`> ⓘ 𝐄𝐜𝐜𝐨 𝐥'𝐞𝐥𝐞𝐧𝐜𝐨 𝐝𝐞𝐢 𝐬𝐮𝐛𝐛𝐨𝐭 𝐚𝐭𝐭𝐮𝐚𝐥𝐦𝐞𝐧𝐭𝐞 𝐚𝐭𝐭𝐢𝐯𝐢\n\n𝐂𝐨𝐥𝐥𝐞𝐠𝐚𝐭𝐢: ${totalUsers || '0'}`)
+    await m.reply(`> ⓘ 𝐄𝐜𝐜𝐨 𝐥'𝐞𝐥𝐞𝐧𝐜𝐨 𝐝𝐞𝐢 𝐬𝐮𝐛-𝐛𝐨𝐭𝐬 𝐚𝐭𝐭𝐮𝐚𝐥𝐦𝐞𝐧𝐭𝐞 𝐚𝐭𝐭𝐢𝐯𝐢\n\n𝐂𝐨𝐥𝐥𝐞𝐠𝐚𝐭𝐢: ${totalUsers || '0'}`)
     await _envio.sendMessage(m.chat, { text: responseMessage, mentions: _envio.parseMention(responseMessage) }, { quoted: m })
 
 }
