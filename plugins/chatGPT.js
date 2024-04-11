@@ -106,5 +106,5 @@ import fetch from 'node-fetch';
     }}  
    }}  
   }};  
-  handler.command = /dimmi|bot|ai|ia/i 
+  handler.command = /dimmi|ai|ia/i 
  export default handler
