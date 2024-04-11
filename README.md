@@ -50,7 +50,7 @@
 - **Contatto:**
 [`Diego Flores`](https://wa.me/50497150165)
 
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/c894cd0cc5f6d90e34b1c.png"></details>
+- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/4572591764c7f3f32a33f.png"></details>
 ----
 
 ### ∞ INFINITY-HOST
