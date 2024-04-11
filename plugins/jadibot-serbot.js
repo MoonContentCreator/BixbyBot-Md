@@ -1,4 +1,4 @@
-/*⚠ MODIFICHE VIETATE  ⚠
+/*⚠ VIETATO MODIFICARE  ⚠
 
 Il codice in questo file è stato modificato e corretto da:
 - MoonContentCreator >> https://github.com/MoonContentCreator
