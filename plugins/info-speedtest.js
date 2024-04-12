@@ -19,15 +19,21 @@ const handler = async (m) => {
         .replace(/(Carica)/g, '- 🟣 𝐔𝐩𝐥𝐨𝐚𝐝')
         .replace(/(Ospitato)/g, 'Hostato');
 
-      const formattedText = text.replace(/^[.\s]+$/gm, ''); 
+      const formattedText = text.replace(/^[.\s]+/gm, '');
       const resultsText = formattedText.replace(/(Risultati delle azioni)/g, "Risultati");
 
-      const finalText = resultsText.replace(/Test di velocità di download\s+-\s+/g, "──────────────\n- ").replace(/Test di velocità di caricamento\s+-\s+/g, "\n- "); 
-      
-      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
+      const finalText = resultsText.replace(/Test di velocità di download\s+-\s+/g, "──────────────\n- ")
+                                    .replace(/Test di velocità di caricamento\s+-\s+/g, "\n- ")
+                                    .replace(/Test da/g, "- Test da")
+                                    .replace(/Recupero elenco di server Speedtest.net/g, "- Recupero elenco di server Speedtest.net")
+                                    .replace(/Selezionando il miglior server in base al ping/g, "- Selezionando il miglior server in base al ping")
+                                    .replace(/Hostato da/g, "- Hostato da")
+                                    .replace(/MS/g, "MS\n");
 
+      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
       const finalReplyNoDuplicate = finalReply.replace(/(Risultati:)/g, "");
 
+      
       const finalReplyMb = finalReplyNoDuplicate.replace(/Mbit\/s/g, "𝐌𝐛𝐩𝐬");
 
       m.reply(finalReplyMb);
