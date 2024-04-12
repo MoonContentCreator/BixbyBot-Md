@@ -16,7 +16,8 @@ const handler = async (m) => {
       const translated = await translate(stdout, { to: 'it' });
       const text = translated.text
         .replace(/(Scarica)/g, 'Download')
-        .replace(/(Carica)/g, 'Upload');
+        .replace(/(Carica)/g, 'Upload')
+        .replace(/(Ospitato)/g, 'Hostato');
       m.reply(text);
     }
     if (stderr.trim()) {
