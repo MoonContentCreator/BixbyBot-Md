@@ -15,8 +15,8 @@ const handler = async (m) => {
     if (stdout.trim()) {
       const translated = await translate(stdout, { to: 'it' });
       const text = translated.text
-        .replace(/(Scarica)/g, '- 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝')
-        .replace(/(Carica)/g, '- 𝐔𝐩𝐥𝐨𝐚𝐝')
+        .replace(/(Scarica)/g, '- 🔵 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝')
+        .replace(/(Carica)/g, '- 🟣 𝐔𝐩𝐥𝐨𝐚𝐝')
         .replace(/(Ospitato)/g, 'Hostato');
 
       const formattedText = text.replace(/^[.\s]+$/gm, ''); 
@@ -24,11 +24,13 @@ const handler = async (m) => {
 
       const finalText = resultsText.replace(/Test di velocità di download\s+-\s+/g, "──────────────\n- ").replace(/Test di velocità di caricamento\s+-\s+/g, "\n- "); 
       
-      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
+      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
 
       const finalReplyNoDuplicate = finalReply.replace(/(Risultati:)/g, "");
 
-      m.reply(finalReplyNoDuplicate);
+      const finalReplyMb = finalReplyNoDuplicate.replace(/Mbit\/s/g, "𝐌𝐛𝐩𝐬");
+
+      m.reply(finalReplyMb);
     }
     if (stderr.trim()) {
       const translated = await translate(stderr, { to: 'it' });
