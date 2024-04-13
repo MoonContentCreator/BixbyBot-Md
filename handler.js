@@ -629,13 +629,6 @@ export async function deleteUpdate(message) {
     }
 }
 global.dfail = (type, m, conn) => {
-  let prova = { "key": {"participants":"0@s.whatsapp.net", "fromMe": false, "id": "Halo"
-}, "message": { 
-"locationMessage": { name: '𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐧𝐞𝐠𝐚𝐭𝐨 ✗', 
- "jpegThumbnail": fs.readFileSync('./settings.png'), 
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=15395490858:+1 (539) 549-0858\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
-}}, "participant": "0@s.whatsapp.net"
-                    }
     let msg = {
         rowner: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐢𝐥𝐞 𝐬𝐨𝐥𝐨 𝐩𝐞𝐫 𝐨𝐰𝐧𝐞𝐫 🕵🏻‍♂️',
         owner: '𝐐𝐮𝐞𝐬𝐭𝐨 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞̀ 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐢𝐥𝐞 𝐬𝐨𝐥𝐨 𝐩𝐞𝐫 𝐨𝐰𝐧𝐞𝐫 🕵🏻‍♂️',
