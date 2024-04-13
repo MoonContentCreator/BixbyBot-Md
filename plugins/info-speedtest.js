@@ -19,7 +19,7 @@ const handler = async (m) => {
         .replace(/(Carica)/g, '- 🟣 𝐔𝐩𝐥𝐨𝐚𝐝')
         .replace(/(Ospitato)/g, 'Hostato');
 
-      const formattedText = text.replace(/^[.\s]+/gm, '');
+      const formattedText = text.replace(/^[.\s]+$/gm, '');
       const resultsText = formattedText.replace(/(Risultati delle azioni)/g, "Risultati");
 
       const finalText = resultsText.replace(/Test di velocità di download\s+-\s+/g, "──────────────\n- ")
