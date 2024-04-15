@@ -47,7 +47,7 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
         default:
             throw 'ⓘ 𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐮𝐧𝐚 𝐨𝐩𝐳𝐢𝐨𝐧𝐞 𝐯𝐚𝐥𝐢𝐝𝐚'
     }
-    m.reply(`ⓘ 𝐒𝐢𝐦𝐮𝐥𝐚𝐳𝐢𝐨𝐧𝐞 ${eventText}...`)
+    m.reply(`> 𝐒𝐢𝐦𝐮𝐥𝐚𝐳𝐢𝐨𝐧𝐞 ${eventText}...\n> ⓘ 𝐈𝐥 𝐛𝐨𝐭 𝐬𝐭𝐚 𝐬𝐢𝐦𝐮𝐥𝐚𝐧𝐝𝐨 𝐮𝐧 𝐞𝐯𝐞𝐧𝐭𝐨, 𝐬𝐞𝐧𝐳𝐚 𝐞𝐟𝐟𝐞𝐭𝐭𝐢 𝐜𝐨𝐧𝐜𝐫𝐞𝐭𝐢 𝐧𝐞𝐥 𝐠𝐫𝐮𝐩𝐩𝐨.`)
     if (act) return conn.participantsUpdate({
         id: m.chat,
         participants: part,
