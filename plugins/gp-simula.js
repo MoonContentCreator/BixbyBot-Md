@@ -1,19 +1,19 @@
-let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
-    if (!event) return await m.reply(
+let handler = async (m, { conn, usedPrefix, command, args: [evento], text }) => {
+    if (!evento) return await m.reply(
 `ⓘ 𝐔𝐬𝐨 𝐝𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨:\n\n> ${usedPrefix + command} 𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨 @user\n> ${usedPrefix + command} 𝐚𝐝𝐝𝐢𝐨 @user\n> ${usedPrefix + command} 𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞 @user\n> ${usedPrefix + command} 𝐫𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞 @user`) 
-    let mentions = text.replace(event, '').trimStart()
+    let mentions = text.replace(evento, '').trimStart()
     let who = mentions ? conn.parseMention(mentions) : []
     let part = who.length ? who : [m.sender]
     let act = false
-    let eventText = ''
-    switch (event.toLowerCase()) {
+    let testoEvento = ''
+    switch (evento.toLowerCase()) {
         case 'add':
         case 'invite':
         case 'welcome':
         case 'bienvenida':
         case 'benvenuto':       
             act = 'add'
-            eventText = "𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨"
+            testoEvento = "𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨"
             break
         case 'bye':
         case 'kick':
@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
         case 'sacar':
         case 'addio':
             act = 'remove'
-            eventText = "𝐚𝐝𝐝𝐢𝐨"
+            testoEvento = "𝐚𝐝𝐝𝐢𝐨"
             break
         case 'promote':
         case 'daradmin':
@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
         case 'promozione':
         case 'p':       
             act = 'promote'
-            eventText = "𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞"
+            testoEvento = "𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞"
             break
         case 'demote':
         case 'quitaradmin':
@@ -38,12 +38,12 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
         case 'retrocessione':
         case 'r':       
             act = 'demote'
-            eventText = "𝐫𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞"
+            testoEvento = "𝐫𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞"
             break
         default:
             throw `ⓘ 𝐈𝐧𝐬𝐞𝐫𝐢𝐬𝐜𝐢 𝐮𝐧𝐚 𝐨𝐩𝐳𝐢𝐨𝐧𝐞 𝐯𝐚𝐥𝐢𝐝𝐚:\n\n> ${usedPrefix + command} 𝐛𝐞𝐧𝐯𝐞𝐧𝐮𝐭𝐨 @user\n> ${usedPrefix + command} 𝐚𝐝𝐝𝐢𝐨 @user\n> ${usedPrefix + command} 𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞 @user\n> ${usedPrefix + command} 𝐫𝐞𝐭𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐞 @user`
     }
-    m.reply(`> 𝐒𝐢𝐦𝐮𝐥𝐚𝐳𝐢𝐨𝐧𝐞 ${eventText}...\n> ⓘ 𝐈𝐥 𝐛𝐨𝐭 𝐬𝐭𝐚 𝐬𝐢𝐦𝐮𝐥𝐚𝐧𝐝𝐨 𝐮𝐧 𝐞𝐯𝐞𝐧𝐭𝐨, 𝐬𝐞𝐧𝐳𝐚 𝐞𝐟𝐟𝐞𝐭𝐭𝐢 𝐜𝐨𝐧𝐜𝐫𝐞𝐭𝐢 𝐧𝐞𝐥 𝐠𝐫𝐮𝐩𝐩𝐨.`)
+    m.reply(`> 𝐒𝐢𝐦𝐮𝐥𝐚𝐳𝐢𝐨𝐧𝐞 ${testoEvento}...\n> ⓘ 𝐈𝐥 𝐛𝐨𝐭 𝐬𝐭𝐚 𝐬𝐢𝐦𝐮𝐥𝐚𝐧𝐝𝐨 𝐮𝐧 𝐞𝐯𝐞𝐧𝐭𝐨, 𝐬𝐞𝐧𝐳𝐚 𝐞𝐟𝐟𝐞𝐭𝐭𝐢 𝐜𝐨𝐧𝐜𝐫𝐞𝐭𝐢 𝐧𝐞𝐥 𝐠𝐫𝐮𝐩𝐩𝐨.`)
     if (act) return conn.participantsUpdate({
         id: m.chat,
         participants: part,
