@@ -622,12 +622,12 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return
         if (msg.text || msg.caption) {
-            await this.reply(msg.chat, `🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n> 𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n> 𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨: ${msg.text || msg.caption}`
+            await this.reply(msg.chat, `*∅* 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n> 𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n> 𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨: ${msg.text || msg.caption}`
             .trim(), msg, {
                 mentions: [participant]
             })
         } else {
-            await this.reply(msg.chat, `🚫 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n> 𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n> 𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨:`, msg, {
+            await this.reply(msg.chat, `*∅* 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n> 𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n> 𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨:`, msg, {
                 mentions: [participant]
             })
             await this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
