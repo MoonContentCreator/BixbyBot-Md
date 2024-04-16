@@ -79,7 +79,6 @@ export async function handler(chatUpdate) {
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antiinsta' in chat)) chat.antiinsta = false
                 if (!('antitiktok' in chat)) chat.antitiktok = false
-                if (!('antitelegram' in chat)) chat.antitelegram = false
                 if (!('antiLink2' in chat)) chat.antiLink2 = false
                 if (!('antiviewonce' in chat)) chat.antiviewonce = false
                 if (!('antiTraba' in chat)) chat.antiTraba = true
@@ -109,7 +108,6 @@ export async function handler(chatUpdate) {
                     antiLink: true,
                     antiLink2: false,
                     antilinkbase: false,
-                    antitelegrambase: false,
                     antitiktokbase: false,
                     antiinsta: true,
                     antitiktok: true,
