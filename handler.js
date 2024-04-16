@@ -75,17 +75,16 @@ export async function handler(chatUpdate) {
                 if (!('sDemote' in chat)) chat.sDemote = ''
                 if (!('delete' in chat)) chat.delete = true    
                 if (!('gpt' in chat)) chat.gpt = false
-                if (!('bestemmiometro' in chat)) chat.bestemmiometro = true                  
+                if (!('bestemmiometro' in chat)) chat.bestemmiometro = true
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antiinsta' in chat)) chat.antiinsta = false
                 if (!('antitiktok' in chat)) chat.antitiktok = false
                 if (!('antitelegram' in chat)) chat.antitelegram = false
-                if (!('antiSpam' in chat)) chat.antiSpam = false
                 if (!('antiLink2' in chat)) chat.antiLink2 = false
                 if (!('antiviewonce' in chat)) chat.antiviewonce = false
                 if (!('antiTraba' in chat)) chat.antiTraba = true
                 if (!('antiArab' in chat)) chat.antiArab = true
-                        if (!('modoadmin' in chat)) chat.modoadmin = false
+                if (!('modoadmin' in chat)) chat.modoadmin = false
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
                 if (!isNumber(chat.blasphemy)) chat.blasphemy = 0
@@ -108,7 +107,6 @@ export async function handler(chatUpdate) {
                     audios: false,
                     antiLinkfast: true,
                     antiLink: true,
-antiSpam: false,
                     antiLink2: false,
                     antilinkbase: false,
                     antitelegrambase: false,
@@ -119,8 +117,8 @@ antiSpam: false,
                     antiToxic: false,
                     antiTraba: true,
                     antiArab: true,
-                        modoadmin: false,
-                        muto: false,
+                    modoadmin: false,
+                    muto: false,
                     expired: 0,
                     messaggi: 0,
                     blasphemy: 0,
