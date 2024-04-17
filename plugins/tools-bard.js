@@ -42,8 +42,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 
 handler.command = ['bard'];
-handler.help = ['bard [testo]', 'bardimg [testo]'];
+handler.help = ['bard', 'bardimg'];
 handler.tags = ['ai'];
-handler.limit = true;
 
 export { bardHandler, handler as default };
