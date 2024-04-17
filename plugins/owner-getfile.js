@@ -23,12 +23,10 @@ let handler = async (m, { text, usedPrefix, command, __dirname }) => {
             allowAwaitOutsideFunction: true
         })
         if (error) {
-            // Traduzione dell'errore
-            const translatedError = 'Errore di parsing: Token inaspettato'
             await m.reply(`
-⚠️ Errore in *${filename}*: 
+⛔️ Errore in  *${filename}*:
 
-${translatedError}
+${error}
 
 `.trim())
         }
@@ -44,12 +42,10 @@ ${translatedError}
                 allowAwaitOutsideFunction: true
             })
             if (error) {
-                // Traduzione dell'errore
-                const translatedError = 'Errore di parsing: Token inaspettato'
                 await m.reply(`
-⚠️ Errore in *${text}*: 
+⛔️ Errore in   *${text}*:
 
-${translatedError}
+${error}
 
 `.trim())
             }
@@ -59,7 +55,7 @@ ${translatedError}
         }
     }
 }
-handler.help = ['plugin', 'file'].map(v => `get${v} <nome file>`)
+handler.help = ['plugin', 'file'].map(v => `get${v} <name file>`)
 handler.tags = ['owner']
 handler.command = /^g(et)?(p(lugin)?|f(ile)?)$/i
 
