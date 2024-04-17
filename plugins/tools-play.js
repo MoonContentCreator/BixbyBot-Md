@@ -78,7 +78,6 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                                 await conn.sendMessage(m.chat, { audio: { url: ress.url}, mimetype: 'audio/mpeg' }, { quoted: m})
                                 
                             } catch {
-                                // Gestisci gli errori
                             }
                         }
                     }
