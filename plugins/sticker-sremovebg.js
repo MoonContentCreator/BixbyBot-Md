@@ -1,7 +1,7 @@
 import uploadImage from '../lib/uploadImage.js'
 import { sticker } from '../lib/sticker.js'
 
-let handler = async (m, { conn, text, args }) => {
+let handler = async (m, { conn, text, usedPrefix, command, args }) => {
 let stiker = false
 let json
 
@@ -14,11 +14,11 @@ json = await (await fetch(`https://aemt.me/removebg?url=${media}`)).json()
 stiker = await sticker(false, json.url.result, global.packname, global.author)
 } else if (text) {
 json = await (await fetch(`https://aemt.me/removebg?url=${text.trim()}`)).json()
-} else return m.reply(`*Responde a una imagen o ingresa una url que sea \`(jpg, jpeg o png)\` para quitar el fondo*`)
+} else return m.reply(`> ⓘ 𝐔𝐬𝐨 𝐝𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨:\n> ${usedPrefix + command} <foto>\n> ${usedPrefix + command} <link immagine>`)
 await conn.sendMessage(m.chat, { image: { url: json.url.result }, caption: null }, { quoted: m })
 await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', m, null)
 }
-handler.command = /^(s?removebg)$/i
+handler.command = /^(s?removebg|rimuovisfondo|sbg)$/i
 export default handler
 
 const isUrl = (text) => {
