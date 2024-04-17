@@ -1,16 +1,27 @@
 import uploadImage from '../lib/uploadImage.js'
 import { sticker } from '../lib/sticker.js'
-let handler = async (m, { conn, text }) => {
-try {
+
+let handler = async (m, { conn, text, args }) => {
+let stiker = false
+let json
+
 let q = m.quoted ? m.quoted : m
-let mime = (q.msg || q).mimetype || ''
-let img = await q.download()
-let url = await uploadImage(img)
-let sremovebg = global.API(`https://api.lolhuman.xyz/api/removebg?apikey=${lolkeysapi}&img=${url}`) 
-let stickerr = await sticker(false, sremovebg, global.packname, global.author)
-conn.sendFile(m.chat, stickerr, 'sticker.webp', '', m, { asSticker: true })
-} catch (e) {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾, 𝙽𝙾 𝙾𝙻𝚅𝙸𝙳𝙴 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙻𝙰 𝙲𝚄𝙰𝙻 𝚂𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁𝙰 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝚂𝙸𝙽 𝙵𝙾𝙽𝙳𝙾*')
-}}
-handler.command = /^sfondo|removebg$/i
+let mime = (q.msg || q).mimetype || q.mediaType || ''
+if (/image/g.test(mime) && !/webp/g.test(mime)) {
+let buffer = await q.download()
+let media = await (uploadImage)(buffer)
+json = await (await fetch(`https://aemt.me/removebg?url=${media}`)).json()
+stiker = await sticker(false, json.url.result, global.packname, global.author)
+} else if (text) {
+json = await (await fetch(`https://aemt.me/removebg?url=${text.trim()}`)).json()
+} else return m.reply(`*Responde a una imagen o ingresa una url que sea \`(jpg, jpeg o png)\` para quitar el fondo*`)
+await conn.sendMessage(m.chat, { image: { url: json.url.result }, caption: null }, { quoted: m })
+await conn.sendFile(m.chat, stiker ? stiker : await sticker(false, json.url.result, global.packname, global.author), 'sticker.webp', '', m, null)
+}
+handler.command = /^(s?removebg)$/i
 export default handler
+
+const isUrl = (text) => {
+const urlRegex = /^(https?):\/\/[^\s/$.?#]+\.(jpe?g|png)$/i
+return urlRegex.test(text)
+}
