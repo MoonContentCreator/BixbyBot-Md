@@ -84,6 +84,7 @@ export async function handler(chatUpdate) {
                 if (!('antiTraba' in chat)) chat.antiTraba = true
                 if (!('antiArab' in chat)) chat.antiArab = true
                 if (!('modoadmin' in chat)) chat.modoadmin = false
+                if (!('antiPorn' in chat)) chat.antiPorn = true
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
                 if (!isNumber(chat.blasphemy)) chat.blasphemy = 0
@@ -116,6 +117,7 @@ export async function handler(chatUpdate) {
                     antiTraba: true,
                     antiArab: true,
                     modoadmin: false,
+                    antiPorn: true,
                     muto: false,
                     expired: 0,
                     messaggi: 0,
