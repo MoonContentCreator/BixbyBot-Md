@@ -65,7 +65,7 @@ const result = await response.json()
 enlace = null
 
 if (result.status && result.data.isPorn) {
-await m.reply('*La imagen contiene contenido para adultos.*')
+await m.reply(`⚠️ 𝐋'𝐢𝐦𝐦𝐚𝐠𝐢𝐧𝐞 𝐜𝐨𝐧𝐭𝐢𝐞𝐧𝐞 𝐦𝐚𝐭𝐞𝐫𝐢𝐚𝐥𝐞 𝐩𝐞𝐫 𝐚𝐝𝐮𝐥𝐭𝐢`)
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
 
 }} catch (error) {
