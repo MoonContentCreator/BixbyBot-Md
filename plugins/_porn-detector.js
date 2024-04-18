@@ -15,7 +15,7 @@ let media, link, buffer = false
 let web = /https?:\/\/\S+/
   
 if (!isBotAdmin || chat.delete || !m.isGroup) return
-if (!chat.antiPorn) return 
+if (!chat.antiPorno) return 
   
 try{
 let q = m
