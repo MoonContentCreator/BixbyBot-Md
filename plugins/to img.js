@@ -11,5 +11,5 @@ await conn.sendFile(m.chat, out, 'error.png', null, m)
 }
 handler.help = ['toimg (reply)']
 handler.tags = ['sticker']
-handler.command = ['toimg', 'jpg', 'img']
+handler.command = ['toimg', 'jpg', 'png']
 export default handler
