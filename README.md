@@ -212,9 +212,6 @@
 --------- 
 
  ## `🌟 𝐂𝐎𝐋𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐈 `  
-[![Fabri115](https://github.com/Fabri115.png?size=100)](https://github.com/Fabri115)
-[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
-[![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs)
-[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) 
-[![diegojadibot](https://github.com/diegojadibot.png?size=100)](https://github.com/diegojadibot)
-[![GL YT MX](https://github.com/glytglobal.png?size=100)](https://github.com/glytglobal)
+<a href="https://github.com/MoonContentCreator/BixbyBot-Md/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=MoonContentCreator/BixbyBot-Md" /> 
+</a>
