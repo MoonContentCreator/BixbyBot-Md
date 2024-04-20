@@ -21,19 +21,34 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
         
         let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮`
         
-        await conn.sendMessage(m.chat, {
-            text: `──────────────\n- 🗣 ${yt_play[0].author.name}\n- 🔖 ${yt_play[0].title}\n- 🕛 ${secondString(yt_play[0].duration.seconds)}\n- 🟢 𝐈𝐧𝐯𝐢𝐨 ${additionalText} 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...\n──────────────`, 
-            contextInfo: {
-                externalAdReply: {
-                    title: yt_play[0].title,
-                    body: nomeDelBot,
-                    thumbnailUrl: yt_play[0].thumbnail, 
-                    mediaType: 1,
-                    showAdAttribution: false,
-                    renderLargerThumbnail: true
+        const CarSpeciali = (str) => {
+            return str.split('').map(char => {
+                switch (char) {
+                    case 'A': return '𝐀'; case 'B': return '𝐁'; case 'C': return '𝐂'; case 'D': return '𝐃'; case 'E': return '𝐄';
+                    case 'F': return '𝐅'; case 'G': return '𝐆'; case 'H': return '𝐇'; case 'I': return '𝐈'; case 'J': return '𝐉';
+                    case 'K': return '𝐊'; case 'L': return '𝐋'; case 'M': return '𝐌'; case 'N': return '𝐍'; case 'O': return '𝐎';
+                    case 'P': return '𝐏'; case 'Q': return '𝐐'; case 'R': return '𝐑'; case 'S': return '𝐒'; case 'T': return '𝐓';
+                    case 'U': return '𝐔'; case 'V': return '𝐕'; case 'W': return '𝐖'; case 'X': return '𝐗'; case 'Y': return '𝐘';
+                    case 'Z': return '𝐙'; case 'a': return '𝐚'; case 'b': return '𝐛'; case 'c': return '𝐜'; case 'd': return '𝐝';
+                    case 'e': return '𝐞'; case 'f': return '𝐟'; case 'g': return '𝐠'; case 'h': return '𝐡'; case 'i': return '𝐢';
+                    case 'j': return '𝐣'; case 'k': return '𝐤'; case 'l': return '𝐥'; case 'm': return '𝐦'; case 'n': return '𝐧';
+                    case 'o': return '𝐨'; case 'p': return '𝐩'; case 'q': return '𝐪'; case 'r': return '𝐫'; case 's': return '𝐬';
+                    case 't': return '𝐭'; case 'u': return '𝐮'; case 'v': return '𝐯'; case 'w': return '𝐰'; case 'x': return '𝐱';
+                    case 'y': return '𝐲'; case 'z': return '𝐳';
+                    default: return char;
                 }
-            }
-        }, { quoted: m })
+            }).join('');
+        };
+        
+        const formattedText = CarSpeciali(`
+──────────────
+- 🗣 ${CarSpeciali(yt_play[0].author.name)}
+- 🔖 ${CarSpeciali(yt_play[0].title)}
+- 🕛 ${secondString(yt_play[0].duration.seconds)}
+- 🟢 𝐈𝐧𝐯𝐢𝐨 ${additionalText} 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...
+──────────────`);
+        
+        await conn.sendMessage(m.chat, { text: formattedText, contextInfo: { externalAdReply: { title: yt_play[0].title, body: nomeDelBot, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: false, renderLargerThumbnail: true } } }, { quoted: m });
         
         if (command == 'play') {        
             try {
@@ -84,7 +99,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                 }
             }
         }  
-        
+
         if (command == 'video') {
             try {
                 let qu = '360'
@@ -119,7 +134,8 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
                 }
             }
         }
-    } catch {
+    } catch(error) {
+        console.error(error);
     }
 }
 
@@ -151,4 +167,4 @@ function secondString(seconds) {
     var mDisplay = m > 0 ? m + (m == 1 ? " minuto, " : " minuti, ") : "";
     var sDisplay = s > 0 ? s + (s == 1 ? " secondo" : " secondi") : "";
     return dDisplay + hDisplay + mDisplay + sDisplay;
-} 
+}
