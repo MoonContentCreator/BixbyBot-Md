@@ -21,7 +21,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
         
         let nomeDelBot = global.db.data.nomedelbot || `𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝 🔮`
         
-const bixbycar = (str) => {
+const BixbyChar = (str) => {
 return str.split('').map(char => {
 switch (char) {
 case 'A': return '𝐀';
@@ -81,10 +81,10 @@ default: return char;
     }).join('');
 };
         
-        const formattedText = bixbycar(`
+        const formattedText = BixbyChar(`
 ──────────────
-- 🗣 ${bixbycar(yt_play[0].author.name)}
-- 🔖 ${bixbycar(yt_play[0].title)}
+- 🗣 ${BixbyChar(yt_play[0].author.name)}
+- 🔖 ${BixbyChar(yt_play[0].title)}
 - 🕛 ${secondString(yt_play[0].duration.seconds)}
 - 🟢 𝐈𝐧𝐯𝐢𝐨 ${additionalText} 𝐢𝐧 𝐜𝐨𝐫𝐬𝐨...
 ──────────────`);
