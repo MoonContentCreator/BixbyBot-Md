@@ -185,7 +185,7 @@ handler.command = ['play', 'video']
 export default handler
 
 async function search(query, options = {}) {
-    const search = await yts.search({ query, hl: "es", gl: "ES", ...options });
+    const search = await yts.search({ query, hl: "it", gl: "IT", ...options });
     return search.videos
 }
 
