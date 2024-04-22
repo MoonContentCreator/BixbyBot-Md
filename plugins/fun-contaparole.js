@@ -1,5 +1,5 @@
 let handler = async (m, { text }) => {
-    let txt = text || (m.quoted && m.quoted.text);
+let txt = text || (m.quoted && m.quoted.text);
     
     if (!txt) {
         throw '> ⓘ 𝐅𝐨𝐫𝐧𝐢𝐬𝐜𝐢 𝐮𝐧 𝐭𝐞𝐬𝐭𝐨 𝐝𝐚 𝐜𝐨𝐧𝐭𝐚𝐫𝐞.';
