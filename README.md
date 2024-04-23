@@ -57,14 +57,6 @@
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
 <a href="https://dashboard.infinitywa.xyz"><img src="https://telegra.ph/file/4d847e6cfe03b2b2c77ab.png" height="125px"></a>
-### 🚩 Prezzi:
- ```bash 
-1$ = 1GB, 100CPU
-2$ = 2GB, 120CPU
-3$ = 3GB, 140CPU
-4$ = 4GB, 175CPU
-5$ = 5GB, 200CPU
-```
 ### Informazioni dell' Host
 - **Dashboard:** [`Clicca qui`](https://dashboard.infinitywa.xyz)
 - **Pannello:** [`Clicca qui`](https://live.panel-infinitywa.store)
