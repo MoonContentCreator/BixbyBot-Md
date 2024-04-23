@@ -75,7 +75,7 @@
 - [`Contatta Azami`](https://wa.me/527294888993)
 - [`Contatta Wilson`](https://wa.me/5492964650915)
 
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/b94f9c676b92839ec06fa.png"></details>
+- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/8da3c7efe17a9c17c661e.png"></details>
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
