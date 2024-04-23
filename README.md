@@ -56,7 +56,7 @@
 ### ∞ INFINITY-HOST
 > 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
 
-<a href="https://www.cafirexos.com"><img src="https://telegra.ph/file/f864c8411217373822fd6.jpg" height="125px"></a>
+<a href="https://dashboard.infinitywa.xyz"><img src="https://telegra.ph/file/4d847e6cfe03b2b2c77ab.png" height="125px"></a>
 ### 🚩 Prezzi:
  ```bash 
 1$ = 1GB, 100CPU
