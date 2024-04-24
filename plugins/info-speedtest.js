@@ -24,10 +24,10 @@ const handler = async (m) => {
 
       const finalText = resultsText.replace(/Test di velocità di download\s+-\s+/g, "──────────────\n- ")
                                     .replace(/Test di velocità di caricamento\s+-\s+/g, "\n- ")
-                                    .replace(/Test da/g, "- Test da")
-                                    .replace(/Recupero elenco di server Speedtest.net/g, "- Recupero elenco di server Speedtest.net")
-                                    .replace(/Selezionando il miglior server in base al ping/g, "- Selezionando il miglior server in base al ping")
-                                    .replace(/Hostato da/g, "- Hostato da")
+                                    .replace(/Test da/g, "> • Test da")
+                                    .replace(/Recupero elenco di server Speedtest.net/g, "> • Recupero elenco di server Speedtest.net")
+                                    .replace(/Selezionando il miglior server in base al ping/g, "> • Selezionando il miglior server in base al ping")
+                                    .replace(/Hostato da/g, "> • Hostato da")
                                     .replace(/MS/g, "MS\n");
 
       const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
