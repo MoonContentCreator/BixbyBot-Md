@@ -30,7 +30,7 @@ const handler = async (m) => {
                                     .replace(/Hostato da/g, "> • Hostato da")
                                     .replace(/MS/g, "MS\n");
 
-      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢: ");
+      const finalReply = finalText.replace(/(𝐔𝐩𝐥𝐨𝐚𝐝: [\d.,]+ Mbit\/s)/g, "$1\n──────────────\n- 🟢 𝐑𝐢𝐬𝐮𝐥𝐭𝐚𝐭𝐢 : ");
       const finalReplyNoDuplicate = finalReply.replace(/(Risultati:)/g, "");
 
       
