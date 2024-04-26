@@ -73,9 +73,10 @@ export async function handler(chatUpdate) {
                 if (!('sBye' in chat)) chat.sBye = ''
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
-                if (!('delete' in chat)) chat.delete = true    
+                if (!('delete' in chat)) chat.delete = false
                 if (!('gpt' in chat)) chat.gpt = false
                 if (!('bestemmiometro' in chat)) chat.bestemmiometro = true
+                if (!('antielimina' in chat)) chat.antielimina = true
                 if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antiinsta' in chat)) chat.antiinsta = false
                 if (!('antitiktok' in chat)) chat.antitiktok = false
@@ -84,7 +85,7 @@ export async function handler(chatUpdate) {
                 if (!('antiTraba' in chat)) chat.antiTraba = true
                 if (!('antiArab' in chat)) chat.antiArab = true
                 if (!('modoadmin' in chat)) chat.modoadmin = false
-                if (!('antiPorno' in chat)) chat.antiPorno = true
+                if (!('antiporno' in chat)) chat.antiporno = true
                 if (!isNumber(chat.expired)) chat.expired = 0
                 if (!isNumber(chat.messaggi)) chat.messaggi = 0
                 if (!isNumber(chat.blasphemy)) chat.blasphemy = 0
@@ -100,10 +101,12 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     modohorny: false,
                     gpt: true,
                     bestemmiometro: true,
+                    antiporno: true,
+                    antielimina: false,
                     audios: false,
                     antiLinkfast: true,
                     antiLink: true,
@@ -423,13 +426,13 @@ export async function handler(chatUpdate) {
         // conn.sendPresenceUpdate('composing', m.chat) 
         //console.log(global.db.data.users[m.sender])
         let chat, user, stats = global.db.data.stats
-        if (m) { let utente = global.db.data.users[m.sender]
-if (utente.muto == true) {
-let bang = m.key.id
-let cancellazzione = m.key.participant
-await conn.sendMessage(m.chat, {
-delete: {
-remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
+        if (m) { let utente = global.db.data.users[m.sender];
+    if (utente.muto == true) {
+      let bang = m.key.id;
+      let cancellazzione = m.key.participant;
+      await conn.sendMessage(m.chat, {
+        delete: {
+          remoteJid: m.chat, fromMe: false, id: bang, participant: cancellazzione
 }})
 }
             if (m.sender && (user = global.db.data.users[m.sender]) && (chat = global.db.data.chats[m.chat])) {
@@ -617,7 +620,7 @@ export async function deleteUpdate(message) {
         if (!msg)
             return
         let chat = global.db.data.chats[msg.chat] || {}
-        if (chat.delete)
+        if (chat.antielimina)
             return
         if (msg.text || msg.caption) {
             await this.reply(msg.chat, `*∅* 𝐀𝐧𝐭𝐢𝐞𝐥𝐢𝐦𝐢𝐧𝐚:\n\n> 𝐔𝐭𝐞𝐧𝐭𝐞: @${participant.split`@`[0]}\n> 𝐌𝐞𝐬𝐬𝐚𝐠𝐠𝐢𝐨 𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐭𝐨: ${msg.text || msg.caption}`
