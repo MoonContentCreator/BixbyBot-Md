@@ -1,6 +1,6 @@
 { 
 "name": "Bixby-Bot-MD",
-"version": "2.2",
+"version": "2.3",
 "description": "Nada",
 "main": "index.js",
 "type": "module",
@@ -37,7 +37,7 @@
 "@shineiichijo/marika": "^2.0.6",
 "@vitalets/google-translate-api": "^8.0.0",
 "node-shazam": "*",
-"@whiskeysockets/baileys": "^6.7.1",
+"@whiskeysockets/baileys": "^6.7.2",
 "@xct007/frieren-scraper": "github:xct007/frieren-scraper",
 "acrcloud": "^1.4.0",
 "api-dylux": "^1.6.2",
