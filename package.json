@@ -1,6 +1,6 @@
 { 
 "name": "Bixby-Bot-MD",
-"version": "2.3",
+"version": "2.2",
 "description": "Nada",
 "main": "index.js",
 "type": "module",
