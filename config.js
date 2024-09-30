@@ -3,22 +3,18 @@ import chalk from 'chalk'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 
-global.botnumber = ""
+global.botnumber = "+16827463815"
 global.confirmCode = ""
 
 global.owner = [
-  ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],	
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
+  ['393516061436', 'felix💋', true],
+  
 ] //Numero degli owner
 
 //────────────────────────────
 
-global.mods = ['xxxxxxxxxx'] 
-global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
+global.mods = ['393516061436'] 
+global.prems = ['393516061436', 'xxxxxxxxxx']
 
 //────────────────────────────
 
@@ -59,21 +55,21 @@ global.imagen4 = fs.readFileSync('./bixbyvision16.png')
 //────────────────────────────
 
 // Sticker WM (Nome del pacchetto degli sticker)
-global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭'
-global.author = '𝐌𝐝'
+global.packname = '꧁ঔৣ☬𝔊𝔥𝔬𝔰𝔱☬ঔৣ꧂'
+global.author = '꧁ঔৣ☬𝔊𝔥𝔬𝔰𝔱☬ঔৣ꧂'
 
 //────────────────────────────
 
 global.vs = '𝟐.𝟐'
 
-global.nomebot = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
+global.nomebot = '꧁ঔৣ☬𝔊𝔥𝔬𝔰𝔱☬ঔৣ꧂'
 
 global.multiplier = 69 
-global.maxwarn = '4' 
+global.maxwarn = '3' 
 //────────────────────────────
 
-global.wm = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
-global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...'
+global.wm = '꧁ঔৣ☬𝔊𝔥𝔬𝔰𝔱☬ঔৣ꧂'
+global.wait = 'ⓘ sto caricando froci...'
 
 //────────────────────────────
 
