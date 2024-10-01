@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "18103252968"
+global.confirmCode = "aa"
 
-global.owner = [
+global.owner = [Real08💋
   ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
-  ['xxxxxxxxxx',],
+  ['18103252968' 'Real08💋', true],
   ['xxxxxxxxxx'],	
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],
@@ -17,7 +17,7 @@ global.owner = [
 
 //────────────────────────────
 
-global.mods = ['xxxxxxxxxx'] 
+global.mods = ['18103252968'] 
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
 
 //────────────────────────────
@@ -59,14 +59,14 @@ global.imagen4 = fs.readFileSync('./bixbyvision16.png')
 //────────────────────────────
 
 // Sticker WM (Nome del pacchetto degli sticker)
-global.packname = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭'
-global.author = '𝐌𝐝'
+global.packname = 'muah💋'
+global.author = 'Real08'
 
 //────────────────────────────
 
 global.vs = '𝟐.𝟐'
 
-global.nomebot = '𝐁𝐢𝐱𝐛𝐲𝐁𝐨𝐭-𝐌𝐝'
+global.nomebot = 'RealBot'
 
 global.multiplier = 69 
 global.maxwarn = '4' 
