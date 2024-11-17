@@ -35,39 +35,15 @@
 
 
 
-### 🔵 CAFIREXOS 
-> 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
-
-<a href="https://www.cafirexos.com"><img src="https://r2.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
-### Informazioni dell' Host
-
-- **Pagina principale:** [`Cafirexos`](https://www.cafirexos.com)
-- **Dashboard:** [`Clicca qui`](https://dash.cafirexos.com)
-- **Pannello:** [`Clicca qui`](https://panel.cafirexos.com)
-- **Canale WhatsApp:** [`Clicca qui`](https://cafirexos.com/whatsapp)
-- **Gruppo WhatsApp:** [`Clicca qui`](https://cafirexos.com/comunidad)
-- **Email:** [`Clicca qui`](mailto:contacto@cafirexos.com)
-- **Contatto:**
-[`Diego Flores`](https://wa.me/50497150165)
-
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/4572591764c7f3f32a33f.png"></details>
-----
-
-### ∞ INFINITY-HOST
-> 🟢 Attiva BixbyBot-Md su un Servizio di hosting ad alte prestazioni
-
-<a href="https://dashboard.infinitywa.xyz"><img src="https://telegra.ph/file/4d847e6cfe03b2b2c77ab.png" height="125px"></a>
-### Informazioni dell' Host
-- **Dashboard:** [`Clicca qui`](https://dashboard.infinitywa.xyz)
-- **Pannello:** [`Clicca qui`](https://live.panel-infinitywa.store)
-- **Canale WhatsApp:** [`Clicca qui`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
-- **Gruppo WhatsApp:** [`Clicca qui`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
-- **PayPal:** [`Clicca qui`](https://paypal.me/OfcGB)
-- [`Contatta Mario`](https://www.facebook.com/elrebelde21)
-- [`Contatta Azami`](https://wa.me/527294888993)
-- [`Contatta Wilson`](https://wa.me/5492964650915)
-
-- [x] **Configurazione** <details><summary>**Impostazioni del server - BixbyBot-MD**</summary><img src="https://telegra.ph/file/8da3c7efe17a9c17c661e.png"></details>
+### ☁️ SKY ULTRA PLUS
+<a href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+### Informazioni su SkyPlus
+- **Pannello di controllo:** [`Aquí`](https://dash.skyultraplus.com)
+- **Pannello:** [`Aquí`](https://panel.skyultraplus.com)
+- **Canale WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Comunità:** [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
+- **Contatto/i:** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Discordia:** [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
 ----
 
  ### `✦ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐄 𝐃𝐈 𝐓𝐄𝐑𝐌𝐔𝐗 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐈𝐀: `  
