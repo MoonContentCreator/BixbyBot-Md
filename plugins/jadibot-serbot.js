@@ -9,7 +9,6 @@ Funzione adattata da:
 - AzamiJs >> https://github.com/AzamiJs
 
 Altri crediti:
-- Aiden_NotLogic >> https://github.com/ferhacks
 - ReyEndymion >> https://github.com/ReyEndymion
 - BrunoSobrino >> https://github.com/BrunoSobrino
 */
