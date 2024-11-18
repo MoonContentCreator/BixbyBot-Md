@@ -1,7 +1,7 @@
 /*⚠ VIETATO MODIFICARE  ⚠
 
-Il codice in questo file è stato modificato e corretto da:
-- MoonContentCreator >> https://github.com/MoonContentCreator
+Il codice di questo file è stato completamente creato da:
+- Aiden_NotLogic >> https://github.com/ferhacks
 
 Funzione adattata da:
 - GataNina-Li >> https://github.com/GataNina-Li
