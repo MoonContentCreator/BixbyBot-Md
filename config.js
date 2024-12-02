@@ -7,18 +7,18 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],	
-  ['xxxxxxxxxx',],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
+  ['393923100222', true],
+  ['393923100222', true],
+  ['393923100222', true],	
+  ['393923100222', true],
+  ['393923100222', true],
+  ['393923100222', true],
 ] //Numero degli owner
 
 //────────────────────────────
 
-global.mods = ['xxxxxxxxxx'] 
-global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
+global.mods = ['393923100222'] 
+global.prems = ['393923100222', '393923100222']
 
 //────────────────────────────
 
