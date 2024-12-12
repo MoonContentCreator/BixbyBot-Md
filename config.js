@@ -3,17 +3,16 @@ import chalk from 'chalk'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "+1 (737) 895-7963"
+global.confirmCode = "+1 (737) 895-7963"
 
-global.owner = [
+global.owner = [+1 (737) 895-7963]
   ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],	
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-] //Numero degli owner
+  ['xxxxxxxxxx'] //Numero degli owner
 
 //────────────────────────────
 
