@@ -6,14 +6,15 @@ import { fileURLToPath } from 'url'
 global.botnumber = ""
 global.confirmCode = ""
 
-global.owner = [
+global.owner =  
   ['xxxxxxxxxx', '𝐃𝚲𝐍𝕀𝚵𝐋͎💋', true],
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],	
   ['xxxxxxxxxx',],
   ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-] //Numero degli owner
+  ['xxxxxxxxxx']
+  ['7378957963'],
+//Numero degli owner
 
 //────────────────────────────
 
